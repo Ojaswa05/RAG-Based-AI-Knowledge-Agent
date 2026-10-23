@@ -1,0 +1,180 @@
+{
+  "chunks": [
+    {
+      "number": "26",
+      "title": "JavaScript Promises",
+      "start": 0.0,
+      "end": 11.46,
+      "text": " The promise object represents the eventual completion or failure of an asynchronous operation"
+    },
+    {
+      "number": "26",
+      "title": "JavaScript Promises",
+      "start": 11.46,
+      "end": 13.16,
+      "text": " and its resulting value."
+    },
+    {
+      "number": "26",
+      "title": "JavaScript Promises",
+      "start": 13.16,
+      "end": 16.32,
+      "text": " It's like a placeholder for a value that you are waiting on."
+    },
+    {
+      "number": "26",
+      "title": "JavaScript Promises",
+      "start": 16.32,
+      "end": 21.8,
+      "text": " A promise can be in one of three states, pending, fulfilled, or rejected."
+    },
+    {
+      "number": "26",
+      "title": "JavaScript Promises",
+      "start": 21.8,
+      "end": 25.740000000000002,
+      "text": " When the promise is pending, JavaScript continues code execution."
+    },
+    {
+      "number": "26",
+      "title": "JavaScript Promises",
+      "start": 25.74,
+      "end": 30.14,
+      "text": " This way, the promise, or value that you are waiting on, does not cause your program"
+    },
+    {
+      "number": "26",
+      "title": "JavaScript Promises",
+      "start": 30.14,
+      "end": 31.14,
+      "text": " to freeze."
+    },
+    {
+      "number": "26",
+      "title": "JavaScript Promises",
+      "start": 31.14,
+      "end": 35.94,
+      "text": " Eventually, the promise is either fulfilled or rejected and JavaScript goes back to that"
+    },
+    {
+      "number": "26",
+      "title": "JavaScript Promises",
+      "start": 35.94,
+      "end": 39.18,
+      "text": " code block to execute the appropriate operation."
+    },
+    {
+      "number": "26",
+      "title": "JavaScript Promises",
+      "start": 39.18,
+      "end": 41.3,
+      "text": " Here is the basic layout of a promise."
+    },
+    {
+      "number": "26",
+      "title": "JavaScript Promises",
+      "start": 41.3,
+      "end": 44.3,
+      "text": " We create a variable and assign it to a new promise."
+    },
+    {
+      "number": "26",
+      "title": "JavaScript Promises",
+      "start": 44.3,
+      "end": 48.959999999999994,
+      "text": " The promise accepts a function with two parameters, resolve and reject."
+    },
+    {
+      "number": "26",
+      "title": "JavaScript Promises",
+      "start": 48.959999999999994,
+      "end": 52.34,
+      "text": " Within this function, we execute our asynchronous operation."
+    },
+    {
+      "number": "26",
+      "title": "JavaScript Promises",
+      "start": 52.34,
+      "end": 57.0,
+      "text": " Some examples of this would be getting data from another source, or downloading a file,"
+    },
+    {
+      "number": "26",
+      "title": "JavaScript Promises",
+      "start": 57.0,
+      "end": 60.980000000000004,
+      "text": " or any other operation that will take an undetermined amount of time."
+    },
+    {
+      "number": "26",
+      "title": "JavaScript Promises",
+      "start": 60.980000000000004,
+      "end": 65.22,
+      "text": " After that, we determine whether we should resolve or reject the promise dependent on"
+    },
+    {
+      "number": "26",
+      "title": "JavaScript Promises",
+      "start": 65.22,
+      "end": 68.46000000000001,
+      "text": " the success or failure of our asynchronous operation."
+    },
+    {
+      "number": "26",
+      "title": "JavaScript Promises",
+      "start": 68.46000000000001,
+      "end": 71.14,
+      "text": " Now that the promise is constructed, we can execute it."
+    },
+    {
+      "number": "26",
+      "title": "JavaScript Promises",
+      "start": 71.14,
+      "end": 73.06,
+      "text": " We call the promise to initiate it."
+    },
+    {
+      "number": "26",
+      "title": "JavaScript Promises",
+      "start": 73.06,
+      "end": 76.86,
+      "text": " We use .then to look for the promise to enter the fulfilled state."
+    },
+    {
+      "number": "26",
+      "title": "JavaScript Promises",
+      "start": 76.86,
+      "end": 81.54,
+      "text": " .then accepts a function that receives the resolved value from the resolve method."
+    },
+    {
+      "number": "26",
+      "title": "JavaScript Promises",
+      "start": 81.54,
+      "end": 84.18,
+      "text": " We can then do something with the results."
+    },
+    {
+      "number": "26",
+      "title": "JavaScript Promises",
+      "start": 84.18,
+      "end": 89.10000000000001,
+      "text": " After that, we can use .catch to look for the promise to enter the rejected state."
+    },
+    {
+      "number": "26",
+      "title": "JavaScript Promises",
+      "start": 89.10000000000001,
+      "end": 94.08000000000001,
+      "text": " .catch also accepts a function that receives any errors from our reject method."
+    },
+    {
+      "number": "26",
+      "title": "JavaScript Promises",
+      "start": 94.08000000000001,
+      "end": 96.78,
+      "text": " This has been a 90 second JavaScript January."
+    }
+  ],
+  "text": " The promise object represents the eventual completion or failure of an asynchronous operation and its resulting value. It's like a placeholder for a value that you are waiting on. A promise can be in one of three states, pending, fulfilled, or rejected. When the promise is pending, JavaScript continues code execution. This way, the promise, or value that you are waiting on, does not cause your program to freeze. Eventually, the promise is either fulfilled or rejected and JavaScript goes back to that code block to execute the appropriate operation. Here is the basic layout of a promise. We create a variable and assign it to a new promise. The promise accepts a function with two parameters, resolve and reject. Within this function, we execute our asynchronous operation. Some examples of this would be getting data from another source, or downloading a file, or any other operation that will take an undetermined amount of time. After that, we determine whether we should resolve or reject the promise dependent on the success or failure of our asynchronous operation. Now that the promise is constructed, we can execute it. We call the promise to initiate it. We use .then to look for the promise to enter the fulfilled state. .then accepts a function that receives the resolved value from the resolve method. We can then do something with the results. After that, we can use .catch to look for the promise to enter the rejected state. .catch also accepts a function that receives any errors from our reject method. This has been a 90 second JavaScript January."
+}

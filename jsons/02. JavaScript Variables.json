@@ -1,0 +1,141 @@
+{
+    "chunks": [
+       {
+            "number": "2",
+            "title": "JavaScript Variables",
+            "start ": 0.0,
+            "end": 7.7,
+            "text": " VAR, LET, CONST?"
+       }, 
+       {
+
+            "title": "JavaScript Variables",
+            "start ": 7.7,
+            "end": 11.16,
+            "text": " Why are there so many ways to declare a variable in JavaScript?"
+       },
+       {
+
+        "title": "JavaScript Variables",
+        "start ": 11.16,
+        "end": 15.5,
+        "text": " LET and CONST are block scoped, which means that they cannot be accessed from outside"
+    }, {
+        
+        "title": "JavaScript Variables",
+        "start ": 15.5,
+        "end": 18.22,
+        "text": " of the block within which they are defined."
+    }, {
+        "title": "JavaScript Variables",
+        "start ": 18.22,
+        "end": 19.740000000000002,
+        "text": " CONST stands for constant."
+    }, {
+        "title": "JavaScript Variables",
+        "start ": 19.740000000000002,
+        "end": 23.62,
+        "text": " The value cannot be changed, but it is also not immutable."
+    }, {
+        "title": "JavaScript Variables",
+        "start ": 23.62,
+        "end": 28.6,
+        "text": " So I could declare const animal equals cat, and now that cannot ever be changed."
+    }, {
+        "title": "JavaScript Variables",
+        "start ": 28.6,
+        "end": 33.96,
+        "text": " But if I declare const animals equals an array, cat, dog, and fish, I can modify the"
+    }, {
+        "title": "JavaScript Variables",
+        "start ": 33.96,
+        "end": 38.7,
+        "text": " content of the array, which is not changing the reference, which is animals."
+    }, {
+        "title": "JavaScript Variables",
+        "start ": 38.7,
+        "end": 42.6,
+        "text": " With LET, I can declare a variable and then change it later in the code."
+    }, {
+        "title": "JavaScript Variables",
+        "start ": 42.6,
+        "end": 47.44,
+        "text": " Again, LET is block scoped, so if we look at this for loop, we can access the variable"
+    }, {
+        "title": "JavaScript Variables",
+        "start ": 47.44,
+        "end": 50.32,
+        "text": " within the block, but not from outside of the block."
+    }, {
+        "title": "JavaScript Variables",
+        "start ": 50.32,
+        "end": 55.22,
+        "text": " VAR works the same as LET except it's function OR globally scoped."
+    }, {
+        "title": "JavaScript Variables",
+        "start ": 55.22,
+        "end": 60.42,
+        "text": " So with the same example, if I change LET to VAR, we can see that VAR is now globally"
+    }, {
+        "title": "JavaScript Variables",
+        "start ": 60.42,
+        "end": 63.56,
+        "text": " scoped and is accessible outside of the for loop."
+    }, {
+        "title": "JavaScript Variables",
+        "start ": 63.56,
+        "end": 67.96,
+        "text": " But if we would wrap the for loop in a function and then call it, we will be able to access"
+    }, {
+        "title": "JavaScript Variables",
+        "start ": 67.96,
+        "end": 71.66,
+        "text": " the variable within the function, but not outside of the function."
+    }, {
+        "title": "JavaScript Variables",
+        "start ": 71.66,
+        "end": 76.28,
+        "text": " With VAR and LET, we can also declare a variable, but not initially define it."
+    }, {
+        "title": "JavaScript Variables",
+        "start ": 76.28,
+        "end": 78.0,
+        "text": " But with CONST, we cannot do that."
+    }, {
+        "title": "JavaScript Variables",
+        "start ": 78.0,
+        "end": 80.94,
+        "text": " It must be declared and defined at the same time."
+    }, {
+        "title": "JavaScript Variables",
+        "start ": 80.94,
+        "end": 85.2,
+        "text": " A potential downside to using VAR is that it can be declared multiple times."
+    }, {
+        "title": "JavaScript Variables",
+        "start ": 85.2,
+        "end": 89.2,
+        "text": " So if we forget that we have already declared a variable with the same name and declare"
+    }, {
+        "title": "JavaScript Variables",
+        "start ": 89.2,
+        "end": 92.44,
+        "text": " it again, it would overwrite the original variable."
+    }, {
+        "title": "JavaScript Variables",
+        "start ": 92.44,
+        "end": 97.52,
+        "text": " LET and CONST fix this issue and do not allow you to declare a variable more than once within"
+    }, {
+        "title": "JavaScript Variables",
+        "start ": 97.52,
+        "end": 98.78,
+        "text": " the same scope."
+    }, {
+        "title": "JavaScript Variables",
+        "start ": 98.78,
+        "end": 101.44,
+        "text": " This has been a 90 second JavaScript January."
+    }],
+    "text": " VAR, LET, CONST? Why are there so many ways to declare a variable in JavaScript? LET and CONST are block scoped, which means that they cannot be accessed from outside of the block within which they are defined. CONST stands for constant. The value cannot be changed, but it is also not immutable. So I could declare const animal equals cat, and now that cannot ever be changed. But if I declare const animals equals an array, cat, dog, and fish, I can modify the content of the array, which is not changing the reference, which is animals. With LET, I can declare a variable and then change it later in the code. Again, LET is block scoped, so if we look at this for loop, we can access the variable within the block, but not from outside of the block. VAR works the same as LET except it's function OR globally scoped. So with the same example, if I change LET to VAR, we can see that VAR is now globally scoped and is accessible outside of the for loop. But if we would wrap the for loop in a function and then call it, we will be able to access the variable within the function, but not outside of the function. With VAR and LET, we can also declare a variable, but not initially define it. But with CONST, we cannot do that. It must be declared and defined at the same time. A potential downside to using VAR is that it can be declared multiple times. So if we forget that we have already declared a variable with the same name and declare it again, it would overwrite the original variable. LET and CONST fix this issue and do not allow you to declare a variable more than once within the same scope. This has been a 90 second JavaScript January."
+}

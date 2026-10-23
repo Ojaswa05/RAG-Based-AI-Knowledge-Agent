@@ -1,0 +1,236 @@
+{
+  "chunks": [
+    {
+      "number": "8",
+      "title": "JavaScript IIFE",
+      "start": 0.0,
+      "end": 7.16,
+      "text": " JavaScript is IFFY?"
+    },
+    {
+      "number": "8",
+      "title": "JavaScript IIFE",
+      "start": 7.16,
+      "end": 8.16,
+      "text": " No, no, no."
+    },
+    {
+      "number": "8",
+      "title": "JavaScript IIFE",
+      "start": 8.16,
+      "end": 11.040000000000001,
+      "text": " IFFY stands for Immediately Invoked Function Expression."
+    },
+    {
+      "number": "8",
+      "title": "JavaScript IIFE",
+      "start": 11.040000000000001,
+      "end": 14.4,
+      "text": " It's a JavaScript function that runs as soon as it's defined."
+    },
+    {
+      "number": "8",
+      "title": "JavaScript IIFE",
+      "start": 14.4,
+      "end": 17.0,
+      "text": " It has no name and is not stored in a variable."
+    },
+    {
+      "number": "8",
+      "title": "JavaScript IIFE",
+      "start": 17.0,
+      "end": 21.400000000000002,
+      "text": " IFFYs are commonly seen in libraries where the entire codebase is wrapped inside of an"
+    },
+    {
+      "number": "8",
+      "title": "JavaScript IIFE",
+      "start": 21.400000000000002,
+      "end": 22.400000000000002,
+      "text": " IFFY."
+    },
+    {
+      "number": "8",
+      "title": "JavaScript IIFE",
+      "start": 22.400000000000002,
+      "end": 25.76,
+      "text": " This prevents variables within the library from conflicting with variables outside of"
+    },
+    {
+      "number": "8",
+      "title": "JavaScript IIFE",
+      "start": 25.76,
+      "end": 26.76,
+      "text": " the library."
+    },
+    {
+      "number": "8",
+      "title": "JavaScript IIFE",
+      "start": 26.76,
+      "end": 31.400000000000002,
+      "text": " IFFYs are generally used to avoid declaring variables in the global scope and to create"
+    },
+    {
+      "number": "8",
+      "title": "JavaScript IIFE",
+      "start": 31.400000000000002,
+      "end": 32.4,
+      "text": " closures."
+    },
+    {
+      "number": "8",
+      "title": "JavaScript IIFE",
+      "start": 32.4,
+      "end": 33.82,
+      "text": " Here's an example of a normal function."
+    },
+    {
+      "number": "8",
+      "title": "JavaScript IIFE",
+      "start": 33.82,
+      "end": 38.08,
+      "text": " Here we declare a function and then later call the function and pass it values and it"
+    },
+    {
+      "number": "8",
+      "title": "JavaScript IIFE",
+      "start": 38.08,
+      "end": 40.120000000000005,
+      "text": " returns the product of those values."
+    },
+    {
+      "number": "8",
+      "title": "JavaScript IIFE",
+      "start": 40.120000000000005,
+      "end": 42.160000000000004,
+      "text": " And here's the same function as an IFFY."
+    },
+    {
+      "number": "8",
+      "title": "JavaScript IIFE",
+      "start": 42.160000000000004,
+      "end": 46.68000000000001,
+      "text": " Here we remove the function name, wrap the function in parentheses, then add parentheses"
+    },
+    {
+      "number": "8",
+      "title": "JavaScript IIFE",
+      "start": 46.68000000000001,
+      "end": 48.32,
+      "text": " to the end with the values we want to pass."
+    },
+    {
+      "number": "8",
+      "title": "JavaScript IIFE",
+      "start": 48.32,
+      "end": 52.160000000000004,
+      "text": " The ending parentheses are actually what call the function."
+    },
+    {
+      "number": "8",
+      "title": "JavaScript IIFE",
+      "start": 52.160000000000004,
+      "end": 54.52,
+      "text": " Note that this function can never be called again."
+    },
+    {
+      "number": "8",
+      "title": "JavaScript IIFE",
+      "start": 54.52,
+      "end": 57.64,
+      "text": " The same function can also be written as an arrow function."
+    },
+    {
+      "number": "8",
+      "title": "JavaScript IIFE",
+      "start": 57.64,
+      "end": 61.82,
+      "text": " Any values within the expression cannot be accessed from outside of the closure."
+    },
+    {
+      "number": "8",
+      "title": "JavaScript IIFE",
+      "start": 61.82,
+      "end": 66.42,
+      "text": " Here you can see that within the IFFY, the name variable is Bob, but outside of the IFFY,"
+    },
+    {
+      "number": "8",
+      "title": "JavaScript IIFE",
+      "start": 66.42,
+      "end": 68.08,
+      "text": " the name variable is Joe."
+    },
+    {
+      "number": "8",
+      "title": "JavaScript IIFE",
+      "start": 68.08,
+      "end": 72.86000000000001,
+      "text": " With ES6, you can accomplish the same thing as an IFFY by using let and const variables"
+    },
+    {
+      "number": "8",
+      "title": "JavaScript IIFE",
+      "start": 72.86000000000001,
+      "end": 74.60000000000001,
+      "text": " which use block scope."
+    },
+    {
+      "number": "8",
+      "title": "JavaScript IIFE",
+      "start": 74.60000000000001,
+      "end": 78.36,
+      "text": " When these are declared inside of a block, they are considered locally scoped instead"
+    },
+    {
+      "number": "8",
+      "title": "JavaScript IIFE",
+      "start": 78.36,
+      "end": 78.36,
+      "text": " of globally."
+    },
+    {
+      "number": "8",
+      "title": "JavaScript IIFE",
+      "start": 78.36,
+      "end": 83.52000000000001,
+      "text": " So we can get rid of the function and just create a block with curly braces."
+    },
+    {
+      "number": "8",
+      "title": "JavaScript IIFE",
+      "start": 83.52,
+      "end": 86.2,
+      "text": " First I'm going to use var to demonstrate the differences."
+    },
+    {
+      "number": "8",
+      "title": "JavaScript IIFE",
+      "start": 86.2,
+      "end": 88.64,
+      "text": " Here var is still considered globally scoped even within the block."
+    },
+    {
+      "number": "8",
+      "title": "JavaScript IIFE",
+      "start": 88.64,
+      "end": 83.72,
+      "text": " But when we change var to let, we can see that the name variable within the block is"
+    },
+    {
+      "number": "8",
+      "title": "JavaScript IIFE",
+      "start": 83.72,
+      "end": 87.18,
+      "text": " locally scoped and is not accessible from outside of the block."
+    },
+    {
+      "number": "8",
+      "title": "JavaScript IIFE",
+      "start": 87.18,
+      "end": 8.64,
+      "text": " This has been a 80 second JavaScript January."
+    }
+  ],
+  "text": " JavaScript is IFFY? No, no, no. IFFY stands for Immediately Invoked Function Expression. It's a JavaScript function that runs as soon as it's defined. It has no name and is not stored in a variable. IFFYs are commonly seen in libraries where the entire codebase is wrapped inside of an IFFY. This prevents variables within the library from conflicting with variables outside of the library. IFFYs are generally used to avoid declaring variables in the global scope and to create closures. Here's an example of a normal function. Here we declare a function and then later call the function and pass it values and it returns the product of those values. And here's the same function as an IFFY. Here we remove the function name, wrap the function in parentheses, then add parentheses to the end with the values we want to pass. The ending parentheses are actually what call the function. Note that this function can never be called again. The same function can also be written as an arrow function. Any values within the expression cannot be accessed from outside of the closure. Here you can see that within the IFFY, the name variable is Bob, but outside of the IFFY, the name variable is Joe. With ES6, you can accomplish the same thing as an IFFY by using let and const variables which use block scope. When these are declared inside of a block, they are considered locally scoped instead of globally. So we can get rid of the function and just create a block with curly braces. First I'm going to use var to demonstrate the differences. Here var is still considered globally scoped even within the block. But when we change var to let, we can see that the name variable within the block is locally scoped and is not accessible from outside of the block. This has been a 80 second JavaScript January."
+}

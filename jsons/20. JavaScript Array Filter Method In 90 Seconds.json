@@ -1,0 +1,194 @@
+{
+  "chunks": [
+    {
+      "number": "20",
+      "title": "JavaScript Array Filter Method In 90 Seconds",
+      "start": 0.0,
+      "end": 10.32,
+      "text": " The filter method creates an array filled with all array elements of another array that"
+    },
+    {
+      "number": "20",
+      "title": "JavaScript Array Filter Method In 90 Seconds",
+      "start": 10.32,
+      "end": 13.0,
+      "text": " pass a test, provided as a function."
+    },
+    {
+      "number": "20",
+      "title": "JavaScript Array Filter Method In 90 Seconds",
+      "start": 13.0,
+      "end": 17.62,
+      "text": " Filter does not execute the function for array elements without values, and it does not change"
+    },
+    {
+      "number": "20",
+      "title": "JavaScript Array Filter Method In 90 Seconds",
+      "start": 17.62,
+      "end": 19.0,
+      "text": " the original array."
+    },
+    {
+      "number": "20",
+      "title": "JavaScript Array Filter Method In 90 Seconds",
+      "start": 19.0,
+      "end": 21.82,
+      "text": " Here's the basic syntax of the filter method."
+    },
+    {
+      "number": "20",
+      "title": "JavaScript Array Filter Method In 90 Seconds",
+      "start": 21.82,
+      "end": 24.48,
+      "text": " First we create a new variable to hold the new array."
+    },
+    {
+      "number": "20",
+      "title": "JavaScript Array Filter Method In 90 Seconds",
+      "start": 24.48,
+      "end": 27.72,
+      "text": " Then we refer to the array that we want to filter using .filter."
+    },
+    {
+      "number": "20",
+      "title": "JavaScript Array Filter Method In 90 Seconds",
+      "start": 27.72,
+      "end": 32.36,
+      "text": " The filter method accepts a function callback, and that function has access to the current"
+    },
+    {
+      "number": "20",
+      "title": "JavaScript Array Filter Method In 90 Seconds",
+      "start": 32.36,
+      "end": 35.48,
+      "text": " element, index, and the entire original array."
+    },
+    {
+      "number": "20",
+      "title": "JavaScript Array Filter Method In 90 Seconds",
+      "start": 35.48,
+      "end": 37.4,
+      "text": " In this example we have some numbers."
+    },
+    {
+      "number": "20",
+      "title": "JavaScript Array Filter Method In 90 Seconds",
+      "start": 37.4,
+      "end": 41.48,
+      "text": " If our goal is to filter only the even numbers, we can set it up like this."
+    },
+    {
+      "number": "20",
+      "title": "JavaScript Array Filter Method In 90 Seconds",
+      "start": 41.48,
+      "end": 43.68,
+      "text": " Here we are only interested in the value."
+    },
+    {
+      "number": "20",
+      "title": "JavaScript Array Filter Method In 90 Seconds",
+      "start": 43.68,
+      "end": 47.9,
+      "text": " Then we are returning the value only if it is divisible by 2 with no remainder."
+    },
+    {
+      "number": "20",
+      "title": "JavaScript Array Filter Method In 90 Seconds",
+      "start": 47.9,
+      "end": 51.76,
+      "text": " In our new variable we now have an array with only the even numbers."
+    },
+    {
+      "number": "20",
+      "title": "JavaScript Array Filter Method In 90 Seconds",
+      "start": 51.76,
+      "end": 54.08,
+      "text": " We can shorten this by using an arrow function."
+    },
+    {
+      "number": "20",
+      "title": "JavaScript Array Filter Method In 90 Seconds",
+      "start": 54.08,
+      "end": 58.519999999999996,
+      "text": " We can also shorten the variable from value to n since that would make sense."
+    },
+    {
+      "number": "20",
+      "title": "JavaScript Array Filter Method In 90 Seconds",
+      "start": 58.519999999999996,
+      "end": 63.12,
+      "text": " And instead of checking if it is equal to 0, we can instead check for false, since 0"
+    },
+    {
+      "number": "20",
+      "title": "JavaScript Array Filter Method In 90 Seconds",
+      "start": 63.12,
+      "end": 65.64,
+      "text": " would be equal to false and that is what we are looking for."
+    },
+    {
+      "number": "20",
+      "title": "JavaScript Array Filter Method In 90 Seconds",
+      "start": 65.64,
+      "end": 68.42,
+      "text": " A more common use case would be filtering objects."
+    },
+    {
+      "number": "20",
+      "title": "JavaScript Array Filter Method In 90 Seconds",
+      "start": 68.42,
+      "end": 72.66,
+      "text": " In this example we have an array of objects containing all of the Star Wars movies."
+    },
+    {
+      "number": "20",
+      "title": "JavaScript Array Filter Method In 90 Seconds",
+      "start": 72.66,
+      "end": 77.25999999999999,
+      "text": " If we had a movie app or website, we would want to provide a way for our users to filter"
+    },
+    {
+      "number": "20",
+      "title": "JavaScript Array Filter Method In 90 Seconds",
+      "start": 77.25999999999999,
+      "end": 78.25999999999999,
+      "text": " the items."
+    },
+    {
+      "number": "20",
+      "title": "JavaScript Array Filter Method In 90 Seconds",
+      "start": 78.25999999999999,
+      "end": 81.44,
+      "text": " So if we only want the most recent movies, we can filter it this way."
+    },
+    {
+      "number": "20",
+      "title": "JavaScript Array Filter Method In 90 Seconds",
+      "start": 81.44,
+      "end": 84.1,
+      "text": " For the variable we will call it L for element."
+    },
+    {
+      "number": "20",
+      "title": "JavaScript Array Filter Method In 90 Seconds",
+      "start": 84.1,
+      "end": 88.32,
+      "text": " Then we get the year and check to see if it is greater than or equal to 2015."
+    },
+    {
+      "number": "20",
+      "title": "JavaScript Array Filter Method In 90 Seconds",
+      "start": 88.32,
+      "end": 91.22,
+      "text": " Now we get only the 3 most recent Star Wars movies."
+    },
+    {
+      "number": "20",
+      "title": "JavaScript Array Filter Method In 90 Seconds",
+      "start": 91.22,
+      "end": 93.72,
+      "text": " This has been a 90 second JavaScript January."
+    }
+  ],
+  "text": " The filter method creates an array filled with all array elements of another array that pass a test, provided as a function. Filter does not execute the function for array elements without values, and it does not change the original array. Here's the basic syntax of the filter method. First we create a new variable to hold the new array. Then we refer to the array that we want to filter using .filter. The filter method accepts a function callback, and that function has access to the current element, index, and the entire original array. In this example we have some numbers. If our goal is to filter only the even numbers, we can set it up like this. Here we are only interested in the value. Then we are returning the value only if it is divisible by 2 with no remainder. In our new variable we now have an array with only the even numbers. We can shorten this by using an arrow function. We can also shorten the variable from value to n since that would make sense. And instead of checking if it is equal to 0, we can instead check for false, since 0 would be equal to false and that is what we are looking for. A more common use case would be filtering objects. In this example we have an array of objects containing all of the Star Wars movies. If we had a movie app or website, we would want to provide a way for our users to filter the items. So if we only want the most recent movies, we can filter it this way. For the variable we will call it L for element. Then we get the year and check to see if it is greater than or equal to 2015. Now we get only the 3 most recent Star Wars movies. This has been a 90 second JavaScript January."
+}

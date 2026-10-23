@@ -1,0 +1,166 @@
+{
+  "chunks": [
+    {
+      "number": "1",
+      "title": "JavaScript in 90 Seconds",
+      "start": 0.0,
+      "end": 8.08,
+      "text": " So there's this thing called the internet."
+    },
+    {
+      "number": "1",
+      "title": "JavaScript in 90 Seconds",
+      "start": 8.08,
+      "end": 11.08,
+      "text": " It's basically a bunch of computers connected by wires."
+    },
+    {
+      "number": "1",
+      "title": "JavaScript in 90 Seconds",
+      "start": 11.08,
+      "end": 15.66,
+      "text": " When you open your browser and go to a website, your browser receives computer code consisting"
+    },
+    {
+      "number": "1",
+      "title": "JavaScript in 90 Seconds",
+      "start": 15.66,
+      "end": 21.36,
+      "text": " of HTML, which is the structure of the website, CSS, which is the styles, it makes your website"
+    },
+    {
+      "number": "1",
+      "title": "JavaScript in 90 Seconds",
+      "start": 21.36,
+      "end": 23.28,
+      "text": " pretty, and JavaScript."
+    },
+    {
+      "number": "1",
+      "title": "JavaScript in 90 Seconds",
+      "start": 23.28,
+      "end": 28.04,
+      "text": " JavaScript is the logic that allows you to implement basic and complex features such"
+    },
+    {
+      "number": "1",
+      "title": "JavaScript in 90 Seconds",
+      "start": 28.04,
+      "end": 34.08,
+      "text": " as dynamically updated content, interactive maps, animations, or just simply doing something"
+    },
+    {
+      "number": "1",
+      "title": "JavaScript in 90 Seconds",
+      "start": 34.08,
+      "end": 35.44,
+      "text": " when you press a button."
+    },
+    {
+      "number": "1",
+      "title": "JavaScript in 90 Seconds",
+      "start": 35.44,
+      "end": 38.74,
+      "text": " So it tells your browser what to do when you interact with the website."
+    },
+    {
+      "number": "1",
+      "title": "JavaScript in 90 Seconds",
+      "start": 38.74,
+      "end": 42.76,
+      "text": " It's important here to note that Java does not equal JavaScript."
+    },
+    {
+      "number": "1",
+      "title": "JavaScript in 90 Seconds",
+      "start": 42.76,
+      "end": 47.34,
+      "text": " Now when the internet first started, there was no way to process logic in the browser."
+    },
+    {
+      "number": "1",
+      "title": "JavaScript in 90 Seconds",
+      "start": 47.34,
+      "end": 53.44,
+      "text": " So way back in 1995, Netscape created JavaScript in just 10 days and implemented it into their"
+    },
+    {
+      "number": "1",
+      "title": "JavaScript in 90 Seconds",
+      "start": 53.44,
+      "end": 55.56,
+      "text": " browser Netscape Navigator."
+    },
+    {
+      "number": "1",
+      "title": "JavaScript in 90 Seconds",
+      "start": 55.56,
+      "end": 61.040000000000006,
+      "text": " In the 1990s and even early 2000s, there was no web standards, so developing for different"
+    },
+    {
+      "number": "1",
+      "title": "JavaScript in 90 Seconds",
+      "start": 61.040000000000006,
+      "end": 63.440000000000005,
+      "text": " browsers was nearly impossible."
+    },
+    {
+      "number": "1",
+      "title": "JavaScript in 90 Seconds",
+      "start": 63.440000000000005,
+      "end": 67.72,
+      "text": " As JavaScript improved, it slowly became the dominant front-end programming language of"
+    },
+    {
+      "number": "1",
+      "title": "JavaScript in 90 Seconds",
+      "start": 67.72,
+      "end": 71.04,
+      "text": " the web, and with the help of ECMA, it became the standard."
+    },
+    {
+      "number": "1",
+      "title": "JavaScript in 90 Seconds",
+      "start": 71.04,
+      "end": 75.96000000000001,
+      "text": " Today, JavaScript is not only available in the client-side browser, but also server-side"
+    },
+    {
+      "number": "1",
+      "title": "JavaScript in 90 Seconds",
+      "start": 75.96000000000001,
+      "end": 77.56,
+      "text": " using Node.js."
+    },
+    {
+      "number": "1",
+      "title": "JavaScript in 90 Seconds",
+      "start": 77.56,
+      "end": 82.72,
+      "text": " It's now possible to have your website or web app, front-end and back-end, written entirely"
+    },
+    {
+      "number": "1",
+      "title": "JavaScript in 90 Seconds",
+      "start": 82.72,
+      "end": 84.0,
+      "text": " in JavaScript."
+    },
+    {
+      "number": "1",
+      "title": "JavaScript in 90 Seconds",
+      "start": 84.0,
+      "end": 88.6,
+      "text": " So JavaScript is an incredibly powerful language that you must learn to become an effective"
+    },
+    {
+      "number": "1",
+      "title": "JavaScript in 90 Seconds",
+      "start": 88.6,
+      "end": 89.52,
+      "text": " web developer."
+    }
+  ],
+  "text": " So there's this thing called the internet. It's basically a bunch of computers connected by wires. When you open your browser and go to a website, your browser receives computer code consisting of HTML, which is the structure of the website, CSS, which is the styles, it makes your website pretty, and JavaScript. JavaScript is the logic that allows you to implement basic and complex features such as dynamically updated content, interactive maps, animations, or just simply doing something when you press a button. So it tells your browser what to do when you interact with the website. It's important here to note that Java does not equal JavaScript. Now when the internet first started, there was no way to process logic in the browser. So way back in 1995, Netscape created JavaScript in just 10 days and implemented it into their browser Netscape Navigator. In the 1990s and even early 2000s, there was no web standards, so developing for different browsers was nearly impossible. As JavaScript improved, it slowly became the dominant front-end programming language of the web, and with the help of ECMA, it became the standard. Today, JavaScript is not only available in the client-side browser, but also server-side using Node.js. It's now possible to have your website or web app, front-end and back-end, written entirely in JavaScript. So JavaScript is an incredibly powerful language that you must learn to become an effective web developer."
+}

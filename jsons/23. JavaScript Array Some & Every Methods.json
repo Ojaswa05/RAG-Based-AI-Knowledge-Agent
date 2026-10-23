@@ -1,0 +1,124 @@
+{
+  "chunks": [
+    {
+      "number": "23",
+      "title": "JavaScript Array Some & Every Methods",
+      "start": 0.0,
+      "end": 12.24,
+      "text": " The high order array methods SUM and EVERY return true or false depending on if SUM or"
+    },
+    {
+      "number": "23",
+      "title": "JavaScript Array Some & Every Methods",
+      "start": 12.24,
+      "end": 15.0,
+      "text": " every element in an array passes a test."
+    },
+    {
+      "number": "23",
+      "title": "JavaScript Array Some & Every Methods",
+      "start": 15.0,
+      "end": 18.46,
+      "text": " Here's the basic syntax for these methods."
+    },
+    {
+      "number": "23",
+      "title": "JavaScript Array Some & Every Methods",
+      "start": 18.46,
+      "end": 21.52,
+      "text": " They both can accept up to three arguments."
+    },
+    {
+      "number": "23",
+      "title": "JavaScript Array Some & Every Methods",
+      "start": 21.52,
+      "end": 26.94,
+      "text": " The current element's value, the current index, and the entire originating array."
+    },
+    {
+      "number": "23",
+      "title": "JavaScript Array Some & Every Methods",
+      "start": 26.94,
+      "end": 31.5,
+      "text": " In this example, SUM is testing to see if there are any numbers in the array greater"
+    },
+    {
+      "number": "23",
+      "title": "JavaScript Array Some & Every Methods",
+      "start": 31.5,
+      "end": 32.82,
+      "text": " than 10."
+    },
+    {
+      "number": "23",
+      "title": "JavaScript Array Some & Every Methods",
+      "start": 32.82,
+      "end": 35.6,
+      "text": " If there are any, then it will return true."
+    },
+    {
+      "number": "23",
+      "title": "JavaScript Array Some & Every Methods",
+      "start": 35.6,
+      "end": 37.980000000000004,
+      "text": " If not, it will return false."
+    },
+    {
+      "number": "23",
+      "title": "JavaScript Array Some & Every Methods",
+      "start": 37.980000000000004,
+      "end": 42.38,
+      "text": " We can further reduce this code by changing this into an arrow function."
+    },
+    {
+      "number": "23",
+      "title": "JavaScript Array Some & Every Methods",
+      "start": 42.38,
+      "end": 47.68000000000001,
+      "text": " The EVERY method is similar except every element in the array must pass the test for it to"
+    },
+    {
+      "number": "23",
+      "title": "JavaScript Array Some & Every Methods",
+      "start": 47.68000000000001,
+      "end": 49.18000000000001,
+      "text": " return true."
+    },
+    {
+      "number": "23",
+      "title": "JavaScript Array Some & Every Methods",
+      "start": 49.18000000000001,
+      "end": 51.78,
+      "text": " Otherwise it will return false."
+    },
+    {
+      "number": "23",
+      "title": "JavaScript Array Some & Every Methods",
+      "start": 51.78,
+      "end": 56.58,
+      "text": " If we now change all of the numbers in the array to be over 10, we will see that it returns"
+    },
+    {
+      "number": "23",
+      "title": "JavaScript Array Some & Every Methods",
+      "start": 56.58,
+      "end": 58.019999999999996,
+      "text": " true."
+    },
+    {
+      "number": "23",
+      "title": "JavaScript Array Some & Every Methods",
+      "start": 58.019999999999996,
+      "end": 63.14,
+      "text": " We can further reduce this code by changing this into an arrow function as well."
+    },
+    {
+      "number": "23",
+      "title": "JavaScript Array Some & Every Methods",
+      "start": 63.14,
+      "end": 65.9,
+      "text": " This has been a 90 second JavaScript January."
+    }
+  ],
+  "text": " The high order array methods SUM and EVERY return true or false depending on if SUM or every element in an array passes a test. Here's the basic syntax for these methods. They both can accept up to three arguments. The current element's value, the current index, and the entire originating array. In this example, SUM is testing to see if there are any numbers in the array greater than 10. If there are any, then it will return true. If not, it will return false. We can further reduce this code by changing this into an arrow function. The EVERY method is similar except every element in the array must pass the test for it to return true. Otherwise it will return false. If we now change all of the numbers in the array to be over 10, we will see that it returns true. We can further reduce this code by changing this into an arrow function as well. This has been a 90 second JavaScript January."
+}

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Course Assistant</title>
+<style>
+:root{--bg:#f6f6f8;--panel:#ececf0;--card:#fff;--ink:#121216;--mute:#6a6a76;--line:#dcdce2;--acc:#5b4bff;--acc-ink:#fff;--stamp:#0e7490;--fs:15px}
+:root[data-theme=dark]{--bg:#000;--panel:#09090b;--card:#111114;--ink:#ededf2;--mute:#8a8a96;--line:#1f1f26;--acc:#7c6cff;--acc-ink:#fff;--stamp:#5eead4}
+*{box-sizing:border-box}html,body{height:100%;margin:0}
+body{background:var(--bg);color:var(--ink);font:var(--fs)/1.6 "Segoe UI",system-ui,sans-serif;display:flex}
+button,select,input,textarea{font:inherit;color:inherit}
+button{cursor:pointer;background:none;border:1px solid var(--line);border-radius:8px;padding:6px 10px}
+button:hover{background:var(--panel)}button:focus-visible,textarea:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid var(--acc);outline-offset:1px}
+#side{width:272px;background:var(--panel);border-right:1px solid var(--line);display:flex;flex-direction:column;padding:12px;gap:8px;flex-shrink:0}
+#side .new{background:var(--acc);color:var(--acc-ink);border:0;font-weight:600;padding:9px}
+#side input{width:100%;padding:7px 9px;border:1px solid var(--line);border-radius:8px;background:var(--bg)}
+#list{flex:1;overflow:auto;display:flex;flex-direction:column;gap:2px}
+.ci{display:flex;align-items:center;gap:4px;padding:7px 9px;border-radius:8px;cursor:pointer}
+.ci:hover,.ci.on{background:var(--bg)}.ci span{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ci button{border:0;padding:2px 6px;opacity:0}.ci:hover button{opacity:1}
+#main{flex:1;display:flex;flex-direction:column;min-width:0}
+header{display:flex;align-items:center;gap:8px;padding:10px 16px;border-bottom:1px solid var(--line)}
+header h1{font-size:1rem;margin:0;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#menu{display:none}
+#msgs{flex:1;overflow:auto;padding:20px 16px}
+.wrap{max-width:780px;margin:0 auto}
+.m{margin:0 0 22px}.m.user .b{background:var(--acc);color:var(--acc-ink);margin-left:auto;width:fit-content;max-width:85%;padding:9px 14px;border-radius:14px 14px 3px 14px;white-space:pre-wrap}
+.m.assistant .b{padding:2px 0}.b pre{background:var(--panel);padding:10px;border-radius:8px;overflow:auto}.b code{background:var(--panel);padding:1px 5px;border-radius:4px;font-family:Consolas,monospace;font-size:.9em}.b pre code{padding:0;background:none}
+.b h3,.b h4{margin:.8em 0 .2em}.b ul{margin:.4em 0;padding-left:1.3em}
+.act{display:flex;gap:4px;margin-top:6px}.act button{border:0;font-size:.8rem;color:var(--mute);padding:3px 7px}
+.src{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.src button{font-size:.8rem;border-color:var(--stamp);color:var(--stamp);padding:3px 9px;border-radius:999px;text-align:left}
+.src button small{color:var(--mute)}
+.err{color:#c0392b;border:1px solid #c0392b;border-radius:8px;padding:8px 12px}
+#empty{text-align:center;margin-top:12vh}#empty h2{font-size:1.6rem;margin:0 0 6px}#empty p{color:var(--mute)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:18px}.chips button{border-radius:999px}
+footer{padding:10px 16px 16px}
+#box{max-width:780px;margin:0 auto;display:flex;gap:8px;align-items:flex-end;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:8px}
+#in{flex:1;border:0;background:none;resize:none;max-height:180px;padding:6px;outline:0}
+#go{background:var(--acc);color:var(--acc-ink);border:0;font-weight:600;border-radius:10px;padding:8px 16px}
+.hint{max-width:780px;margin:6px auto 0;color:var(--mute);font-size:.75rem;text-align:center}
+dialog{border:1px solid var(--line);border-radius:14px;background:var(--bg);color:var(--ink);padding:18px;width:min(520px,94vw)}
+dialog::backdrop{background:#0008}dialog h3{margin:0 0 10px}
+dialog label{display:block;margin:10px 0 3px;font-weight:600;font-size:.85rem}
+dialog select,dialog input[type=text],dialog textarea{width:100%;padding:7px;border:1px solid var(--line);border-radius:8px;background:var(--card)}
+dialog .row{display:flex;gap:10px;align-items:center}dialog .row input[type=range]{flex:1}
+video{width:100%;border-radius:10px;background:#000}
+@media(max-width:760px){#side{position:fixed;inset:0 auto 0 0;z-index:5;transform:translateX(-100%);transition:transform .2s}#side.open{transform:none}#menu{display:block}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+.ci:hover,.ci.on{background:var(--card)}
+#side .new,#go,.m.user .b{background:linear-gradient(135deg,var(--acc),#38bdf8);color:#fff}
+#box{border-radius:20px;transition:box-shadow .2s,border-color .2s}#box:focus-within{border-color:var(--acc);box-shadow:0 0 0 3px #7c6cff2e}
+#mic{border:0;border-radius:10px}
+#empty h2{font-size:2.1rem;font-weight:700;letter-spacing:-.02em}
+.chips button{background:var(--card)}.chips button:hover{border-color:var(--acc)}
+.think{color:var(--mute)}.think i{font-style:normal;animation:bl 1.2s infinite}.think i:nth-child(2){animation-delay:.2s}.think i:nth-child(3){animation-delay:.4s}
+@keyframes bl{0%,100%{opacity:.2}50%{opacity:1}}
+@media(prefers-reduced-motion:reduce){.think i{animation:none}}
+</style>
+</head>
+<body>
+<aside id="side">
+  <button class="new" id="new">New chat</button>
+  <input id="q" placeholder="Search chats" aria-label="Search chats">
+  <div id="list"></div>
+  <button id="setb">Settings</button>
+</aside>
+<div id="main">
+  <header>
+    <button id="menu" aria-label="Chats">&#9776;</button>
+    <h1 id="title">New chat</h1>
+    <span id="stat" style="color:var(--mute);font-size:.8rem"></span>
+    <button id="exp">Export</button>
+  </header>
+  <div id="msgs"><div class="wrap" id="wrap"></div></div>
+  <footer>
+    <div id="box">
+      <textarea id="in" rows="1" placeholder="Ask about any lecture, e.g. where is the switch statement taught?"></textarea>
+      <button id="mic" title="Speak your question" aria-label="Speak">&#127908;</button><button id="go">Send</button>
+    </div>
+    <div class="hint">Enter to send, Shift+Enter for a new line. Answers come from your course videos.</div>
+  </footer>
+</div>
+
+<dialog id="set">
+  <h3>Settings</h3>
+  <label for="s-model">Model (Ollama)</label><select id="s-model"></select>
+  <label for="s-rag">Answer from course videos (RAG)</label>
+  <select id="s-rag"><option value="1">On: search lectures first</option><option value="0">Off: plain chat</option></select>
+  <label for="s-max">Answer length (shorter = faster)</label><select id="s-max"><option value="200">Short</option><option value="350">Medium</option><option value="700">Long</option></select>
+  <label>Chunks retrieved: <b id="kv"></b></label><div class="row"><input type="range" id="s-k" min="1" max="15"></div>
+  <label>Creativity (temperature): <b id="tv"></b></label><div class="row"><input type="range" id="s-t" min="0" max="1.5" step="0.1"></div>
+  <label for="s-sys">System prompt</label><textarea id="s-sys" rows="4"></textarea>
+  <label for="s-theme">Theme</label>
+  <select id="s-theme"><option value="auto">System</option><option value="light">Light</option><option value="dark">Dark</option></select>
+  <label>Text size: <b id="fv"></b>px</label><div class="row"><input type="range" id="s-fs" min="13" max="20"></div>
+  <div class="row" style="margin-top:16px"><button id="clear">Delete all chats</button><span style="flex:1"></span><button id="close">Done</button></div>
+</dialog>
+
+<dialog id="vid">
+  <h3 id="vt"></h3><video id="vp" controls></video>
+  <div class="row" style="margin-top:12px"><span id="vtxt" style="flex:1;color:var(--mute);font-size:.85rem"></span><button id="vc">Close</button></div>
+</dialog>
+
+<script>
+const $=id=>document.getElementById(id);
+const DEF={model:"llama3.2",rag:"1",k:4,t:0.4,theme:"dark",fs:15,max:350,
+ sys:"You are a friendly teaching assistant for a JavaScript video course. Answer in a natural, human way and guide the learner to the right video and timestamp."};
+let S,chats,cur,abort=null;
+const load=(k,d)=>{try{return JSON.parse(localStorage.getItem(k))||d}catch{return d}};
+const save=()=>{try{localStorage.setItem("s",JSON.stringify(S));localStorage.setItem("c",JSON.stringify(chats))}catch{}};
+S={...DEF,...load("s",{})};if(!S.v2){S.theme="dark";S.max=350;S.v2=1}chats=load("c",[]);cur=chats[0]?.id||null;
+
+const esc=s=>s.replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+const mmss=t=>{t=Math.floor(t);return String(Math.floor(t/60)).padStart(2,"0")+":"+String(t%60).padStart(2,"0")};
+function md(s){
+  const bl=[];s=esc(s).replace(/```\w*\n?([\s\S]*?)(```|$)/g,(m,c)=>(bl.push("<pre><code>"+c+"</code></pre>"),"\u0000"+(bl.length-1)+"\u0000"));
+  s=s.replace(/`([^`\n]+)`/g,"<code>$1</code>").replace(/\*\*([^*\n]+)\*\*/g,"<b>$1</b>")
+   .replace(/^#{1,3} (.*)$/gm,"<h4>$1</h4>")
+   .replace(/(?:^[-*] .*\n?)+/gm,m=>"<ul>"+m.trim().split("\n").map(l=>"<li>"+l.slice(2)+"</li>").join("")+"</ul>")
+   .replace(/\n/g,"<br>");
+  return s.replace(/\u0000(\d+)\u0000/g,(m,i)=>bl[i]);
+}
+const chat=()=>chats.find(c=>c.id===cur);
+function applyTheme(){
+  const t=S.theme==="auto"?(matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light"):S.theme;
+  document.documentElement.dataset.theme=t;document.documentElement.style.setProperty("--fs",S.fs+"px");
+}
+function renderList(){
+  const f=$("q").value.toLowerCase();$("list").innerHTML="";
+  [...chats].sort((a,b)=>!!b.pin-!!a.pin).filter(c=>c.title.toLowerCase().includes(f)).forEach(c=>{
+    const d=document.createElement("div");d.className="ci"+(c.id===cur?" on":"");
+    d.innerHTML=`<span>${c.pin?"&#9733; ":""}${esc(c.title)}</span><button title="Pin">&#9733;</button><button title="Rename">&#9998;</button><button title="Delete">&times;</button>`;
+    d.onclick=()=>{cur=c.id;$("side").classList.remove("open");render()};
+    const [p,r,x]=d.querySelectorAll("button");p.onclick=e=>{e.stopPropagation();c.pin=!c.pin;save();render()};
+    r.onclick=e=>{e.stopPropagation();const n=prompt("Rename chat",c.title);if(n){c.title=n;save();render()}};
+    x.onclick=e=>{e.stopPropagation();chats=chats.filter(k=>k!==c);if(cur===c.id)cur=chats[0]?.id||null;save();render()};
+    $("list").append(d);
+  });
+}
+function msgEl(m,i,last){
+  const d=document.createElement("div");d.className="m "+m.role;
+  const b=document.createElement("div");b.className="b";
+  b.innerHTML=m.role==="user"?esc(m.content):(m.error?`<div class="err">${esc(m.error)}</div>`:"")+(m.streaming&&!m.content?'<span class="think">Searching lectures<i>.</i><i>.</i><i>.</i></span>':md(m.content||""));
+  d.append(b);
+  if(m.role==="user"){const e=document.createElement("div");e.className="act";e.style.justifyContent="flex-end";const eb=document.createElement("button");eb.textContent="Edit";eb.onclick=()=>{const n=prompt("Edit message",m.content);if(n&&n.trim()){chat().messages=chat().messages.slice(0,i);send(n)}};e.append(eb);d.append(e)}
+  if(m.sources?.length){
+    const s=document.createElement("div");s.className="src";
+    m.sources.forEach(c=>{const x=document.createElement("button");
+      x.innerHTML=`Lecture ${esc(c.number)} <small>${mmss(c.start)}&ndash;${mmss(c.end)} &middot; ${Math.round(c.score*100)}%</small>`;
+      x.title=c.title+"\n"+c.text;x.onclick=()=>play(c);s.append(x)});
+    d.append(s);
+  }
+  if(m.role==="assistant"&&!m.streaming){
+    const a=document.createElement("div");a.className="act";
+    const cp=document.createElement("button");cp.textContent="Copy";cp.onclick=()=>{navigator.clipboard.writeText(m.content);cp.textContent="Copied";setTimeout(()=>cp.textContent="Copy",1200)};
+    a.append(cp);const ls=document.createElement("button");ls.textContent="Listen";ls.onclick=()=>{speechSynthesis.cancel();speechSynthesis.speak(new SpeechSynthesisUtterance(m.content))};a.append(ls);if(m.ms){const t=document.createElement("span");t.textContent=m.ms.toFixed(1)+"s";t.style.cssText="font-size:.75rem;color:var(--mute);align-self:center;padding-left:6px";a.append(t)}
+    if(last){const rg=document.createElement("button");rg.textContent="Regenerate";rg.onclick=()=>{chat().messages.pop();run()};a.append(rg)}
+    d.append(a);
+  }
+  return d;
+}
+function render(){
+  applyTheme();renderList();const c=chat();$("title").textContent=c?c.title:"New chat";
+  const w=$("wrap");w.innerHTML="";
+  if(!c||!c.messages.length){
+    w.innerHTML=`<div id="empty"><h2>What do you want to learn today?</h2><p>Ask about any lecture and get the video and timestamp.</p><div class="chips"></div></div>`;
+    ["Where is the switch statement taught?","Which video explains array map?","How do I create a class?","Summarise the lecture on functions"].forEach(t=>{
+      const b=document.createElement("button");b.textContent=t;b.onclick=()=>send(t);w.querySelector(".chips").append(b)});
+  }else c.messages.forEach((m,i)=>w.append(msgEl(m,i,i===c.messages.length-1)));
+  $("msgs").scrollTop=1e9;
+}
+async function send(text){
+  text=text.trim();if(!text||abort)return;
+  if(!chat()){const c={id:Date.now()+"",title:"New chat",messages:[]};chats.unshift(c);cur=c.id}
+  const c=chat();if(!c.messages.length)c.title=text.slice(0,40);
+  c.messages.push({role:"user",content:text});$("in").value="";$("in").style.height="auto";save();run();
+}
+async function run(){
+  const c=chat();const m={role:"assistant",content:"",streaming:true};const t0=performance.now();c.messages.push(m);
+  abort=new AbortController();$("go").textContent="Stop";render();
+  try{
+    const r=await fetch("/api/chat",{method:"POST",headers:{"Content-Type":"application/json"},signal:abort.signal,
+      body:JSON.stringify({messages:c.messages.slice(0,-1),model:S.model,rag:S.rag==="1",max_tokens:S.max,top_k:S.k,temperature:S.t,system:S.sys})});
+    const rd=r.body.getReader(),dec=new TextDecoder();let buf="";
+    while(true){
+      const {done,value}=await rd.read();if(done)break;buf+=dec.decode(value,{stream:true});
+      const lines=buf.split("\n");buf=lines.pop();
+      for(const l of lines){if(!l)continue;const j=JSON.parse(l);
+        if(j.sources)m.sources=j.sources;if(j.t)m.content+=j.t;if(j.error)m.error=j.error}
+      const el=$("wrap").lastElementChild;if(el){el.replaceWith(msgEl(m,0,false));$("msgs").scrollTop=1e9}
+    }
+  }catch(e){if(e.name!=="AbortError")m.error=String(e)}
+  m.ms=(performance.now()-t0)/1000;delete m.streaming;abort=null;$("go").textContent="Send";save();render();
+}
+function play(c){
+  $("vt").textContent=`Lecture ${c.number}: ${c.title}`;$("vtxt").textContent=`${mmss(c.start)}: ${c.text}`;
+  const v=$("vp");
+  if(c.video){v.style.display="";v.src=`/video/${parseInt(c.number)}`;v.onloadedmetadata=()=>{v.currentTime=c.start;v.play().catch(()=>{})}}
+  else{v.style.display="none";v.removeAttribute("src");$("vtxt").textContent=`Put the video in the Videos folder to play it here. Go to ${mmss(c.start)} in lecture ${c.number}. "${c.text}"`}
+  $("vid").showModal();
+}
+$("vc").onclick=()=>{$("vp").pause();$("vid").close()};
+$("go").onclick=()=>abort?abort.abort():send($("in").value);
+$("in").onkeydown=e=>{if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();$("go").click()}};
+$("in").oninput=e=>{e.target.style.height="auto";e.target.style.height=e.target.scrollHeight+"px"};
+$("new").onclick=()=>{cur=null;$("side").classList.remove("open");render();$("in").focus()};
+$("menu").onclick=()=>$("side").classList.toggle("open");
+$("q").oninput=renderList;
+$("exp").onclick=()=>{const c=chat();if(!c)return;
+  const t="# "+c.title+"\n\n"+c.messages.map(m=>`**${m.role==="user"?"You":"Assistant"}:** ${m.content}`).join("\n\n");
+  const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([t],{type:"text/markdown"}));a.download=c.title.replace(/\W+/g,"_")+".md";a.click()};
+/* settings */
+const bind=(id,key,fmt,out)=>{const e=$(id);e.value=S[key];if(out)$(out).textContent=S[key];
+  e.oninput=()=>{S[key]=fmt?fmt(e.value):e.value;if(out)$(out).textContent=S[key];save();applyTheme()}};
+bind("s-rag","rag");bind("s-max","max",Number);bind("s-k","k",Number,"kv");bind("s-t","t",Number,"tv");bind("s-sys","sys");bind("s-theme","theme");bind("s-fs","fs",Number,"fv");
+$("setb").onclick=()=>$("set").showModal();$("close").onclick=()=>$("set").close();
+$("clear").onclick=()=>{if(confirm("Delete all chats?")){chats=[];cur=null;save();render()}};
+fetch("/api/models").then(r=>r.json()).then(j=>{
+  const sel=$("s-model");const names=j.models.length?j.models:[S.model];
+  if(!names.includes(S.model))names.unshift(S.model);
+  sel.innerHTML=names.map(n=>`<option>${esc(n)}</option>`).join("");sel.value=S.model;
+  sel.onchange=()=>{S.model=sel.value;save()};
+  $("stat").textContent=j.ollama?`${j.chunks} chunks, ${j.videos} videos`:"Ollama is not running";
+}).catch(()=>{$("stat").textContent="Backend offline"});
+matchMedia("(prefers-color-scheme:dark)").onchange=applyTheme;
+const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
+if(SR){let rec;$("mic").onclick=()=>{if(rec){rec.stop();return}rec=new SR();rec.lang="en-IN";rec.interimResults=true;$("mic").style.background="var(--acc)";
+ rec.onresult=e=>{$("in").value=[...e.results].map(r=>r[0].transcript).join("")};
+ rec.onend=()=>{rec=null;$("mic").style.background="";$("in").focus()};rec.start()}}else $("mic").style.display="none";
+document.addEventListener("keydown",e=>{if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==="k"){e.preventDefault();$("new").click()}});
+render();
+</script>
+</body>
+</html>

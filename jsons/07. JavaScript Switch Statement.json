@@ -1,0 +1,194 @@
+{
+    "chunks": [
+        {
+            "number": "7",
+            "title": "JavaScript Switch Statement",
+            "start": 0.0,
+            "end": 10.6,
+            "text": " The switch statement is used to perform different actions based on different conditions."
+        },
+        {
+            "number": "7",
+            "title": "JavaScript Switch Statement",
+            "start": 10.6,
+            "end": 12.0,
+            "text": " Here is the basic syntax."
+        },
+        {
+            "number": "7",
+            "title": "JavaScript Switch Statement",
+            "start": 12.0,
+            "end": 14.92,
+            "text": " First, the switch expression gets evaluated."
+        },
+        {
+            "number": "7",
+            "title": "JavaScript Switch Statement",
+            "start": 14.92,
+            "end": 18.96,
+            "text": " Then the value of the expression is compared with the values of each case."
+        },
+        {
+            "number": "7",
+            "title": "JavaScript Switch Statement",
+            "start": 18.96,
+            "end": 22.84,
+            "text": " If there is a match, the associated block of code is executed."
+        },
+        {
+            "number": "7",
+            "title": "JavaScript Switch Statement",
+            "start": 22.84,
+            "end": 26.16,
+            "text": " If there is not a match, then the default block of code will run."
+        },
+        {
+            "number": "7",
+            "title": "JavaScript Switch Statement",
+            "start": 26.16,
+            "end": 30.560000000000002,
+            "text": " When JavaScript reaches a break keyword, it breaks out of the switch block."
+        },
+        {
+            "number": "7",
+            "title": "JavaScript Switch Statement",
+            "start": 30.560000000000002,
+            "end": 35.4,
+            "text": " Note that if you omit the break statement, the next case will be executed even if the"
+        },
+        {
+            "number": "7",
+            "title": "JavaScript Switch Statement",
+            "start": 35.4,
+            "end": 37.92,
+            "text": " evaluation does not match the case."
+        },
+        {
+            "number": "7",
+            "title": "JavaScript Switch Statement",
+            "start": 37.92,
+            "end": 39.04,
+            "text": " Here is an example."
+        },
+        {
+            "number": "7",
+            "title": "JavaScript Switch Statement",
+            "start": 39.04,
+            "end": 43.68,
+            "text": " In our expression, we are using the getDay method which returns the weekday as a number"
+        },
+        {
+            "number": "7",
+            "title": "JavaScript Switch Statement",
+            "start": 43.68,
+            "end": 46.8,
+            "text": " between 0 and 6, 0 being Sunday."
+        },
+        {
+            "number": "7",
+            "title": "JavaScript Switch Statement",
+            "start": 46.8,
+            "end": 49.480000000000004,
+            "text": " We can now use case to compare our value."
+        },
+        {
+            "number": "7",
+            "title": "JavaScript Switch Statement",
+            "start": 49.480000000000004,
+            "end": 52.06,
+            "text": " If it is 0, then day will equal Sunday."
+        },
+        {
+            "number": "7",
+            "title": "JavaScript Switch Statement",
+            "start": 52.06,
+            "end": 54.480000000000004,
+            "text": " If it is 1, then day will equal Monday."
+        },
+        {
+            "number": "7",
+            "title": "JavaScript Switch Statement",
+            "start": 54.480000000000004,
+            "end": 55.480000000000004,
+            "text": " And so on."
+        },
+        {
+            "number": "7",
+            "title": "JavaScript Switch Statement",
+            "start": 55.48,
+            "end": 60.0,
+            "text": " At the end of each block, we include a break, since we do not want any code to run after"
+        },
+        {
+            "number": "7",
+            "title": "JavaScript Switch Statement",
+            "start": 60.0,
+            "end": 61.4,
+            "text": " we have found a match."
+        },
+        {
+            "number": "7",
+            "title": "JavaScript Switch Statement",
+            "start": 61.4,
+            "end": 65.58,
+            "text": " In this example, we use multiple case statements to execute blocks of code."
+        },
+        {
+            "number": "7",
+            "title": "JavaScript Switch Statement",
+            "start": 65.58,
+            "end": 71.12,
+            "text": " So if the day is 4 or 5, which would be Thursday or Friday, we want to say, it's almost the"
+        },
+        {
+            "number": "7",
+            "title": "JavaScript Switch Statement",
+            "start": 71.12,
+            "end": 72.12,
+            "text": " weekend."
+        },
+        {
+            "number": "7",
+            "title": "JavaScript Switch Statement",
+            "start": 72.12,
+            "end": 76.96,
+            "text": " If that isn't true, then we'll check to see if the day is 0 or 6, which is Saturday or"
+        },
+        {
+            "number": "7",
+            "title": "JavaScript Switch Statement",
+            "start": 76.96,
+            "end": 77.96,
+            "text": " Sunday."
+        },
+        {
+            "number": "7",
+            "title": "JavaScript Switch Statement",
+            "start": 77.96,
+            "end": 79.92,
+            "text": " If so, then we'll say, it's the weekend."
+        },
+        {
+            "number": "7",
+            "title": "JavaScript Switch Statement",
+            "start": 79.92,
+            "end": 83.94,
+            "text": " And if that isn't true, then we'll use the default code block and say, looking forward"
+        },
+        {
+            "number": "7",
+            "title": "JavaScript Switch Statement",
+            "start": 83.94,
+            "end": 85.12,
+            "text": " to the weekend."
+        },
+        {
+            "number": "7",
+            "title": "JavaScript Switch Statement",
+            "start": 85.12,
+            "end": 87.84,
+            "text": " This has been a 90-second JavaScript January."
+        }
+    ],
+    "text": " The switch statement is used to perform different actions based on different conditions. Here is the basic syntax. First, the switch expression gets evaluated. Then the value of the expression is compared with the values of each case. If there is a match, the associated block of code is executed. If there is not a match, then the default block of code will run. When JavaScript reaches a break keyword, it breaks out of the switch block. Note that if you omit the break statement, the next case will be executed even if the evaluation does not match the case. Here is an example. In our expression, we are using the getDay method which returns the weekday as a number between 0 and 6, 0 being Sunday. We can now use case to compare our value. If it is 0, then day will equal Sunday. If it is 1, then day will equal Monday. And so on. At the end of each block, we include a break, since we do not want any code to run after we have found a match. In this example, we use multiple case statements to execute blocks of code. So if the day is 4 or 5, which would be Thursday or Friday, we want to say, it's almost the weekend. If that isn't true, then we'll check to see if the day is 0 or 6, which is Saturday or Sunday. If so, then we'll say, it's the weekend. And if that isn't true, then we'll use the default code block and say, looking forward to the weekend. This has been a 90-second JavaScript January."
+}

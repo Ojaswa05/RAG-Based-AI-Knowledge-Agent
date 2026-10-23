@@ -1,0 +1,278 @@
+{
+  "chunks": [
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 0.0,
+      "end": 5.68,
+      "text": " TEMPLATE LITERALS"
+    },
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 5.68,
+      "end": 7.5200000000000005,
+      "text": " Template literals are awesome."
+    },
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 7.5200000000000005,
+      "end": 8.36,
+      "text": " Here's why."
+    },
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 8.36,
+      "end": 10.16,
+      "text": " Have you ever written code like this?"
+    },
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 10.16,
+      "end": 11.08,
+      "text": " We all have."
+    },
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 11.08,
+      "end": 13.76,
+      "text": " With template literals, you can make it look like this."
+    },
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 13.76,
+      "end": 16.4,
+      "text": " So with template literals, we can create multiple lines"
+    },
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 16.4,
+      "end": 18.8,
+      "text": " without using the escaped new line character"
+    },
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 18.8,
+      "end": 20.8,
+      "text": " or concatenating with the plus symbol."
+    },
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 20.8,
+      "end": 23.0,
+      "text": " We can use double and single quotes freely,"
+    },
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 23.0,
+      "end": 26.0,
+      "text": " and we can include variables, do math calculations,"
+    },
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 26.0,
+      "end": 28.240000000000002,
+      "text": " or even call a function that returns a value."
+    },
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 28.24,
+      "end": 31.439999999999998,
+      "text": " The key to the template literal is the backticks."
+    },
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 31.439999999999998,
+      "end": 33.0,
+      "text": " That's the key just to the left"
+    },
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 33.0,
+      "end": 34.92,
+      "text": " of the number one key on your keyboard."
+    },
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 34.92,
+      "end": 37.12,
+      "text": " Now we can format the string more naturally,"
+    },
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 37.12,
+      "end": 39.86,
+      "text": " making it easier to see how the output will look."
+    },
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 39.86,
+      "end": 42.2,
+      "text": " To add variables, we can use a placeholder"
+    },
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 42.2,
+      "end": 44.36,
+      "text": " by using dollar sign curly braces."
+    },
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 44.36,
+      "end": 46.82,
+      "text": " Then within the placeholder, we use an expression."
+    },
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 46.82,
+      "end": 48.54,
+      "text": " This expression can be a variable,"
+    },
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 48.54,
+      "end": 50.94,
+      "text": " math calculation, or even a function."
+    },
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 50.94,
+      "end": 53.12,
+      "text": " This is called expression interpolation."
+    },
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 53.12,
+      "end": 56.04,
+      "text": " Here we are passing in the name, day, and temperature."
+    },
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 56.04,
+      "end": 57.4,
+      "text": " We can also use a function"
+    },
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 57.4,
+      "end": 59.42,
+      "text": " to make the name uppercase if we wanted."
+    },
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 59.42,
+      "end": 60.64,
+      "text": " And because the weather people"
+    },
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 60.64,
+      "end": 62.48,
+      "text": " sometimes don't get it right,"
+    },
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 62.48,
+      "end": 64.36,
+      "text": " we can do some math on the temperature."
+    },
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 64.36,
+      "end": 67.52,
+      "text": " Lastly, there is something called tagged template literals."
+    },
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 67.52,
+      "end": 70.8,
+      "text": " This is basically passing a template literal into a function."
+    },
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 70.8,
+      "end": 72.86,
+      "text": " By doing this, we can separate the strings"
+    },
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 72.86,
+      "end": 75.7,
+      "text": " from the expressions and then manipulate them as needed."
+    },
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 75.7,
+      "end": 78.84,
+      "text": " So here we are passing the hash symbol and two variables."
+    },
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 78.84,
+      "end": 80.84,
+      "text": " We can see in the console that the function"
+    },
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 80.84,
+      "end": 82.92,
+      "text": " is separating the strings from the variables"
+    },
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 82.92,
+      "end": 84.6,
+      "text": " and creating arrays for each."
+    },
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 84.64,
+      "end": 86.8,
+      "text": " We can then manipulate the data as needed."
+    },
+    {
+      "number": "15",
+      "title": "JavaScript Template Literals",
+      "start": 86.8,
+      "end": 89.75999999999999,
+      "text": " This has been a 90-second JavaScript January."
+    }
+  ],
+  "text": " TEMPLATE LITERALS Template literals are awesome. Here's why. Have you ever written code like this? We all have. With template literals, you can make it look like this. So with template literals, we can create multiple lines without using the escaped new line character or concatenating with the plus symbol. We can use double and single quotes freely, and we can include variables, do math calculations, or even call a function that returns a value. The key to the template literal is the backticks. That's the key just to the left of the number one key on your keyboard. Now we can format the string more naturally, making it easier to see how the output will look. To add variables, we can use a placeholder by using dollar sign curly braces. Then within the placeholder, we use an expression. This expression can be a variable, math calculation, or even a function. This is called expression interpolation. Here we are passing in the name, day, and temperature. We can also use a function to make the name uppercase if we wanted. And because the weather people sometimes don't get it right, we can do some math on the temperature. Lastly, there is something called tagged template literals. This is basically passing a template literal into a function. By doing this, we can separate the strings from the expressions and then manipulate them as needed. So here we are passing the hash symbol and two variables. We can see in the console that the function is separating the strings from the variables and creating arrays for each. We can then manipulate the data as needed. This has been a 90-second JavaScript January."
+}

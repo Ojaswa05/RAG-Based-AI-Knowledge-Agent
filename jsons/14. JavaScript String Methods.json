@@ -1,0 +1,355 @@
+{
+  "chunks": [
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 0.0,
+      "end": 10.6,
+      "text": " In JavaScript, there are two types of strings, string primitives and string objects."
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 10.6,
+      "end": 15.76,
+      "text": " In order to use a method with a string primitive, JavaScript converts the string into an object"
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 15.76,
+      "end": 18.76,
+      "text": " then back into a primitive, all in the background."
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 18.76,
+      "end": 22.96,
+      "text": " Note that none of these methods modify the original string but return a new string."
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 22.96,
+      "end": 26.44,
+      "text": " The first thing that we'll look at is the string length property."
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 26.44,
+      "end": 29.52,
+      "text": " This returns a count of the number of characters in the string."
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 29.52,
+      "end": 33.96,
+      "text": " Now for the methods, we have the indexOf and lastIndexOf methods."
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 33.96,
+      "end": 36.38,
+      "text": " These will return the index of the search string."
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 36.38,
+      "end": 41.64,
+      "text": " With indices, remember that the count starts at 0, so the index of sub is 0."
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 41.64,
+      "end": 45.879999999999995,
+      "text": " And these are case sensitive, so lowercase sub will return negative 1, which means that"
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 45.879999999999995,
+      "end": 47.480000000000004,
+      "text": " it could not be found."
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 47.480000000000004,
+      "end": 49.2,
+      "text": " Lowercase s returns 3."
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 49.2,
+      "end": 51.92,
+      "text": " IndexOf will return the first found occurrence."
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 51.92,
+      "end": 54.879999999999995,
+      "text": " LastIndexOf will return the last found occurrence."
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 54.879999999999995,
+      "end": 58.64,
+      "text": " If you know the index of a letter, you can include that in brackets after the string"
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 58.64,
+      "end": 60.2,
+      "text": " to return that letter."
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 60.2,
+      "end": 63.04,
+      "text": " Next we have startsWith and endsWith methods."
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 63.04,
+      "end": 67.16,
+      "text": " Again these are case sensitive and simply refer to the beginning and end of a string"
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 67.16,
+      "end": 69.64,
+      "text": " then return a boolean true or false."
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 69.64,
+      "end": 72.08,
+      "text": " Similarly we have the includes method."
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 72.08,
+      "end": 73.72,
+      "text": " This searches the entire string."
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 73.72,
+      "end": 77.88,
+      "text": " The slice method uses indices to extract a portion of the string."
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 77.88,
+      "end": 83.24000000000001,
+      "text": " The first example starts at index 3 and stops at, but does not include, index 9, returning"
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 83.24000000000001,
+      "end": 84.68,
+      "text": " the string scribe."
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 84.68,
+      "end": 88.52000000000001,
+      "text": " If the second parameter is not included, then it will include the remainder of the"
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 88.52000000000001,
+      "end": 90.62,
+      "text": " string after that start position."
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 90.62,
+      "end": 94.28,
+      "text": " With slice we can use negative numbers to start at the end of the string."
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 94.28,
+      "end": 97.76,
+      "text": " When counting from the end, we start at negative 1 counting down."
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 97.76,
+      "end": 102.08000000000001,
+      "text": " The substring method is similar to slice, but cannot use negative numbers to start from"
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 102.08000000000001,
+      "end": 103.08000000000001,
+      "text": " the end."
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 103.08000000000001,
+      "end": 105.10000000000001,
+      "text": " The replace method takes two parameters."
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 105.10000000000001,
+      "end": 109.4,
+      "text": " The first is the string you are looking for and the second is the string that will replace"
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 109.4,
+      "end": 110.4,
+      "text": " the first."
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 110.4,
+      "end": 114.64000000000001,
+      "text": " With the match method we can return an array based on a regular expression."
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 114.64,
+      "end": 117.84,
+      "text": " Here we are returning all of the capital letters in the string."
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 117.84,
+      "end": 122.64,
+      "text": " The split method allows us to split the string into an array based on a given character."
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 122.64,
+      "end": 126.76,
+      "text": " Here we are splitting it with a blank space character which splits it into the individual"
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 126.76,
+      "end": 127.76,
+      "text": " words."
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 127.76,
+      "end": 131.0,
+      "text": " This is very useful when converting a delimited string into an array."
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 131.0,
+      "end": 134.72,
+      "text": " The repeat method simply repeats the string a given amount of times."
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 134.72,
+      "end": 138.52,
+      "text": " The concat method allows you to combine multiple strings into one."
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 138.52,
+      "end": 143.16,
+      "text": " The two uppercase and two lowercase methods convert all characters in the string to either"
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 143.16,
+      "end": 144.94,
+      "text": " uppercase or lowercase."
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 144.94,
+      "end": 146.85999999999999,
+      "text": " There are several trim methods."
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 146.85999999999999,
+      "end": 151.8,
+      "text": " These will remove whitespace characters from the beginning, end, or both ends of the string."
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 151.8,
+      "end": 155.01999999999998,
+      "text": " And lastly we have the pad start and pad end methods."
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 155.01999999999998,
+      "end": 158.57999999999998,
+      "text": " The first parameter is the desired length of the resulting string."
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 158.57999999999998,
+      "end": 162.84,
+      "text": " The second parameter is the character that will be used to fill the empty spaces at either"
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 162.84,
+      "end": 164.94,
+      "text": " the beginning or the end of the string."
+    },
+    {
+      "number": "14",
+      "title": "JavaScript String Methods",
+      "start": 164.94,
+      "end": 168.57999999999998,
+      "text": " This has been a 90ish second JavaScript January."
+    }
+  ],
+  "text": " In JavaScript, there are two types of strings, string primitives and string objects. In order to use a method with a string primitive, JavaScript converts the string into an object then back into a primitive, all in the background. Note that none of these methods modify the original string but return a new string. The first thing that we'll look at is the string length property. This returns a count of the number of characters in the string. Now for the methods, we have the indexOf and lastIndexOf methods. These will return the index of the search string. With indices, remember that the count starts at 0, so the index of sub is 0. And these are case sensitive, so lowercase sub will return negative 1, which means that it could not be found. Lowercase s returns 3. IndexOf will return the first found occurrence. LastIndexOf will return the last found occurrence. If you know the index of a letter, you can include that in brackets after the string to return that letter. Next we have startsWith and endsWith methods. Again these are case sensitive and simply refer to the beginning and end of a string then return a boolean true or false. Similarly we have the includes method. This searches the entire string. The slice method uses indices to extract a portion of the string. The first example starts at index 3 and stops at, but does not include, index 9, returning the string scribe. If the second parameter is not included, then it will include the remainder of the string after that start position. With slice we can use negative numbers to start at the end of the string. When counting from the end, we start at negative 1 counting down. The substring method is similar to slice, but cannot use negative numbers to start from the end. The replace method takes two parameters. The first is the string you are looking for and the second is the string that will replace the first. With the match method we can return an array based on a regular expression. Here we are returning all of the capital letters in the string. The split method allows us to split the string into an array based on a given character. Here we are splitting it with a blank space character which splits it into the individual words. This is very useful when converting a delimited string into an array. The repeat method simply repeats the string a given amount of times. The concat method allows you to combine multiple strings into one. The two uppercase and two lowercase methods convert all characters in the string to either uppercase or lowercase. There are several trim methods. These will remove whitespace characters from the beginning, end, or both ends of the string. And lastly we have the pad start and pad end methods. The first parameter is the desired length of the resulting string. The second parameter is the character that will be used to fill the empty spaces at either the beginning or the end of the string. This has been a 90ish second JavaScript January."
+}

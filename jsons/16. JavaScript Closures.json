@@ -1,0 +1,271 @@
+{
+  "chunks": [
+    {
+      "number": "16",
+      "title": "JavaScript Closures",
+      "start": 0.0,
+      "end": 10.8,
+      "text": " The Mozilla documentation defines a closure as a combination of a function together with"
+    },
+    {
+      "number": "16",
+      "title": "JavaScript Closures",
+      "start": 10.8,
+      "end": 13.08,
+      "text": " references to its surrounding state."
+    },
+    {
+      "number": "16",
+      "title": "JavaScript Closures",
+      "start": 13.08,
+      "end": 17.68,
+      "text": " The easy definition is, a closure gives you access to anything outside of the current"
+    },
+    {
+      "number": "16",
+      "title": "JavaScript Closures",
+      "start": 17.68,
+      "end": 18.68,
+      "text": " scope."
+    },
+    {
+      "number": "16",
+      "title": "JavaScript Closures",
+      "start": 18.68,
+      "end": 22.36,
+      "text": " In JavaScript, closures are created every time a function is created."
+    },
+    {
+      "number": "16",
+      "title": "JavaScript Closures",
+      "start": 22.36,
+      "end": 26.7,
+      "text": " So this function is a closure and of course it has access to the variables within it."
+    },
+    {
+      "number": "16",
+      "title": "JavaScript Closures",
+      "start": 26.7,
+      "end": 30.9,
+      "text": " But if we move the variable outside of the function, we can see that it still has access"
+    },
+    {
+      "number": "16",
+      "title": "JavaScript Closures",
+      "start": 30.9,
+      "end": 32.06,
+      "text": " to the variable."
+    },
+    {
+      "number": "16",
+      "title": "JavaScript Closures",
+      "start": 32.06,
+      "end": 36.94,
+      "text": " So here the function scope is a closure, but the global scope can also be accessed within"
+    },
+    {
+      "number": "16",
+      "title": "JavaScript Closures",
+      "start": 36.94,
+      "end": 37.94,
+      "text": " the function."
+    },
+    {
+      "number": "16",
+      "title": "JavaScript Closures",
+      "start": 37.94,
+      "end": 39.18,
+      "text": " Here is another example."
+    },
+    {
+      "number": "16",
+      "title": "JavaScript Closures",
+      "start": 39.18,
+      "end": 43.44,
+      "text": " Suppose we have a counter and we want the counter to be available to all functions."
+    },
+    {
+      "number": "16",
+      "title": "JavaScript Closures",
+      "start": 43.44,
+      "end": 47.34,
+      "text": " We could use a global variable along with a function to increase the counter."
+    },
+    {
+      "number": "16",
+      "title": "JavaScript Closures",
+      "start": 47.34,
+      "end": 51.86,
+      "text": " The problem here is that any code on the page could change the counter without calling the"
+    },
+    {
+      "number": "16",
+      "title": "JavaScript Closures",
+      "start": 51.86,
+      "end": 52.94,
+      "text": " add function."
+    },
+    {
+      "number": "16",
+      "title": "JavaScript Closures",
+      "start": 52.94,
+      "end": 56.5,
+      "text": " So the variable should be local to the add function to protect it."
+    },
+    {
+      "number": "16",
+      "title": "JavaScript Closures",
+      "start": 56.5,
+      "end": 60.64,
+      "text": " So we could move the variable within the function and then return the counter, but this will"
+    },
+    {
+      "number": "16",
+      "title": "JavaScript Closures",
+      "start": 60.64,
+      "end": 65.14,
+      "text": " not work because we reset the local counter every time we call the function."
+    },
+    {
+      "number": "16",
+      "title": "JavaScript Closures",
+      "start": 65.14,
+      "end": 67.02,
+      "text": " An inner function can solve this."
+    },
+    {
+      "number": "16",
+      "title": "JavaScript Closures",
+      "start": 67.02,
+      "end": 72.16,
+      "text": " When nesting functions in JavaScript, all functions have access to the scope above them"
+    },
+    {
+      "number": "16",
+      "title": "JavaScript Closures",
+      "start": 72.16,
+      "end": 73.5,
+      "text": " because of closures."
+    },
+    {
+      "number": "16",
+      "title": "JavaScript Closures",
+      "start": 73.5,
+      "end": 77.9,
+      "text": " Here the plus function has access to the counter variable in the parent function."
+    },
+    {
+      "number": "16",
+      "title": "JavaScript Closures",
+      "start": 77.9,
+      "end": 80.02,
+      "text": " We're almost there, but not quite yet."
+    },
+    {
+      "number": "16",
+      "title": "JavaScript Closures",
+      "start": 80.02,
+      "end": 84.56,
+      "text": " We can't access the plus function from outside, and we're still resetting the counter every"
+    },
+    {
+      "number": "16",
+      "title": "JavaScript Closures",
+      "start": 84.56,
+      "end": 86.06,
+      "text": " time we call the function."
+    },
+    {
+      "number": "16",
+      "title": "JavaScript Closures",
+      "start": 86.06,
+      "end": 88.74,
+      "text": " This is where self-invoked functions come in handy."
+    },
+    {
+      "number": "16",
+      "title": "JavaScript Closures",
+      "start": 88.74,
+      "end": 93.74,
+      "text": " We'll change this into the variable add and define it as a self-invoked function by adding"
+    },
+    {
+      "number": "16",
+      "title": "JavaScript Closures",
+      "start": 93.74,
+      "end": 95.52,
+      "text": " the parentheses at the end."
+    },
+    {
+      "number": "16",
+      "title": "JavaScript Closures",
+      "start": 95.52,
+      "end": 100.02,
+      "text": " Because of this, the function will only run once, resetting the counter to zero and returning"
+    },
+    {
+      "number": "16",
+      "title": "JavaScript Closures",
+      "start": 100.02,
+      "end": 101.56,
+      "text": " a function expression."
+    },
+    {
+      "number": "16",
+      "title": "JavaScript Closures",
+      "start": 101.56,
+      "end": 105.62,
+      "text": " Now when we call the add function, we are accessing the inner function, but still have"
+    },
+    {
+      "number": "16",
+      "title": "JavaScript Closures",
+      "start": 105.62,
+      "end": 110.58,
+      "text": " access to the counter in the parent scope, even after the parent function has closed."
+    },
+    {
+      "number": "16",
+      "title": "JavaScript Closures",
+      "start": 110.58,
+      "end": 112.5,
+      "text": " All because of closures."
+    },
+    {
+      "number": "16",
+      "title": "JavaScript Closures",
+      "start": 112.5,
+      "end": 117.10000000000001,
+      "text": " JavaScript does not have a native way of creating a private method or variable, but by using"
+    },
+    {
+      "number": "16",
+      "title": "JavaScript Closures",
+      "start": 117.10000000000001,
+      "end": 120.14,
+      "text": " closures we can emulate private variables."
+    },
+    {
+      "number": "16",
+      "title": "JavaScript Closures",
+      "start": 120.14,
+      "end": 124.24000000000001,
+      "text": " Now the counter is protected by the scope of the anonymous function and can only be"
+    },
+    {
+      "number": "16",
+      "title": "JavaScript Closures",
+      "start": 124.24000000000001,
+      "end": 126.54,
+      "text": " changed using the add function."
+    },
+    {
+      "number": "16",
+      "title": "JavaScript Closures",
+      "start": 126.54,
+      "end": 130.18,
+      "text": " This has been a 90-ish second JavaScript January."
+    }
+  ],
+  "text": " The Mozilla documentation defines a closure as a combination of a function together with references to its surrounding state. The easy definition is, a closure gives you access to anything outside of the current scope. In JavaScript, closures are created every time a function is created. So this function is a closure and of course it has access to the variables within it. But if we move the variable outside of the function, we can see that it still has access to the variable. So here the function scope is a closure, but the global scope can also be accessed within the function. Here is another example. Suppose we have a counter and we want the counter to be available to all functions. We could use a global variable along with a function to increase the counter. The problem here is that any code on the page could change the counter without calling the add function. So the variable should be local to the add function to protect it. So we could move the variable within the function and then return the counter, but this will not work because we reset the local counter every time we call the function. An inner function can solve this. When nesting functions in JavaScript, all functions have access to the scope above them because of closures. Here the plus function has access to the counter variable in the parent function. We're almost there, but not quite yet. We can't access the plus function from outside, and we're still resetting the counter every time we call the function. This is where self-invoked functions come in handy. We'll change this into the variable add and define it as a self-invoked function by adding the parentheses at the end. Because of this, the function will only run once, resetting the counter to zero and returning a function expression. Now when we call the add function, we are accessing the inner function, but still have access to the counter in the parent scope, even after the parent function has closed. All because of closures. JavaScript does not have a native way of creating a private method or variable, but by using closures we can emulate private variables. Now the counter is protected by the scope of the anonymous function and can only be changed using the add function. This has been a 90-ish second JavaScript January."
+}

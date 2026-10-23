@@ -1,0 +1,201 @@
+{
+  "chunks": [
+    {
+      "number": "31",
+      "title": "JavaScript Classes",
+      "start": 0.0,
+      "end": 9.92,
+      "text": " In JavaScript, classes are like blueprints to create objects with."
+    },
+    {
+      "number": "31",
+      "title": "JavaScript Classes",
+      "start": 9.92,
+      "end": 14.76,
+      "text": " A class is a type of function, but instead of using the function keyword to initiate"
+    },
+    {
+      "number": "31",
+      "title": "JavaScript Classes",
+      "start": 14.76,
+      "end": 16.9,
+      "text": " it, we use the class keyword."
+    },
+    {
+      "number": "31",
+      "title": "JavaScript Classes",
+      "start": 16.9,
+      "end": 20.2,
+      "text": " Then the properties are assigned inside a constructor method."
+    },
+    {
+      "number": "31",
+      "title": "JavaScript Classes",
+      "start": 20.2,
+      "end": 25.560000000000002,
+      "text": " The constructor method is required and must have the exact name constructor."
+    },
+    {
+      "number": "31",
+      "title": "JavaScript Classes",
+      "start": 25.560000000000002,
+      "end": 29.2,
+      "text": " This method is called automatically when the class is initiated."
+    },
+    {
+      "number": "31",
+      "title": "JavaScript Classes",
+      "start": 29.2,
+      "end": 31.919999999999998,
+      "text": " So here we have a class named Person."
+    },
+    {
+      "number": "31",
+      "title": "JavaScript Classes",
+      "start": 31.919999999999998,
+      "end": 35.519999999999996,
+      "text": " Then in our constructor we are passing the property firstName."
+    },
+    {
+      "number": "31",
+      "title": "JavaScript Classes",
+      "start": 35.519999999999996,
+      "end": 39.68,
+      "text": " Then we assign this.firstName to be equal to firstName."
+    },
+    {
+      "number": "31",
+      "title": "JavaScript Classes",
+      "start": 39.68,
+      "end": 42.44,
+      "text": " So the Person now has a firstName."
+    },
+    {
+      "number": "31",
+      "title": "JavaScript Classes",
+      "start": 42.44,
+      "end": 48.36,
+      "text": " To initiate it, we declare a variable equal to newPerson and pass in our argument, John."
+    },
+    {
+      "number": "31",
+      "title": "JavaScript Classes",
+      "start": 48.36,
+      "end": 52.4,
+      "text": " Now we can log person1.firstName and we get our name."
+    },
+    {
+      "number": "31",
+      "title": "JavaScript Classes",
+      "start": 52.4,
+      "end": 57.44,
+      "text": " We can pass multiple arguments to the class by setting multiple properties in our constructor."
+    },
+    {
+      "number": "31",
+      "title": "JavaScript Classes",
+      "start": 57.44,
+      "end": 60.36,
+      "text": " Now within the class we can define other methods."
+    },
+    {
+      "number": "31",
+      "title": "JavaScript Classes",
+      "start": 60.36,
+      "end": 65.96,
+      "text": " Here we have the getFullName method that returns the first and last names concatenated."
+    },
+    {
+      "number": "31",
+      "title": "JavaScript Classes",
+      "start": 65.96,
+      "end": 69.42,
+      "text": " So we pass in our first and last names to initiate it."
+    },
+    {
+      "number": "31",
+      "title": "JavaScript Classes",
+      "start": 69.42,
+      "end": 72.16,
+      "text": " Then we can log the first name like we did before."
+    },
+    {
+      "number": "31",
+      "title": "JavaScript Classes",
+      "start": 72.16,
+      "end": 76.03999999999999,
+      "text": " And we can log the full name by using the getFullName method."
+    },
+    {
+      "number": "31",
+      "title": "JavaScript Classes",
+      "start": 76.03999999999999,
+      "end": 80.72,
+      "text": " Notice here to get a property we do not use parentheses, but when calling a method we"
+    },
+    {
+      "number": "31",
+      "title": "JavaScript Classes",
+      "start": 80.72,
+      "end": 81.72,
+      "text": " do."
+    },
+    {
+      "number": "31",
+      "title": "JavaScript Classes",
+      "start": 81.72,
+      "end": 84.78,
+      "text": " We can also pass arguments into our other class methods."
+    },
+    {
+      "number": "31",
+      "title": "JavaScript Classes",
+      "start": 84.78,
+      "end": 88.74,
+      "text": " Here we have another method called greeting and this accepts an argument."
+    },
+    {
+      "number": "31",
+      "title": "JavaScript Classes",
+      "start": 88.74,
+      "end": 93.52,
+      "text": " To call this we simply use person1.greeting and pass in the argument."
+    },
+    {
+      "number": "31",
+      "title": "JavaScript Classes",
+      "start": 93.52,
+      "end": 97.94,
+      "text": " It then has access to the argument and all other properties of the class."
+    },
+    {
+      "number": "31",
+      "title": "JavaScript Classes",
+      "start": 97.94,
+      "end": 103.62,
+      "text": " The idea behind this is to be able to create multiple instances of a predefined object."
+    },
+    {
+      "number": "31",
+      "title": "JavaScript Classes",
+      "start": 103.62,
+      "end": 108.58,
+      "text": " So we can create another person and now this instance contains all of this new person's"
+    },
+    {
+      "number": "31",
+      "title": "JavaScript Classes",
+      "start": 108.58,
+      "end": 109.58,
+      "text": " information."
+    },
+    {
+      "number": "31",
+      "title": "JavaScript Classes",
+      "start": 109.58,
+      "end": 112.26,
+      "text": " This has been a 90 second JavaScript January."
+    }
+  ],
+  "text": " In JavaScript, classes are like blueprints to create objects with. A class is a type of function, but instead of using the function keyword to initiate it, we use the class keyword. Then the properties are assigned inside a constructor method. The constructor method is required and must have the exact name constructor. This method is called automatically when the class is initiated. So here we have a class named Person. Then in our constructor we are passing the property firstName. Then we assign this.firstName to be equal to firstName. So the Person now has a firstName. To initiate it, we declare a variable equal to newPerson and pass in our argument, John. Now we can log person1.firstName and we get our name. We can pass multiple arguments to the class by setting multiple properties in our constructor. Now within the class we can define other methods. Here we have the getFullName method that returns the first and last names concatenated. So we pass in our first and last names to initiate it. Then we can log the first name like we did before. And we can log the full name by using the getFullName method. Notice here to get a property we do not use parentheses, but when calling a method we do. We can also pass arguments into our other class methods. Here we have another method called greeting and this accepts an argument. To call this we simply use person1.greeting and pass in the argument. It then has access to the argument and all other properties of the class. The idea behind this is to be able to create multiple instances of a predefined object. So we can create another person and now this instance contains all of this new person's information. This has been a 90 second JavaScript January."
+}

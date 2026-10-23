@@ -1,0 +1,222 @@
+{
+  "chunks": [
+    {
+      "number": "19",
+      "title": "JavaScript Array Map Method In 90 Seconds",
+      "start": 0.0,
+      "end": 10.84,
+      "text": " The map method creates a new array from the results of a function called on each element"
+    },
+    {
+      "number": "19",
+      "title": "JavaScript Array Map Method In 90 Seconds",
+      "start": 10.84,
+      "end": 14.66,
+      "text": " in another array, and it does not modify the original array."
+    },
+    {
+      "number": "19",
+      "title": "JavaScript Array Map Method In 90 Seconds",
+      "start": 14.66,
+      "end": 18.02,
+      "text": " Here we have an array with the numbers 1, 2, and 3."
+    },
+    {
+      "number": "19",
+      "title": "JavaScript Array Map Method In 90 Seconds",
+      "start": 18.02,
+      "end": 22.900000000000002,
+      "text": " We can call a function on each element using map() to return each number multiplied by"
+    },
+    {
+      "number": "19",
+      "title": "JavaScript Array Map Method In 90 Seconds",
+      "start": 22.900000000000002,
+      "end": 23.900000000000002,
+      "text": " 2."
+    },
+    {
+      "number": "19",
+      "title": "JavaScript Array Map Method In 90 Seconds",
+      "start": 23.900000000000002,
+      "end": 27.38,
+      "text": " So it's basically just a loop with the goal of creating a new array."
+    },
+    {
+      "number": "19",
+      "title": "JavaScript Array Map Method In 90 Seconds",
+      "start": 27.38,
+      "end": 29.28,
+      "text": " Here we have an array of objects."
+    },
+    {
+      "number": "19",
+      "title": "JavaScript Array Map Method In 90 Seconds",
+      "start": 29.28,
+      "end": 32.56,
+      "text": " In this array we have the first and last names of people."
+    },
+    {
+      "number": "19",
+      "title": "JavaScript Array Map Method In 90 Seconds",
+      "start": 32.56,
+      "end": 37.0,
+      "text": " Our goal is to create an array of strings containing the person's first and last names"
+    },
+    {
+      "number": "19",
+      "title": "JavaScript Array Map Method In 90 Seconds",
+      "start": 37.0,
+      "end": 38.0,
+      "text": " combined."
+    },
+    {
+      "number": "19",
+      "title": "JavaScript Array Map Method In 90 Seconds",
+      "start": 38.0,
+      "end": 43.04,
+      "text": " We can do this imperatively by creating a new empty array and using a for loop to push"
+    },
+    {
+      "number": "19",
+      "title": "JavaScript Array Map Method In 90 Seconds",
+      "start": 43.04,
+      "end": 45.52,
+      "text": " each individual name into the array."
+    },
+    {
+      "number": "19",
+      "title": "JavaScript Array Map Method In 90 Seconds",
+      "start": 45.52,
+      "end": 47.6,
+      "text": " Notice here how we're using statements."
+    },
+    {
+      "number": "19",
+      "title": "JavaScript Array Map Method In 90 Seconds",
+      "start": 47.6,
+      "end": 50.120000000000005,
+      "text": " This is known as imperative programming."
+    },
+    {
+      "number": "19",
+      "title": "JavaScript Array Map Method In 90 Seconds",
+      "start": 50.120000000000005,
+      "end": 52.16,
+      "text": " Map() on the other hand is declarative."
+    },
+    {
+      "number": "19",
+      "title": "JavaScript Array Map Method In 90 Seconds",
+      "start": 52.16,
+      "end": 55.32,
+      "text": " It defines how to create the new array using a function."
+    },
+    {
+      "number": "19",
+      "title": "JavaScript Array Map Method In 90 Seconds",
+      "start": 55.32,
+      "end": 59.36,
+      "text": " The new array is equal to the original array mapped to a function."
+    },
+    {
+      "number": "19",
+      "title": "JavaScript Array Map Method In 90 Seconds",
+      "start": 59.36,
+      "end": 64.16,
+      "text": " The function is passed as an argument to map() and is called on each element in the original"
+    },
+    {
+      "number": "19",
+      "title": "JavaScript Array Map Method In 90 Seconds",
+      "start": 64.16,
+      "end": 65.16,
+      "text": " array."
+    },
+    {
+      "number": "19",
+      "title": "JavaScript Array Map Method In 90 Seconds",
+      "start": 65.16,
+      "end": 69.96000000000001,
+      "text": " The function has access to the current element, the index, as well as the entire original"
+    },
+    {
+      "number": "19",
+      "title": "JavaScript Array Map Method In 90 Seconds",
+      "start": 69.96000000000001,
+      "end": 70.96000000000001,
+      "text": " array."
+    },
+    {
+      "number": "19",
+      "title": "JavaScript Array Map Method In 90 Seconds",
+      "start": 70.96000000000001,
+      "end": 75.03999999999999,
+      "text": " In the body of the function, the goal is to compute a new value and then return it."
+    },
+    {
+      "number": "19",
+      "title": "JavaScript Array Map Method In 90 Seconds",
+      "start": 75.03999999999999,
+      "end": 79.34,
+      "text": " We can also change this into an arrow function to further reduce the amount of code."
+    },
+    {
+      "number": "19",
+      "title": "JavaScript Array Map Method In 90 Seconds",
+      "start": 79.34,
+      "end": 84.4,
+      "text": " So by using map() we achieve our goal by using much less code than a for loop and without"
+    },
+    {
+      "number": "19",
+      "title": "JavaScript Array Map Method In 90 Seconds",
+      "start": 84.4,
+      "end": 86.4,
+      "text": " mutating the internal state."
+    },
+    {
+      "number": "19",
+      "title": "JavaScript Array Map Method In 90 Seconds",
+      "start": 86.4,
+      "end": 90.60000000000001,
+      "text": " Note that since map() builds a new array, using it when you're not using the returned"
+    },
+    {
+      "number": "19",
+      "title": "JavaScript Array Map Method In 90 Seconds",
+      "start": 90.60000000000001,
+      "end": 92.36,
+      "text": " array is an anti-pattern."
+    },
+    {
+      "number": "19",
+      "title": "JavaScript Array Map Method In 90 Seconds",
+      "start": 92.36,
+      "end": 96.74000000000001,
+      "text": " So you shouldn't use the map() method if you're not using the array it returns, nor"
+    },
+    {
+      "number": "19",
+      "title": "JavaScript Array Map Method In 90 Seconds",
+      "start": 96.74000000000001,
+      "end": 99.48,
+      "text": " when you're not returning a value from the callback."
+    },
+    {
+      "number": "19",
+      "title": "JavaScript Array Map Method In 90 Seconds",
+      "start": 99.48,
+      "end": 104.28,
+      "text": " In these cases, it would be better to use for each or a regular for loop instead."
+    },
+    {
+      "number": "19",
+      "title": "JavaScript Array Map Method In 90 Seconds",
+      "start": 104.28,
+      "end": 106.92,
+      "text": " This has been a 90 second JavaScript January."
+    }
+  ],
+  "text": " The map method creates a new array from the results of a function called on each element in another array, and it does not modify the original array. Here we have an array with the numbers 1, 2, and 3. We can call a function on each element using map() to return each number multiplied by 2. So it's basically just a loop with the goal of creating a new array. Here we have an array of objects. In this array we have the first and last names of people. Our goal is to create an array of strings containing the person's first and last names combined. We can do this imperatively by creating a new empty array and using a for loop to push each individual name into the array. Notice here how we're using statements. This is known as imperative programming. Map() on the other hand is declarative. It defines how to create the new array using a function. The new array is equal to the original array mapped to a function. The function is passed as an argument to map() and is called on each element in the original array. The function has access to the current element, the index, as well as the entire original array. In the body of the function, the goal is to compute a new value and then return it. We can also change this into an arrow function to further reduce the amount of code. So by using map() we achieve our goal by using much less code than a for loop and without mutating the internal state. Note that since map() builds a new array, using it when you're not using the returned array is an anti-pattern. So you shouldn't use the map() method if you're not using the array it returns, nor when you're not returning a value from the callback. In these cases, it would be better to use for each or a regular for loop instead. This has been a 90 second JavaScript January."
+}

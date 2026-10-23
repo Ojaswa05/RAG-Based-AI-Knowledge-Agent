@@ -1,0 +1,152 @@
+{
+    "chunks": [
+        {
+            "number": "3",
+            "title": "JavaScript Equality in 90 Seconds",
+            "start": 0.0,
+            "end": 8.2,
+            "text": " In JavaScript, there are many data types."
+        },
+        {
+            "number": "3",
+            "title": "JavaScript Equality in 90 Seconds",
+            "start": 8.2,
+            "end": 12.64,
+            "text": " There are strings, numbers, Boolean, null, and undefined."
+        },
+        {
+            "number": "3",
+            "title": "JavaScript Equality in 90 Seconds",
+            "start": 12.64,
+            "end": 16.240000000000002,
+            "text": " It's important to understand these types before comparing equality."
+        },
+        {
+            "number": "3",
+            "title": "JavaScript Equality in 90 Seconds",
+            "start": 16.240000000000002,
+            "end": 19.28,
+            "text": " There are two ways to compare or check for equality."
+        },
+        {
+            "number": "3",
+            "title": "JavaScript Equality in 90 Seconds",
+            "start": 19.28,
+            "end": 22.16,
+            "text": " We can use the double equal or triple equal."
+        },
+        {
+            "number": "3",
+            "title": "JavaScript Equality in 90 Seconds",
+            "start": 22.16,
+            "end": 27.2,
+            "text": " In this example, the double equal returns true, but the triple equal returns false."
+        },
+        {
+            "number": "3",
+            "title": "JavaScript Equality in 90 Seconds",
+            "start": 27.2,
+            "end": 32.08,
+            "text": " This is because the double equal checks for abstract equality, which means that it actually"
+        },
+        {
+            "number": "3",
+            "title": "JavaScript Equality in 90 Seconds",
+            "start": 32.08,
+            "end": 35.76,
+            "text": " tries to convert the type using type coercion."
+        },
+        {
+            "number": "3",
+            "title": "JavaScript Equality in 90 Seconds",
+            "start": 35.76,
+            "end": 39.44,
+            "text": " So it converted the string 5 into the number 5."
+        },
+        {
+            "number": "3",
+            "title": "JavaScript Equality in 90 Seconds",
+            "start": 39.44,
+            "end": 44.96,
+            "text": " The triple equal checks for strict equality, so here the data types must match."
+        },
+        {
+            "number": "3",
+            "title": "JavaScript Equality in 90 Seconds",
+            "start": 44.96,
+            "end": 47.92,
+            "text": " We can do the same thing with Boolean values."
+        },
+        {
+            "number": "3",
+            "title": "JavaScript Equality in 90 Seconds",
+            "start": 47.92,
+            "end": 52.32,
+            "text": " Here with the double equal, the number 1 is being converted into the Boolean true, and"
+        },
+        {
+            "number": "3",
+            "title": "JavaScript Equality in 90 Seconds",
+            "start": 52.32,
+            "end": 57.44,
+            "text": " with the triple equal, the data types do not match, so it returns false."
+        },
+        {
+            "number": "3",
+            "title": "JavaScript Equality in 90 Seconds",
+            "start": 57.44,
+            "end": 62.56,
+            "text": " One last example that is interesting is comparing a string literal to an object literal."
+        },
+        {
+            "number": "3",
+            "title": "JavaScript Equality in 90 Seconds",
+            "start": 62.56,
+            "end": 66.92,
+            "text": " With the double equal, the object literal is being converted into a string literal,"
+        },
+        {
+            "number": "3",
+            "title": "JavaScript Equality in 90 Seconds",
+            "start": 66.92,
+            "end": 71.03999999999999,
+            "text": " and with the triple equal, it fails because the data types do not match."
+        },
+        {
+            "number": "3",
+            "title": "JavaScript Equality in 90 Seconds",
+            "start": 71.03999999999999,
+            "end": 75.76,
+            "text": " In general, it's always best to use strict equality testing with the triple equal."
+        },
+        {
+            "number": "3",
+            "title": "JavaScript Equality in 90 Seconds",
+            "start": 75.76,
+            "end": 79.74000000000001,
+            "text": " This way, you will not run into any false positive issues in your code."
+        },
+        {
+            "number": "3",
+            "title": "JavaScript Equality in 90 Seconds",
+            "start": 79.74,
+            "end": 84.5,
+            "text": " As a best practice, if you do need to check equality on different data types, do the conversion"
+        },
+        {
+            "number": "3",
+            "title": "JavaScript Equality in 90 Seconds",
+            "start": 84.5,
+            "end": 87.19999999999999,
+            "text": " yourself first, then check for equality."
+        },
+        {
+            "number": "3",
+            "title": "JavaScript Equality in 90 Seconds",
+            "start": 87.19999999999999,
+            "end": 89.66,
+            "text": " This has been a 90-second JavaScript January."
+        }
+    ],
+    "text": " In JavaScript, there are many data types. There are strings, numbers, Boolean, null, and undefined. It's important to understand these types before comparing equality. There are two ways to compare or check for equality. We can use the double equal or triple equal. In this example, the double equal returns true, but the triple equal returns false. This is because the double equal checks for abstract equality, which means that it actually tries to convert the type using type coercion. So it converted the string 5 into the number 5. The triple equal checks for strict equality, so here the data types must match. We can do the same thing with Boolean values. Here with the double equal, the number 1 is being converted into the Boolean true, and with the triple equal, the data types do not match, so it returns false. One last example that is interesting is comparing a string literal to an object literal. With the double equal, the object literal is being converted into a string literal, and with the triple equal, it fails because the data types do not match. In general, it's always best to use strict equality testing with the triple equal. This way, you will not run into any false positive issues in your code. As a best practice, if you do need to check equality on different data types, do the conversion yourself first, then check for equality. This has been a 90-second JavaScript January."
+}

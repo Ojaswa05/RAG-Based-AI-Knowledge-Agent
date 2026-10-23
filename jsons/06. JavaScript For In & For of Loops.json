@@ -1,0 +1,244 @@
+{
+    "chunks": [
+        {
+            "number": "6",
+            "title": "JavaScript For In & For of Loops",
+            "start": 0.0,
+            "end": 10.32,
+            "text": " 4IN and 4OF are ways to loop through objects and arrays."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For In & For of Loops",
+            "start": 10.32,
+            "end": 13.4,
+            "text": " 4IN loops through property names of an object."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For In & For of Loops",
+            "start": 13.4,
+            "end": 18.36,
+            "text": " Remember that objects are made up of property or key value pairs."
+        },
+        {
+            
+            "number": "6",
+            "title": "JavaScript For In & For of Loops",
+            "start": 18.36,
+            "end": 24.080000000000002,
+            "text": " So here we have an object called posts and in this object we have the properties of id,"
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For In & For of Loops",
+            "start": 24.080000000000002,
+            "end": 25.8,
+            "text": " title and body."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For In & For of Loops",
+            "start": 25.8,
+            "end": 27.88,
+            "text": " Next to those are the values of each."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For In & For of Loops",
+            "start": 27.88,
+            "end": 30.919999999999998,
+            "text": " This is the basic syntax of a 4IN loop."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For In & For of Loops",
+            "start": 30.919999999999998,
+            "end": 35.56,
+            "text": " We start with the keyword for, then within parentheses we create a variable."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For In & For of Loops",
+            "start": 35.56,
+            "end": 37.32,
+            "text": " Then we have the keyword in."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For In & For of Loops",
+            "start": 37.32,
+            "end": 40.519999999999996,
+            "text": " Then we include the object that we are iterating through."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For In & For of Loops",
+            "start": 40.519999999999996,
+            "end": 43.879999999999995,
+            "text": " After that will be our execution code within curly braces."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For In & For of Loops",
+            "start": 43.879999999999995,
+            "end": 47.22,
+            "text": " So using our posts object we can set it up like this."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For In & For of Loops",
+            "start": 47.22,
+            "end": 53.120000000000005,
+            "text": " The variable that we are creating will call post and then in posts which is the object."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For In & For of Loops",
+            "start": 53.12,
+            "end": 58.08,
+            "text": " Now when we console log the post variable we are getting all of the properties or keys."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For In & For of Loops",
+            "start": 58.08,
+            "end": 62.8,
+            "text": " In order to get the values we will need to reference the original object posts and use"
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For In & For of Loops",
+            "start": 62.8,
+            "end": 65.2,
+            "text": " square brackets to define the property."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For In & For of Loops",
+            "start": 65.2,
+            "end": 68.16,
+            "text": " Now in our console log we are getting all of the values."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For In & For of Loops",
+            "start": 68.16,
+            "end": 70.75999999999999,
+            "text": " 4IN will work with an array."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For In & For of Loops",
+            "start": 70.75999999999999,
+            "end": 74.08,
+            "text": " Instead of a named property it will use the index of each value."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For In & For of Loops",
+            "start": 74.08,
+            "end": 78.32,
+            "text": " So here we are getting 0, 1, 2, 3 and 4 in our console."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For In & For of Loops",
+            "start": 78.32,
+            "end": 81.46,
+            "text": " We can see that those are the indices of each value."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For In & For of Loops",
+            "start": 81.46,
+            "end": 85.36,
+            "text": " In order to get the values we would have to reference the original array and use square"
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For In & For of Loops",
+            "start": 85.36,
+            "end": 88.02,
+            "text": " brackets to define the index of the value."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For In & For of Loops",
+            "start": 88.02,
+            "end": 90.89999999999999,
+            "text": " A better solution would be to use for of."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For In & For of Loops",
+            "start": 90.89999999999999,
+            "end": 94.89999999999999,
+            "text": " For of loops iterate through items in a collection such as an array."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For In & For of Loops",
+            "start": 94.89999999999999,
+            "end": 97.85999999999999,
+            "text": " Here is the basic syntax of a for of loop."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For In & For of Loops",
+            "start": 97.85999999999999,
+            "end": 103.25999999999999,
+            "text": " It's very similar to the 4IN except this time we are using the of keyword and passing it"
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For In & For of Loops",
+            "start": 103.25999999999999,
+            "end": 105.66,
+            "text": " an iterable instead of an object."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For In & For of Loops",
+            "start": 105.66,
+            "end": 110.25999999999999,
+            "text": " So if we use a for of loop with this array then we will not have to reference the original"
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For In & For of Loops",
+            "start": 110.26,
+            "end": 111.98,
+            "text": " array using indices."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For In & For of Loops",
+            "start": 111.98,
+            "end": 114.34,
+            "text": " It will just give us the value directly."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For In & For of Loops",
+            "start": 114.34,
+            "end": 118.82000000000001,
+            "text": " Note that for of will not work with objects because they are not iterable."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For In & For of Loops",
+            "start": 118.82000000000001,
+            "end": 123.94,
+            "text": " And just remember that 4IN is for objects and 4OF is for arrays."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For In & For of Loops",
+            "start": 123.94,
+            "end": 127.54,
+            "text": " This has been a 90ish second JavaScript January."
+        }
+    ],
+    "text": " 4IN and 4OF are ways to loop through objects and arrays. 4IN loops through property names of an object. Remember that objects are made up of property or key value pairs. So here we have an object called posts and in this object we have the properties of id, title and body. Next to those are the values of each. This is the basic syntax of a 4IN loop. We start with the keyword for, then within parentheses we create a variable. Then we have the keyword in. Then we include the object that we are iterating through. After that will be our execution code within curly braces. So using our posts object we can set it up like this. The variable that we are creating will call post and then in posts which is the object. Now when we console log the post variable we are getting all of the properties or keys. In order to get the values we will need to reference the original object posts and use square brackets to define the property. Now in our console log we are getting all of the values. 4IN will work with an array. Instead of a named property it will use the index of each value. So here we are getting 0, 1, 2, 3 and 4 in our console. We can see that those are the indices of each value. In order to get the values we would have to reference the original array and use square brackets to define the index of the value. A better solution would be to use for of. For of loops iterate through items in a collection such as an array. Here is the basic syntax of a for of loop. It's very similar to the 4IN except this time we are using the of keyword and passing it an iterable instead of an object. So if we use a for of loop with this array then we will not have to reference the original array using indices. It will just give us the value directly. Note that for of will not work with objects because they are not iterable. And just remember that 4IN is for objects and 4OF is for arrays. This has been a 90ish second JavaScript January."
+}

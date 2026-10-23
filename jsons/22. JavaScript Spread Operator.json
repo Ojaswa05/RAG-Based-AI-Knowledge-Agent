@@ -1,0 +1,306 @@
+{
+  "chunks": [
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 0.0,
+      "end": 11.36,
+      "text": " The Spread operator, represented by three dots, allows you to spread or expand an iterable"
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 11.36,
+      "end": 16.32,
+      "text": " such as an array, a string or even an object into its individual elements."
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 16.32,
+      "end": 21.080000000000002,
+      "text": " The spread operator can be used in function calls, array literals and object literals."
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 21.080000000000002,
+      "end": 24.36,
+      "text": " Here's the basic syntax for using it in a function call."
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 24.36,
+      "end": 28.900000000000002,
+      "text": " We have our iterable object and we just add the dot dot dot at the beginning."
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 28.9,
+      "end": 31.22,
+      "text": " In this example we're adding up some numbers."
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 31.22,
+      "end": 34.58,
+      "text": " To pass our numbers to the function we use the spread operator."
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 34.58,
+      "end": 37.06,
+      "text": " The function only accepts the first three elements."
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 37.06,
+      "end": 41.12,
+      "text": " So if our array were to have more than three, the function would ignore everything after"
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 41.12,
+      "end": 42.12,
+      "text": " the third."
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 42.12,
+      "end": 46.42,
+      "text": " Here's the basic syntax for using the spread operator with array literals or strings."
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 46.42,
+      "end": 49.68,
+      "text": " In this example we can easily combine and organize arrays."
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 49.68,
+      "end": 54.3,
+      "text": " To accomplish this without using spread we would have to use methods like push, splice,"
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 54.3,
+      "end": 55.58,
+      "text": " concat, etc."
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 55.58,
+      "end": 58.98,
+      "text": " We can also spread out the characters of a string into an array."
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 58.98,
+      "end": 63.199999999999996,
+      "text": " One of the best cases to use the spread operator is to make a copy of an array."
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 63.199999999999996,
+      "end": 66.64,
+      "text": " This comes in very handy when you're using a framework like React."
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 66.64,
+      "end": 70.74,
+      "text": " We could make a copy of the array by making the new variable equal to the original."
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 70.74,
+      "end": 73.02,
+      "text": " But this is not really a copy."
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 73.02,
+      "end": 74.5,
+      "text": " Arrays are reference types."
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 74.5,
+      "end": 77.46,
+      "text": " So both of these are actually linked to the same data."
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 77.46,
+      "end": 81.98,
+      "text": " So now if we were to update the copy by pushing something into it, we see that not only is"
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 81.98,
+      "end": 84.8,
+      "text": " the copy updated, but the original is as well."
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 84.8,
+      "end": 88.84,
+      "text": " So to make a proper copy of this array, we can use the spread operator."
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 88.84,
+      "end": 92.44,
+      "text": " Now when we update the copy, the original remains unchanged."
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 92.44,
+      "end": 96.66,
+      "text": " Note that spread only does a shallow copy of the array, which means that it only goes"
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 96.66,
+      "end": 97.96,
+      "text": " one level deep."
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 97.96,
+      "end": 101.8,
+      "text": " It's important to understand this if you are working with multidimensional arrays."
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 101.8,
+      "end": 105.12,
+      "text": " Here's the basic syntax for using spread with object literals."
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 105.12,
+      "end": 107.88,
+      "text": " In this example we make a clone of this object."
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 107.88,
+      "end": 110.24,
+      "text": " This works the same way as with array literals."
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 110.24,
+      "end": 112.72,
+      "text": " Lastly, I want to show you the rest operator."
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 112.72,
+      "end": 113.72,
+      "text": " Here's the basic syntax."
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 113.72,
+      "end": 115.84,
+      "text": " But wait, isn't this a spread operator?"
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 115.84,
+      "end": 118.88,
+      "text": " Yep, just to confuse you, they look exactly the same."
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 118.88,
+      "end": 123.2,
+      "text": " It's the context of where they are used that defines whether it's a spread operator or"
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 123.2,
+      "end": 124.4,
+      "text": " a rest operator."
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 124.4,
+      "end": 129.64,
+      "text": " So to reiterate, the spread operator spreads out or expands an iterable into its individual"
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 129.64,
+      "end": 130.64,
+      "text": " elements."
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 130.64,
+      "end": 134.96,
+      "text": " In this example, we are using it as an argument in this function, so the rest operator does"
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 134.96,
+      "end": 135.96,
+      "text": " the opposite."
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 135.96,
+      "end": 140.54,
+      "text": " It collects or condenses all of the elements into a single array instance."
+    },
+    {
+      "number": "22",
+      "title": "JavaScript Spread Operator",
+      "start": 140.54,
+      "end": 143.1,
+      "text": " This has been a 90-second JavaScript January."
+    }
+  ],
+  "text": " The Spread operator, represented by three dots, allows you to spread or expand an iterable such as an array, a string or even an object into its individual elements. The spread operator can be used in function calls, array literals and object literals. Here's the basic syntax for using it in a function call. We have our iterable object and we just add the dot dot dot at the beginning. In this example we're adding up some numbers. To pass our numbers to the function we use the spread operator. The function only accepts the first three elements. So if our array were to have more than three, the function would ignore everything after the third. Here's the basic syntax for using the spread operator with array literals or strings. In this example we can easily combine and organize arrays. To accomplish this without using spread we would have to use methods like push, splice, concat, etc. We can also spread out the characters of a string into an array. One of the best cases to use the spread operator is to make a copy of an array. This comes in very handy when you're using a framework like React. We could make a copy of the array by making the new variable equal to the original. But this is not really a copy. Arrays are reference types. So both of these are actually linked to the same data. So now if we were to update the copy by pushing something into it, we see that not only is the copy updated, but the original is as well. So to make a proper copy of this array, we can use the spread operator. Now when we update the copy, the original remains unchanged. Note that spread only does a shallow copy of the array, which means that it only goes one level deep. It's important to understand this if you are working with multidimensional arrays. Here's the basic syntax for using spread with object literals. In this example we make a clone of this object. This works the same way as with array literals. Lastly, I want to show you the rest operator. Here's the basic syntax. But wait, isn't this a spread operator? Yep, just to confuse you, they look exactly the same. It's the context of where they are used that defines whether it's a spread operator or a rest operator. So to reiterate, the spread operator spreads out or expands an iterable into its individual elements. In this example, we are using it as an argument in this function, so the rest operator does the opposite. It collects or condenses all of the elements into a single array instance. This has been a 90-second JavaScript January."
+}

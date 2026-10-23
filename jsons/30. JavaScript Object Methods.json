@@ -1,0 +1,145 @@
+{
+  "chunks": [
+    {
+      "number": "30",
+      "title": "JavaScript Object Methods",
+      "start": 0.0,
+      "end": 11.120000000000001,
+      "text": " In JavaScript, there are several methods that can be used to convert objects into arrays."
+    },
+    {
+      "number": "30",
+      "title": "JavaScript Object Methods",
+      "start": 11.120000000000001,
+      "end": 14.040000000000001,
+      "text": " But why would we want to convert an object into an array?"
+    },
+    {
+      "number": "30",
+      "title": "JavaScript Object Methods",
+      "start": 14.040000000000001,
+      "end": 17.94,
+      "text": " There could be many reasons, but one is to make the object iterable."
+    },
+    {
+      "number": "30",
+      "title": "JavaScript Object Methods",
+      "start": 17.94,
+      "end": 20.02,
+      "text": " Iterable basically means to loop through."
+    },
+    {
+      "number": "30",
+      "title": "JavaScript Object Methods",
+      "start": 20.02,
+      "end": 25.560000000000002,
+      "text": " With an array, we have many methods that are not available on objects, such as forEach,"
+    },
+    {
+      "number": "30",
+      "title": "JavaScript Object Methods",
+      "start": 25.560000000000002,
+      "end": 29.18,
+      "text": " filter, map, reduce, and many others."
+    },
+    {
+      "number": "30",
+      "title": "JavaScript Object Methods",
+      "start": 29.18,
+      "end": 32.7,
+      "text": " The first method that we'll look at is object.keys."
+    },
+    {
+      "number": "30",
+      "title": "JavaScript Object Methods",
+      "start": 32.7,
+      "end": 33.9,
+      "text": " Here is our object."
+    },
+    {
+      "number": "30",
+      "title": "JavaScript Object Methods",
+      "start": 33.9,
+      "end": 38.86,
+      "text": " If we simply want to get all of the keys, then we can use object.keys and pass in the"
+    },
+    {
+      "number": "30",
+      "title": "JavaScript Object Methods",
+      "start": 38.86,
+      "end": 40.76,
+      "text": " object that we want to convert."
+    },
+    {
+      "number": "30",
+      "title": "JavaScript Object Methods",
+      "start": 40.76,
+      "end": 43.5,
+      "text": " This will return an array with all of the keys."
+    },
+    {
+      "number": "30",
+      "title": "JavaScript Object Methods",
+      "start": 43.5,
+      "end": 48.82,
+      "text": " Similarly, if we just want to get all of the values, then we can use object.values and"
+    },
+    {
+      "number": "30",
+      "title": "JavaScript Object Methods",
+      "start": 48.82,
+      "end": 51.18,
+      "text": " pass in the object that we want to convert."
+    },
+    {
+      "number": "30",
+      "title": "JavaScript Object Methods",
+      "start": 51.18,
+      "end": 54.16,
+      "text": " This will return an array with all of the values."
+    },
+    {
+      "number": "30",
+      "title": "JavaScript Object Methods",
+      "start": 54.16,
+      "end": 59.48,
+      "text": " And lastly, if we want to get both the keys and the values, we can use object.entries"
+    },
+    {
+      "number": "30",
+      "title": "JavaScript Object Methods",
+      "start": 59.48,
+      "end": 62.04,
+      "text": " and pass in the object that we want to convert."
+    },
+    {
+      "number": "30",
+      "title": "JavaScript Object Methods",
+      "start": 62.04,
+      "end": 66.8,
+      "text": " This will return a multidimensional array with both the keys and the values."
+    },
+    {
+      "number": "30",
+      "title": "JavaScript Object Methods",
+      "start": 66.8,
+      "end": 71.12,
+      "text": " By using one of these methods, we can now more easily filter or manipulate the data"
+    },
+    {
+      "number": "30",
+      "title": "JavaScript Object Methods",
+      "start": 71.12,
+      "end": 72.16,
+      "text": " as needed."
+    },
+    {
+      "number": "30",
+      "title": "JavaScript Object Methods",
+      "start": 72.16,
+      "end": 74.88,
+      "text": " This has been a 90-second JavaScript January."
+    }
+  ],
+  "text": " In JavaScript, there are several methods that can be used to convert objects into arrays. But why would we want to convert an object into an array? There could be many reasons, but one is to make the object iterable. Iterable basically means to loop through. With an array, we have many methods that are not available on objects, such as forEach, filter, map, reduce, and many others. The first method that we'll look at is object.keys. Here is our object. If we simply want to get all of the keys, then we can use object.keys and pass in the object that we want to convert. This will return an array with all of the keys. Similarly, if we just want to get all of the values, then we can use object.values and pass in the object that we want to convert. This will return an array with all of the values. And lastly, if we want to get both the keys and the values, we can use object.entries and pass in the object that we want to convert. This will return a multidimensional array with both the keys and the values. By using one of these methods, we can now more easily filter or manipulate the data as needed. This has been a 90-second JavaScript January."
+}

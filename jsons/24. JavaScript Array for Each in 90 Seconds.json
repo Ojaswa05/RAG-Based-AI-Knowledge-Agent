@@ -1,0 +1,131 @@
+{
+  "chunks": [
+    {
+      "number": "24",
+      "title": "JavaScript Array for Each in 90 Seconds",
+      "start": 0.0,
+      "end": 11.52,
+      "text": " ForEach is a high-order array method that executes the provided callback once for each"
+    },
+    {
+      "number": "24",
+      "title": "JavaScript Array for Each in 90 Seconds",
+      "start": 11.52,
+      "end": 13.200000000000001,
+      "text": " element in the array."
+    },
+    {
+      "number": "24",
+      "title": "JavaScript Array for Each in 90 Seconds",
+      "start": 13.200000000000001,
+      "end": 15.98,
+      "text": " Here is the basic syntax of ForEach."
+    },
+    {
+      "number": "24",
+      "title": "JavaScript Array for Each in 90 Seconds",
+      "start": 15.98,
+      "end": 19.64,
+      "text": " First we reference the array, then add .forEach."
+    },
+    {
+      "number": "24",
+      "title": "JavaScript Array for Each in 90 Seconds",
+      "start": 19.64,
+      "end": 22.64,
+      "text": " Within ForEach we put our function or callback."
+    },
+    {
+      "number": "24",
+      "title": "JavaScript Array for Each in 90 Seconds",
+      "start": 22.64,
+      "end": 25.38,
+      "text": " The callback can have up to three arguments."
+    },
+    {
+      "number": "24",
+      "title": "JavaScript Array for Each in 90 Seconds",
+      "start": 25.38,
+      "end": 31.74,
+      "text": " The current element value, the current element index, and the current array being iterated."
+    },
+    {
+      "number": "24",
+      "title": "JavaScript Array for Each in 90 Seconds",
+      "start": 31.74,
+      "end": 35.18,
+      "text": " To iterate basically means to loop through each item."
+    },
+    {
+      "number": "24",
+      "title": "JavaScript Array for Each in 90 Seconds",
+      "start": 35.18,
+      "end": 40.22,
+      "text": " Here we have an array and we simply want to log each element in the array individually."
+    },
+    {
+      "number": "24",
+      "title": "JavaScript Array for Each in 90 Seconds",
+      "start": 40.22,
+      "end": 44.84,
+      "text": " So we could use a simple for loop using our index to accomplish this."
+    },
+    {
+      "number": "24",
+      "title": "JavaScript Array for Each in 90 Seconds",
+      "start": 44.84,
+      "end": 48.32,
+      "text": " But instead of a for loop we can use ForEach."
+    },
+    {
+      "number": "24",
+      "title": "JavaScript Array for Each in 90 Seconds",
+      "start": 48.32,
+      "end": 51.980000000000004,
+      "text": " Now we include our function with the arguments we need."
+    },
+    {
+      "number": "24",
+      "title": "JavaScript Array for Each in 90 Seconds",
+      "start": 51.980000000000004,
+      "end": 54.34,
+      "text": " Then simply log the value."
+    },
+    {
+      "number": "24",
+      "title": "JavaScript Array for Each in 90 Seconds",
+      "start": 54.34,
+      "end": 58.580000000000005,
+      "text": " Here we are not even using our index so we can omit that from our code."
+    },
+    {
+      "number": "24",
+      "title": "JavaScript Array for Each in 90 Seconds",
+      "start": 58.580000000000005,
+      "end": 62.78,
+      "text": " We can further simplify this by turning it into an arrow function."
+    },
+    {
+      "number": "24",
+      "title": "JavaScript Array for Each in 90 Seconds",
+      "start": 62.78,
+      "end": 69.66,
+      "text": " High-order array methods make tasks like this more simple, expressive, readable, reusable,"
+    },
+    {
+      "number": "24",
+      "title": "JavaScript Array for Each in 90 Seconds",
+      "start": 69.66,
+      "end": 72.22,
+      "text": " maintainable, and elegant."
+    },
+    {
+      "number": "24",
+      "title": "JavaScript Array for Each in 90 Seconds",
+      "start": 72.22,
+      "end": 74.98,
+      "text": " This has been a 90-second JavaScript January."
+    }
+  ],
+  "text": " ForEach is a high-order array method that executes the provided callback once for each element in the array. Here is the basic syntax of ForEach. First we reference the array, then add .forEach. Within ForEach we put our function or callback. The callback can have up to three arguments. The current element value, the current element index, and the current array being iterated. To iterate basically means to loop through each item. Here we have an array and we simply want to log each element in the array individually. So we could use a simple for loop using our index to accomplish this. But instead of a for loop we can use ForEach. Now we include our function with the arguments we need. Then simply log the value. Here we are not even using our index so we can omit that from our code. We can further simplify this by turning it into an arrow function. High-order array methods make tasks like this more simple, expressive, readable, reusable, maintainable, and elegant. This has been a 90-second JavaScript January."
+}

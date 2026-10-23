@@ -1,0 +1,222 @@
+{
+  "chunks": [
+    {
+      "number": "27",
+      "title": "JavaScript Fetch API",
+      "start": 0.0,
+      "end": 9.92,
+      "text": " The Fetch API makes it easy to retrieve data from an external source."
+    },
+    {
+      "number": "27",
+      "title": "JavaScript Fetch API",
+      "start": 9.92,
+      "end": 11.84,
+      "text": " Here's the basic syntax."
+    },
+    {
+      "number": "27",
+      "title": "JavaScript Fetch API",
+      "start": 11.84,
+      "end": 15.24,
+      "text": " The first parameter is the URL that will provide the data."
+    },
+    {
+      "number": "27",
+      "title": "JavaScript Fetch API",
+      "start": 15.24,
+      "end": 19.56,
+      "text": " The second parameter is optional and is an object containing options."
+    },
+    {
+      "number": "27",
+      "title": "JavaScript Fetch API",
+      "start": 19.56,
+      "end": 23.28,
+      "text": " In this example, we are retrieving a list of to-do tasks."
+    },
+    {
+      "number": "27",
+      "title": "JavaScript Fetch API",
+      "start": 23.28,
+      "end": 27.64,
+      "text": " Fetch is promise-based, so we will use .then to get our response."
+    },
+    {
+      "number": "27",
+      "title": "JavaScript Fetch API",
+      "start": 27.64,
+      "end": 30.26,
+      "text": " The response contains our headers and data."
+    },
+    {
+      "number": "27",
+      "title": "JavaScript Fetch API",
+      "start": 30.26,
+      "end": 33.96,
+      "text": " In order to consume the data, we will need to convert it into JSON."
+    },
+    {
+      "number": "27",
+      "title": "JavaScript Fetch API",
+      "start": 33.96,
+      "end": 36.56,
+      "text": " So we return response.json."
+    },
+    {
+      "number": "27",
+      "title": "JavaScript Fetch API",
+      "start": 36.56,
+      "end": 41.68,
+      "text": " Once that is returned, it will move into the next .then and now we can do something with"
+    },
+    {
+      "number": "27",
+      "title": "JavaScript Fetch API",
+      "start": 41.68,
+      "end": 42.9,
+      "text": " the JSON data."
+    },
+    {
+      "number": "27",
+      "title": "JavaScript Fetch API",
+      "start": 42.9,
+      "end": 46.260000000000005,
+      "text": " This example will return 200 to-do tasks."
+    },
+    {
+      "number": "27",
+      "title": "JavaScript Fetch API",
+      "start": 46.260000000000005,
+      "end": 51.32,
+      "text": " In this next example, we are only asking for the to-do task with the ID of 1."
+    },
+    {
+      "number": "27",
+      "title": "JavaScript Fetch API",
+      "start": 51.32,
+      "end": 56.8,
+      "text": " In our console, we will see the ID, title, completion status, and user ID."
+    },
+    {
+      "number": "27",
+      "title": "JavaScript Fetch API",
+      "start": 56.8,
+      "end": 60.919999999999995,
+      "text": " By default, without any options, Fetch uses the get method."
+    },
+    {
+      "number": "27",
+      "title": "JavaScript Fetch API",
+      "start": 60.919999999999995,
+      "end": 63.48,
+      "text": " We can also use other methods with Fetch."
+    },
+    {
+      "number": "27",
+      "title": "JavaScript Fetch API",
+      "start": 63.48,
+      "end": 65.03999999999999,
+      "text": " That's where the options come in."
+    },
+    {
+      "number": "27",
+      "title": "JavaScript Fetch API",
+      "start": 65.03999999999999,
+      "end": 68.67999999999999,
+      "text": " In this example, we are going to create a new to-do task."
+    },
+    {
+      "number": "27",
+      "title": "JavaScript Fetch API",
+      "start": 68.67999999999999,
+      "end": 72.08,
+      "text": " After our URL, we will include our options object."
+    },
+    {
+      "number": "27",
+      "title": "JavaScript Fetch API",
+      "start": 72.08,
+      "end": 75.82,
+      "text": " The first option will be the method, and we will use post."
+    },
+    {
+      "number": "27",
+      "title": "JavaScript Fetch API",
+      "start": 75.82,
+      "end": 79.2,
+      "text": " Next we'll include the data that we want to send in the body."
+    },
+    {
+      "number": "27",
+      "title": "JavaScript Fetch API",
+      "start": 79.2,
+      "end": 83.56,
+      "text": " In order to send it properly, we have to wrap it in JSON.stringify."
+    },
+    {
+      "number": "27",
+      "title": "JavaScript Fetch API",
+      "start": 83.56,
+      "end": 89.48,
+      "text": " And lastly, we include our headers option with our content type set to application.json."
+    },
+    {
+      "number": "27",
+      "title": "JavaScript Fetch API",
+      "start": 89.48,
+      "end": 95.06,
+      "text": " After that, we have our first .then that receives the response and processes the JSON."
+    },
+    {
+      "number": "27",
+      "title": "JavaScript Fetch API",
+      "start": 95.06,
+      "end": 98.62,
+      "text": " Then our second .then can do something with the response data."
+    },
+    {
+      "number": "27",
+      "title": "JavaScript Fetch API",
+      "start": 98.62,
+      "end": 103.88,
+      "text": " In this instance, we receive the data that we sent along with an ID that the server added."
+    },
+    {
+      "number": "27",
+      "title": "JavaScript Fetch API",
+      "start": 103.88,
+      "end": 107.9,
+      "text": " Initially there were 200 entries, and now there are 201."
+    },
+    {
+      "number": "27",
+      "title": "JavaScript Fetch API",
+      "start": 107.9,
+      "end": 112.56,
+      "text": " There are other factors to consider when using Fetch, such as error handling."
+    },
+    {
+      "number": "27",
+      "title": "JavaScript Fetch API",
+      "start": 112.56,
+      "end": 119.24000000000001,
+      "text": " Note that if you receive an error status such as a 404 error, Fetch will still resolve successfully."
+    },
+    {
+      "number": "27",
+      "title": "JavaScript Fetch API",
+      "start": 119.24000000000001,
+      "end": 121.8,
+      "text": " So you will need to do some extra error handling."
+    },
+    {
+      "number": "27",
+      "title": "JavaScript Fetch API",
+      "start": 121.8,
+      "end": 124.56,
+      "text": " This has been a 90-second JavaScript January."
+    }
+  ],
+  "text": " The Fetch API makes it easy to retrieve data from an external source. Here's the basic syntax. The first parameter is the URL that will provide the data. The second parameter is optional and is an object containing options. In this example, we are retrieving a list of to-do tasks. Fetch is promise-based, so we will use .then to get our response. The response contains our headers and data. In order to consume the data, we will need to convert it into JSON. So we return response.json. Once that is returned, it will move into the next .then and now we can do something with the JSON data. This example will return 200 to-do tasks. In this next example, we are only asking for the to-do task with the ID of 1. In our console, we will see the ID, title, completion status, and user ID. By default, without any options, Fetch uses the get method. We can also use other methods with Fetch. That's where the options come in. In this example, we are going to create a new to-do task. After our URL, we will include our options object. The first option will be the method, and we will use post. Next we'll include the data that we want to send in the body. In order to send it properly, we have to wrap it in JSON.stringify. And lastly, we include our headers option with our content type set to application.json. After that, we have our first .then that receives the response and processes the JSON. Then our second .then can do something with the response data. In this instance, we receive the data that we sent along with an ID that the server added. Initially there were 200 entries, and now there are 201. There are other factors to consider when using Fetch, such as error handling. Note that if you receive an error status such as a 404 error, Fetch will still resolve successfully. So you will need to do some extra error handling. This has been a 90-second JavaScript January."
+}

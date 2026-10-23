@@ -1,0 +1,194 @@
+{
+  "chunks": [
+    {
+      "number": "21",
+      "title": "JavaScript Array Reduce Method",
+      "start": 0.0,
+      "end": 5.5,
+      "text": " Reduce"
+    },
+    {
+      "number": "21",
+      "title": "JavaScript Array Reduce Method",
+      "start": 5.5,
+      "end": 8.9,
+      "text": " The Reduce method reduces an array to a single value."
+    },
+    {
+      "number": "21",
+      "title": "JavaScript Array Reduce Method",
+      "start": 8.9,
+      "end": 15.5,
+      "text": " It executes a provided function for each value in the array and the returned value is stored in an accumulator."
+    },
+    {
+      "number": "21",
+      "title": "JavaScript Array Reduce Method",
+      "start": 15.5,
+      "end": 20.7,
+      "text": " The function is not executed for array elements without values and it does not change the original array."
+    },
+    {
+      "number": "21",
+      "title": "JavaScript Array Reduce Method",
+      "start": 20.7,
+      "end": 22.7,
+      "text": " Here's the basic syntax of Reduce."
+    },
+    {
+      "number": "21",
+      "title": "JavaScript Array Reduce Method",
+      "start": 22.7,
+      "end": 24.3,
+      "text": " First, we create a new variable."
+    },
+    {
+      "number": "21",
+      "title": "JavaScript Array Reduce Method",
+      "start": 24.3,
+      "end": 27.2,
+      "text": " Then, we reference the array and add.reduce."
+    },
+    {
+      "number": "21",
+      "title": "JavaScript Array Reduce Method",
+      "start": 27.2,
+      "end": 29.7,
+      "text": " The Reduce method accepts two parameters."
+    },
+    {
+      "number": "21",
+      "title": "JavaScript Array Reduce Method",
+      "start": 29.7,
+      "end": 36.9,
+      "text": " The first is a function. The function has access to the accumulator, current value, current index, and the entire original array."
+    },
+    {
+      "number": "21",
+      "title": "JavaScript Array Reduce Method",
+      "start": 36.9,
+      "end": 41.7,
+      "text": " The second parameter after the function is an optional initial value for the accumulator."
+    },
+    {
+      "number": "21",
+      "title": "JavaScript Array Reduce Method",
+      "start": 41.7,
+      "end": 46.8,
+      "text": " If the initial value is not included, the first element in the array will be used and skipped."
+    },
+    {
+      "number": "21",
+      "title": "JavaScript Array Reduce Method",
+      "start": 46.8,
+      "end": 48.5,
+      "text": " Here is a very basic example."
+    },
+    {
+      "number": "21",
+      "title": "JavaScript Array Reduce Method",
+      "start": 48.5,
+      "end": 50.0,
+      "text": " We have an array of numbers."
+    },
+    {
+      "number": "21",
+      "title": "JavaScript Array Reduce Method",
+      "start": 50.0,
+      "end": 52.2,
+      "text": " Our goal is to add up all of the numbers."
+    },
+    {
+      "number": "21",
+      "title": "JavaScript Array Reduce Method",
+      "start": 52.2,
+      "end": 55.1,
+      "text": " First, let's see how this can be accomplished with a for loop."
+    },
+    {
+      "number": "21",
+      "title": "JavaScript Array Reduce Method",
+      "start": 55.1,
+      "end": 58.9,
+      "text": " We could create a variable called sum, setting the initial value to 0."
+    },
+    {
+      "number": "21",
+      "title": "JavaScript Array Reduce Method",
+      "start": 58.9,
+      "end": 64.4,
+      "text": " Then, create a for loop that adds each number to the sum variable, ending up with an accumulated sum."
+    },
+    {
+      "number": "21",
+      "title": "JavaScript Array Reduce Method",
+      "start": 64.4,
+      "end": 69.0,
+      "text": " This works fine, but there is a more elegant way of doing this using the Reduce method."
+    },
+    {
+      "number": "21",
+      "title": "JavaScript Array Reduce Method",
+      "start": 69.0,
+      "end": 73.0,
+      "text": " We can use the sum variable and assign it to the value of the array reduced."
+    },
+    {
+      "number": "21",
+      "title": "JavaScript Array Reduce Method",
+      "start": 73.0,
+      "end": 79.1,
+      "text": " Within the Reduce method, we have our accumulator, which I'll call total, and the current value, which I'll call value."
+    },
+    {
+      "number": "21",
+      "title": "JavaScript Array Reduce Method",
+      "start": 79.1,
+      "end": 81.5,
+      "text": " Now, we'll return the total plus the value."
+    },
+    {
+      "number": "21",
+      "title": "JavaScript Array Reduce Method",
+      "start": 81.5,
+      "end": 84.0,
+      "text": " We can also set our initial value to 0."
+    },
+    {
+      "number": "21",
+      "title": "JavaScript Array Reduce Method",
+      "start": 84.0,
+      "end": 89.8,
+      "text": " So now, as it iterates through the array, it is adding all of the numbers to the accumulator, and we end up with the total."
+    },
+    {
+      "number": "21",
+      "title": "JavaScript Array Reduce Method",
+      "start": 89.8,
+      "end": 94.4,
+      "text": " We can further reduce the amount of code by getting rid of the curly braces, the return,"
+    },
+    {
+      "number": "21",
+      "title": "JavaScript Array Reduce Method",
+      "start": 94.4,
+      "end": 101.0,
+      "text": " and in this case, we can leave out the initial value, and it will use the first element in the array as the initial value and skip it."
+    },
+    {
+      "number": "21",
+      "title": "JavaScript Array Reduce Method",
+      "start": 101.0,
+      "end": 102.9,
+      "text": " Now, we have just one line of code."
+    },
+    {
+      "number": "21",
+      "title": "JavaScript Array Reduce Method",
+      "start": 102.9,
+      "end": 105.6,
+      "text": " This has been a 90-second JavaScript January."
+    }
+  ],
+  "text": " Reduce The Reduce method reduces an array to a single value. It executes a provided function for each value in the array and the returned value is stored in an accumulator. The function is not executed for array elements without values and it does not change the original array. Here's the basic syntax of Reduce. First, we create a new variable. Then, we reference the array and add.reduce. The Reduce method accepts two parameters. The first is a function. The function has access to the accumulator, current value, current index, and the entire original array. The second parameter after the function is an optional initial value for the accumulator. If the initial value is not included, the first element in the array will be used and skipped. Here is a very basic example. We have an array of numbers. Our goal is to add up all of the numbers. First, let's see how this can be accomplished with a for loop. We could create a variable called sum, setting the initial value to 0. Then, create a for loop that adds each number to the sum variable, ending up with an accumulated sum. This works fine, but there is a more elegant way of doing this using the Reduce method. We can use the sum variable and assign it to the value of the array reduced. Within the Reduce method, we have our accumulator, which I'll call total, and the current value, which I'll call value. Now, we'll return the total plus the value. We can also set our initial value to 0. So now, as it iterates through the array, it is adding all of the numbers to the accumulator, and we end up with the total. We can further reduce the amount of code by getting rid of the curly braces, the return, and in this case, we can leave out the initial value, and it will use the first element in the array as the initial value and skip it. Now, we have just one line of code. This has been a 90-second JavaScript January."
+}

@@ -1,0 +1,236 @@
+{
+  "chunks": [
+    {
+      "number": "29",
+      "title": "JavaScript Modules",
+      "start": 0.0,
+      "end": 9.32,
+      "text": " Modules allow you to break up your code into separate files."
+    },
+    {
+      "number": "29",
+      "title": "JavaScript Modules",
+      "start": 9.32,
+      "end": 12.040000000000001,
+      "text": " This allows you to organize and keep your code clean."
+    },
+    {
+      "number": "29",
+      "title": "JavaScript Modules",
+      "start": 12.040000000000001,
+      "end": 16.64,
+      "text": " A module can export code in several ways, and this will affect the way the consumer"
+    },
+    {
+      "number": "29",
+      "title": "JavaScript Modules",
+      "start": 16.64,
+      "end": 17.64,
+      "text": " imports it."
+    },
+    {
+      "number": "29",
+      "title": "JavaScript Modules",
+      "start": 17.64,
+      "end": 20.82,
+      "text": " Here we have a module that has a function and some variables."
+    },
+    {
+      "number": "29",
+      "title": "JavaScript Modules",
+      "start": 20.82,
+      "end": 23.96,
+      "text": " One way to export something is by setting a default."
+    },
+    {
+      "number": "29",
+      "title": "JavaScript Modules",
+      "start": 23.96,
+      "end": 27.5,
+      "text": " So we can add export default to the beginning of the function."
+    },
+    {
+      "number": "29",
+      "title": "JavaScript Modules",
+      "start": 27.5,
+      "end": 32.22,
+      "text": " We also have a consumer which is the main javascript file that is defined in the html"
+    },
+    {
+      "number": "29",
+      "title": "JavaScript Modules",
+      "start": 32.22,
+      "end": 33.22,
+      "text": " file."
+    },
+    {
+      "number": "29",
+      "title": "JavaScript Modules",
+      "start": 33.22,
+      "end": 35.06,
+      "text": " Here we can import the function like this."
+    },
+    {
+      "number": "29",
+      "title": "JavaScript Modules",
+      "start": 35.06,
+      "end": 38.74,
+      "text": " Note that this requires either a relative or absolute URL."
+    },
+    {
+      "number": "29",
+      "title": "JavaScript Modules",
+      "start": 38.74,
+      "end": 43.66,
+      "text": " So use either .slash or slash before the file name, whichever is applicable."
+    },
+    {
+      "number": "29",
+      "title": "JavaScript Modules",
+      "start": 43.66,
+      "end": 45.94,
+      "text": " Now we can use the function in our consumer."
+    },
+    {
+      "number": "29",
+      "title": "JavaScript Modules",
+      "start": 45.94,
+      "end": 50.42,
+      "text": " When importing a default export, you can name the import whatever you want."
+    },
+    {
+      "number": "29",
+      "title": "JavaScript Modules",
+      "start": 50.42,
+      "end": 56.18,
+      "text": " Note that you can only have one default export per module, and a default export is not required."
+    },
+    {
+      "number": "29",
+      "title": "JavaScript Modules",
+      "start": 56.18,
+      "end": 60.62,
+      "text": " We can export more than one thing from a module, we just need to add export before"
+    },
+    {
+      "number": "29",
+      "title": "JavaScript Modules",
+      "start": 60.62,
+      "end": 61.62,
+      "text": " it."
+    },
+    {
+      "number": "29",
+      "title": "JavaScript Modules",
+      "start": 61.62,
+      "end": 63.78,
+      "text": " Now in our consumer we can import those as well."
+    },
+    {
+      "number": "29",
+      "title": "JavaScript Modules",
+      "start": 63.78,
+      "end": 67.98,
+      "text": " Note that the default export does not require curly braces, but the others do."
+    },
+    {
+      "number": "29",
+      "title": "JavaScript Modules",
+      "start": 67.98,
+      "end": 71.7,
+      "text": " We can also rename these in our consumer by using an alias."
+    },
+    {
+      "number": "29",
+      "title": "JavaScript Modules",
+      "start": 71.7,
+      "end": 76.38,
+      "text": " Now in order to make all of this work in our browser, we have to add type=\"module\", to"
+    },
+    {
+      "number": "29",
+      "title": "JavaScript Modules",
+      "start": 76.38,
+      "end": 79.78,
+      "text": " our script tag in our index.html file."
+    },
+    {
+      "number": "29",
+      "title": "JavaScript Modules",
+      "start": 79.78,
+      "end": 82.98,
+      "text": " This tells the browser that this script will be using modules."
+    },
+    {
+      "number": "29",
+      "title": "JavaScript Modules",
+      "start": 82.98,
+      "end": 85.46000000000001,
+      "text": " So what is the benefit of using modules?"
+    },
+    {
+      "number": "29",
+      "title": "JavaScript Modules",
+      "start": 85.46,
+      "end": 86.89999999999999,
+      "text": " Modules are tree-shakeable."
+    },
+    {
+      "number": "29",
+      "title": "JavaScript Modules",
+      "start": 86.89999999999999,
+      "end": 91.66,
+      "text": " The consumer can import only what they need, which results in smaller bundles and better"
+    },
+    {
+      "number": "29",
+      "title": "JavaScript Modules",
+      "start": 91.66,
+      "end": 92.66,
+      "text": " performance."
+    },
+    {
+      "number": "29",
+      "title": "JavaScript Modules",
+      "start": 92.66,
+      "end": 98.08,
+      "text": " ES modules was introduced in 2015, however as with any newer technology, it's important"
+    },
+    {
+      "number": "29",
+      "title": "JavaScript Modules",
+      "start": 98.08,
+      "end": 99.53999999999999,
+      "text": " to check compatibility."
+    },
+    {
+      "number": "29",
+      "title": "JavaScript Modules",
+      "start": 99.53999999999999,
+      "end": 105.22,
+      "text": " As of the date of this video, browser compatibility for JavaScript modules is at 88%."
+    },
+    {
+      "number": "29",
+      "title": "JavaScript Modules",
+      "start": 105.22,
+      "end": 109.22,
+      "text": " So if you want to support older browsers, you'll want to use something like Babel to"
+    },
+    {
+      "number": "29",
+      "title": "JavaScript Modules",
+      "start": 109.22,
+      "end": 110.47999999999999,
+      "text": " compile your code."
+    },
+    {
+      "number": "29",
+      "title": "JavaScript Modules",
+      "start": 110.47999999999999,
+      "end": 112.86,
+      "text": " This has been a 90-second JavaScript January."
+    }
+  ],
+  "text": " Modules allow you to break up your code into separate files. This allows you to organize and keep your code clean. A module can export code in several ways, and this will affect the way the consumer imports it. Here we have a module that has a function and some variables. One way to export something is by setting a default. So we can add export default to the beginning of the function. We also have a consumer which is the main javascript file that is defined in the html file. Here we can import the function like this. Note that this requires either a relative or absolute URL. So use either .slash or slash before the file name, whichever is applicable. Now we can use the function in our consumer. When importing a default export, you can name the import whatever you want. Note that you can only have one default export per module, and a default export is not required. We can export more than one thing from a module, we just need to add export before it. Now in our consumer we can import those as well. Note that the default export does not require curly braces, but the others do. We can also rename these in our consumer by using an alias. Now in order to make all of this work in our browser, we have to add type=\"module\", to our script tag in our index.html file. This tells the browser that this script will be using modules. So what is the benefit of using modules? Modules are tree-shakeable. The consumer can import only what they need, which results in smaller bundles and better performance. ES modules was introduced in 2015, however as with any newer technology, it's important to check compatibility. As of the date of this video, browser compatibility for JavaScript modules is at 88%. So if you want to support older browsers, you'll want to use something like Babel to compile your code. This has been a 90-second JavaScript January."
+}

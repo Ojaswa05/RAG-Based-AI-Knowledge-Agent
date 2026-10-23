@@ -1,0 +1,194 @@
+{
+  "chunks": [
+    {
+      "number": "11",
+      "title": "JavaScript set Timeout & set Interval",
+      "start": 0.0,
+      "end": 12.08,
+      "text": " In JavaScript, setTimeout() and setInterval() are used to time execution of code at specific"
+    },
+    {
+      "number": "11",
+      "title": "JavaScript set Timeout & set Interval",
+      "start": 12.08,
+      "end": 13.08,
+      "text": " intervals."
+    },
+    {
+      "number": "11",
+      "title": "JavaScript set Timeout & set Interval",
+      "start": 13.08,
+      "end": 18.400000000000002,
+      "text": " The setTimeout() method calls a function after a specified number of milliseconds."
+    },
+    {
+      "number": "11",
+      "title": "JavaScript set Timeout & set Interval",
+      "start": 18.400000000000002,
+      "end": 21.6,
+      "text": " Additional parameters can also be passed to the function."
+    },
+    {
+      "number": "11",
+      "title": "JavaScript set Timeout & set Interval",
+      "start": 21.6,
+      "end": 28.6,
+      "text": " Here we can use an arrow function to console.log() hello() after 3000 milliseconds or 3 seconds."
+    },
+    {
+      "number": "11",
+      "title": "JavaScript set Timeout & set Interval",
+      "start": 28.6,
+      "end": 33.88,
+      "text": " Alternatively, we can write it like this calling a function defined below after 3 seconds."
+    },
+    {
+      "number": "11",
+      "title": "JavaScript set Timeout & set Interval",
+      "start": 33.88,
+      "end": 36.72,
+      "text": " We can also pass parameters to the function like this."
+    },
+    {
+      "number": "11",
+      "title": "JavaScript set Timeout & set Interval",
+      "start": 36.72,
+      "end": 39.760000000000005,
+      "text": " The function can then use the argument during execution."
+    },
+    {
+      "number": "11",
+      "title": "JavaScript set Timeout & set Interval",
+      "start": 39.760000000000005,
+      "end": 43.56,
+      "text": " We can also choose to cancel the setTimeout() before it is called."
+    },
+    {
+      "number": "11",
+      "title": "JavaScript set Timeout & set Interval",
+      "start": 43.56,
+      "end": 48.6,
+      "text": " Here we are determining if something is true and if so we are going to clear the timeout."
+    },
+    {
+      "number": "11",
+      "title": "JavaScript set Timeout & set Interval",
+      "start": 48.6,
+      "end": 53.44,
+      "text": " Notice that we must assign the timeout to a variable so that we have something to reference"
+    },
+    {
+      "number": "11",
+      "title": "JavaScript set Timeout & set Interval",
+      "start": 53.44,
+      "end": 54.8,
+      "text": " in our clearTimeout."
+    },
+    {
+      "number": "11",
+      "title": "JavaScript set Timeout & set Interval",
+      "start": 54.8,
+      "end": 56.760000000000005,
+      "text": " Now the function will not run at all."
+    },
+    {
+      "number": "11",
+      "title": "JavaScript set Timeout & set Interval",
+      "start": 56.76,
+      "end": 61.64,
+      "text": " The setInterval() method is very similar except it will run continually until it is either"
+    },
+    {
+      "number": "11",
+      "title": "JavaScript set Timeout & set Interval",
+      "start": 61.64,
+      "end": 64.12,
+      "text": " cleared or the window is closed."
+    },
+    {
+      "number": "11",
+      "title": "JavaScript set Timeout & set Interval",
+      "start": 64.12,
+      "end": 68.03999999999999,
+      "text": " It too can accept additional parameters to be passed to the function."
+    },
+    {
+      "number": "11",
+      "title": "JavaScript set Timeout & set Interval",
+      "start": 68.03999999999999,
+      "end": 71.6,
+      "text": " So here we can console.log() hello() every 3 seconds."
+    },
+    {
+      "number": "11",
+      "title": "JavaScript set Timeout & set Interval",
+      "start": 71.6,
+      "end": 73.6,
+      "text": " A better use would be a counter."
+    },
+    {
+      "number": "11",
+      "title": "JavaScript set Timeout & set Interval",
+      "start": 73.6,
+      "end": 76.28,
+      "text": " Here we are setting a counter variable to 0."
+    },
+    {
+      "number": "11",
+      "title": "JavaScript set Timeout & set Interval",
+      "start": 76.28,
+      "end": 81.03999999999999,
+      "text": " Then we set up our setInterval() and it will call the function count() every second."
+    },
+    {
+      "number": "11",
+      "title": "JavaScript set Timeout & set Interval",
+      "start": 81.03999999999999,
+      "end": 84.62,
+      "text": " Count() will then log the counter and increment it by 1."
+    },
+    {
+      "number": "11",
+      "title": "JavaScript set Timeout & set Interval",
+      "start": 84.62,
+      "end": 87.2,
+      "text": " This will run every second indefinitely."
+    },
+    {
+      "number": "11",
+      "title": "JavaScript set Timeout & set Interval",
+      "start": 87.2,
+      "end": 89.98,
+      "text": " So we probably want to stop it at some point."
+    },
+    {
+      "number": "11",
+      "title": "JavaScript set Timeout & set Interval",
+      "start": 89.98,
+      "end": 92.82000000000001,
+      "text": " First we need to assign the setInterval to a variable."
+    },
+    {
+      "number": "11",
+      "title": "JavaScript set Timeout & set Interval",
+      "start": 92.82000000000001,
+      "end": 98.04,
+      "text": " Then in the function we can evaluate the counter and if it is larger than 5 we will clearInterval"
+    },
+    {
+      "number": "11",
+      "title": "JavaScript set Timeout & set Interval",
+      "start": 98.04,
+      "end": 100.0,
+      "text": " on the countInterval variable."
+    },
+    {
+      "number": "11",
+      "title": "JavaScript set Timeout & set Interval",
+      "start": 100.0,
+      "end": 102.54,
+      "text": " This has been a 90 second JavaScript January."
+    }
+  ],
+  "text": " In JavaScript, setTimeout() and setInterval() are used to time execution of code at specific intervals. The setTimeout() method calls a function after a specified number of milliseconds. Additional parameters can also be passed to the function. Here we can use an arrow function to console.log() hello() after 3000 milliseconds or 3 seconds. Alternatively, we can write it like this calling a function defined below after 3 seconds. We can also pass parameters to the function like this. The function can then use the argument during execution. We can also choose to cancel the setTimeout() before it is called. Here we are determining if something is true and if so we are going to clear the timeout. Notice that we must assign the timeout to a variable so that we have something to reference in our clearTimeout. Now the function will not run at all. The setInterval() method is very similar except it will run continually until it is either cleared or the window is closed. It too can accept additional parameters to be passed to the function. So here we can console.log() hello() every 3 seconds. A better use would be a counter. Here we are setting a counter variable to 0. Then we set up our setInterval() and it will call the function count() every second. Count() will then log the counter and increment it by 1. This will run every second indefinitely. So we probably want to stop it at some point. First we need to assign the setInterval to a variable. Then in the function we can evaluate the counter and if it is larger than 5 we will clearInterval on the countInterval variable. This has been a 90 second JavaScript January."
+}

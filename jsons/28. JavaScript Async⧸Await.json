@@ -1,0 +1,187 @@
+{
+  "chunks": [
+    {
+      "number": "28",
+      "title": "JavaScript Async⧸Await",
+      "start": 0.0,
+      "end": 11.120000000000001,
+      "text": " It's essential to learn how promises work before learning async await, since async await"
+    },
+    {
+      "number": "28",
+      "title": "JavaScript Async⧸Await",
+      "start": 11.120000000000001,
+      "end": 16.36,
+      "text": " is basically just syntactic sugar wrapped around promises, making them easier to work"
+    },
+    {
+      "number": "28",
+      "title": "JavaScript Async⧸Await",
+      "start": 16.36,
+      "end": 17.36,
+      "text": " with."
+    },
+    {
+      "number": "28",
+      "title": "JavaScript Async⧸Await",
+      "start": 17.36,
+      "end": 21.28,
+      "text": " Now that we have learned about promises and fetch, I'll show you how we can rewrite"
+    },
+    {
+      "number": "28",
+      "title": "JavaScript Async⧸Await",
+      "start": 21.28,
+      "end": 24.2,
+      "text": " this fetch statement using async await."
+    },
+    {
+      "number": "28",
+      "title": "JavaScript Async⧸Await",
+      "start": 24.2,
+      "end": 29.34,
+      "text": " So without async await, we use .then to wait on the data to be returned."
+    },
+    {
+      "number": "28",
+      "title": "JavaScript Async⧸Await",
+      "start": 29.34,
+      "end": 33.62,
+      "text": " This is fine for simple requests, but when we are dealing with multiple promises, it"
+    },
+    {
+      "number": "28",
+      "title": "JavaScript Async⧸Await",
+      "start": 33.62,
+      "end": 37.84,
+      "text": " can get a bit confusing as to when each line will get executed."
+    },
+    {
+      "number": "28",
+      "title": "JavaScript Async⧸Await",
+      "start": 37.84,
+      "end": 43.66,
+      "text": " With async await, we can write code that looks synchronous, but is actually asynchronous."
+    },
+    {
+      "number": "28",
+      "title": "JavaScript Async⧸Await",
+      "start": 43.66,
+      "end": 48.64,
+      "text": " The first thing that we must do is wrap our asynchronous code in a function, and we add"
+    },
+    {
+      "number": "28",
+      "title": "JavaScript Async⧸Await",
+      "start": 48.64,
+      "end": 51.519999999999996,
+      "text": " the async keyword before the function."
+    },
+    {
+      "number": "28",
+      "title": "JavaScript Async⧸Await",
+      "start": 51.519999999999996,
+      "end": 56.78,
+      "text": " Now within the function, we can create a response constant and use the await keyword before"
+    },
+    {
+      "number": "28",
+      "title": "JavaScript Async⧸Await",
+      "start": 56.78,
+      "end": 60.22,
+      "text": " our promise, which in this case is our fetch statement."
+    },
+    {
+      "number": "28",
+      "title": "JavaScript Async⧸Await",
+      "start": 60.22,
+      "end": 64.82000000000001,
+      "text": " Now on the next line, we do the same thing, awaiting our response.json."
+    },
+    {
+      "number": "28",
+      "title": "JavaScript Async⧸Await",
+      "start": 64.82000000000001,
+      "end": 67.76,
+      "text": " On the last line, we are logging the JSON data."
+    },
+    {
+      "number": "28",
+      "title": "JavaScript Async⧸Await",
+      "start": 67.76,
+      "end": 72.14,
+      "text": " This line will wait on the previous lines to complete, and then after the function,"
+    },
+    {
+      "number": "28",
+      "title": "JavaScript Async⧸Await",
+      "start": 72.14,
+      "end": 73.14,
+      "text": " we call it."
+    },
+    {
+      "number": "28",
+      "title": "JavaScript Async⧸Await",
+      "start": 73.14,
+      "end": 77.62,
+      "text": " So this is very logical in the way that it is written and easy to understand."
+    },
+    {
+      "number": "28",
+      "title": "JavaScript Async⧸Await",
+      "start": 77.62,
+      "end": 82.46000000000001,
+      "text": " Note that you cannot use the await keyword without the async keyword attached to the"
+    },
+    {
+      "number": "28",
+      "title": "JavaScript Async⧸Await",
+      "start": 82.46000000000001,
+      "end": 83.46000000000001,
+      "text": " function."
+    },
+    {
+      "number": "28",
+      "title": "JavaScript Async⧸Await",
+      "start": 83.46000000000001,
+      "end": 85.06,
+      "text": " These only work together."
+    },
+    {
+      "number": "28",
+      "title": "JavaScript Async⧸Await",
+      "start": 85.06,
+      "end": 89.38,
+      "text": " The function itself can be a standard function like this, or it can be an arrow function"
+    },
+    {
+      "number": "28",
+      "title": "JavaScript Async⧸Await",
+      "start": 89.38,
+      "end": 93.94,
+      "text": " like this, or even an anonymous function that calls itself like this."
+    },
+    {
+      "number": "28",
+      "title": "JavaScript Async⧸Await",
+      "start": 93.94,
+      "end": 99.3,
+      "text": " So understanding how promises and async await work together can make your code cleaner and"
+    },
+    {
+      "number": "28",
+      "title": "JavaScript Async⧸Await",
+      "start": 99.3,
+      "end": 100.4,
+      "text": " more logical."
+    },
+    {
+      "number": "28",
+      "title": "JavaScript Async⧸Await",
+      "start": 100.4,
+      "end": 102.98,
+      "text": " This has been a 90 second JavaScript January."
+    }
+  ],
+  "text": " It's essential to learn how promises work before learning async await, since async await is basically just syntactic sugar wrapped around promises, making them easier to work with. Now that we have learned about promises and fetch, I'll show you how we can rewrite this fetch statement using async await. So without async await, we use .then to wait on the data to be returned. This is fine for simple requests, but when we are dealing with multiple promises, it can get a bit confusing as to when each line will get executed. With async await, we can write code that looks synchronous, but is actually asynchronous. The first thing that we must do is wrap our asynchronous code in a function, and we add the async keyword before the function. Now within the function, we can create a response constant and use the await keyword before our promise, which in this case is our fetch statement. Now on the next line, we do the same thing, awaiting our response.json. On the last line, we are logging the JSON data. This line will wait on the previous lines to complete, and then after the function, we call it. So this is very logical in the way that it is written and easy to understand. Note that you cannot use the await keyword without the async keyword attached to the function. These only work together. The function itself can be a standard function like this, or it can be an arrow function like this, or even an anonymous function that calls itself like this. So understanding how promises and async await work together can make your code cleaner and more logical. This has been a 90 second JavaScript January."
+}

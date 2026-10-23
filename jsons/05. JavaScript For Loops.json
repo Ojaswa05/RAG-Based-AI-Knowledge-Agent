@@ -1,0 +1,313 @@
+{
+    "chunks": [
+        {
+            "number": "5",
+            "title": "JavaScript For Loops",
+            "start": 0.0,
+            "end": 8.42,
+            "text": " There are different types of loops in JavaScript."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 8.42,
+            "end": 10.52,
+            "text": " The most common is a for loop."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 10.52,
+            "end": 13.64,
+            "text": " For loops run for a specific amount of times."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 13.64,
+            "end": 19.5,
+            "text": " We begin with the word for, then within parentheses we have three items separated by semicolons."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 19.5,
+            "end": 24.740000000000002,
+            "text": " The first is the initial expression, then the condition, then the increment expression."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 24.740000000000002,
+            "end": 28.28,
+            "text": " After that we have the code being executed within curly braces."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 28.28,
+            "end": 32.800000000000004,
+            "text": " The initialization is only run once to set up the loop variable, then every time the"
+        },
+        {   
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 32.800000000000004,
+            "end": 37.34,
+            "text": " loop iterates the condition is evaluated to determine whether the code should be executed"
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 37.34,
+            "end": 38.34,
+            "text": " or not."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 38.34,
+            "end": 43.3,
+            "text": " Lastly, the final expression is evaluated at the end of each loop iteration and is usually"
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 43.3,
+            "end": 46.22,
+            "text": " used to increment or decrement the loop counter."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 46.22,
+            "end": 47.3,
+            "text": " Here is an example."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 47.3,
+            "end": 51.540000000000006,
+            "text": " We have a blank array called numbers, then in the for loop we are creating the variable"
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 51.540000000000006,
+            "end": 53.46,
+            "text": " i and setting it to 0."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 53.46,
+            "end": 55.08,
+            "text": " This will be our loop counter."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 55.08,
+            "end": 58.82,
+            "text": " After the semicolon we check to see if i is less than 5."
+        },
+        {  
+             "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 58.82,
+            "end": 63.239999999999995,
+            "text": " If the statement is true the loop will continue, if it is false the loop will end."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 63.239999999999995,
+            "end": 67.0,
+            "text": " Then after the next semicolon we are incrementing i by 1."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 67.0,
+            "end": 68.96,
+            "text": " Plus plus just means add 1."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 68.96,
+            "end": 73.08,
+            "text": " Now in our expression code we are pushing i into our numbers array."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 73.08,
+            "end": 76.64,
+            "text": " After the code executes the final expression runs incrementing i."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 76.64,
+            "end": 79.44,
+            "text": " So now i is 1 and we check our condition."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 79.44,
+            "end": 84.66,
+            "text": " Since i is still less than 5 we run our code again, incrementing i again and so on."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 84.66,
+            "end": 90.22,
+            "text": " So i will go from 0 to 1, 2, 3, 4 and then it gets to 5."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 90.22,
+            "end": 95.7,
+            "text": " Since i is now equal to 5 the loop stops and in our console log we get the array of 0,"
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 95.7,
+            "end": 97.53999999999999,
+            "text": " 1, 2, 3, 4."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 97.53999999999999,
+            "end": 99.82,
+            "text": " For loops have a break early feature."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 99.82,
+            "end": 104.44,
+            "text": " So if for some reason you want the loop to end early you can use the break keyword."
+        },
+        {   
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 104.44,
+            "end": 109.3,
+            "text": " So here we are doing a secondary check within our code to see if i is greater than 2 and"
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 109.3,
+            "end": 111.3,
+            "text": " if so we are ending the loop early."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 111.3,
+            "end": 115.53999999999999,
+            "text": " In the console log here we only get the array of 0, 1 and 2."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 115.53999999999999,
+            "end": 119.58,
+            "text": " A common use case for loops is looping through an array to get the values."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 119.58,
+            "end": 122.53999999999999,
+            "text": " So here we have an array of numbers and we are looping through it."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 122.53999999999999,
+            "end": 125.78,
+            "text": " The for loop is setup very similar except for the condition."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 125.78,
+            "end": 129.66,
+            "text": " Here we are checking to see if i is less than the array.length."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 129.66,
+            "end": 133.5,
+            "text": " So once we have looked at each value in the array we want the loop to stop."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 133.5,
+            "end": 135.74,
+            "text": " In the console log we are getting each value."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 135.74,
+            "end": 139.14,
+            "text": " One last example is looping through a multi-dimensional array."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 139.14,
+            "end": 141.33999999999997,
+            "text": " To do this we can use nested loops."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 141.33999999999997,
+            "end": 145.82,
+            "text": " The first loop is looping through the first dimension of the array which includes 3 levels."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 145.82,
+            "end": 148.89999999999998,
+            "text": " The second loop is looping through each of these arrays."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 148.89999999999998,
+            "end": 153.17999999999998,
+            "text": " So then we console log the array with two indices and we end up with the numbers in"
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 153.17999999999998,
+            "end": 156.38,
+            "text": " order 1, 2, 3, 4, 5 and 6."
+        },
+        {
+            "number": "6",
+            "title": "JavaScript For Loops",
+            "start": 156.38,
+            "end": 159.94,
+            "text": " This has been a 90ish second JavaScript January."
+        }
+    ],
+    "text": " There are different types of loops in JavaScript. The most common is a for loop. For loops run for a specific amount of times. We begin with the word for, then within parentheses we have three items separated by semicolons. The first is the initial expression, then the condition, then the increment expression. After that we have the code being executed within curly braces. The initialization is only run once to set up the loop variable, then every time the loop iterates the condition is evaluated to determine whether the code should be executed or not. Lastly, the final expression is evaluated at the end of each loop iteration and is usually used to increment or decrement the loop counter. Here is an example. We have a blank array called numbers, then in the for loop we are creating the variable i and setting it to 0. This will be our loop counter. After the semicolon we check to see if i is less than If the statement is true the loop will continue, if it is false the loop will end. Then after the next semicolon we are incrementing i by 1. Plus plus just means add 1. Now in our expression code we are pushing i into our numbers array. After the code executes the final expression runs incrementing i. So now i is 1 and we check our condition. Since i is still less than 5 we run our code again, incrementing i again and so on. So i will go from 0 to 1, 2, 3, 4 and then it gets to Since i is now equal to 5 the loop stops and in our console log we get the array of 0, 1, 2, 3, 4. For loops have a break early feature. So if for some reason you want the loop to end early you can use the break keyword. So here we are doing a secondary check within our code to see if i is greater than 2 and if so we are ending the loop early. In the console log here we only get the array of 0, 1 and 2. A common use case for loops is looping through an array to get the values. So here we have an array of numbers and we are looping through it. The for loop is setup very similar except for the condition. Here we are checking to see if i is less than the array.length. So once we have looked at each value in the array we want the loop to stop. In the console log we are getting each value. One last example is looping through a multi-dimensional array. To do this we can use nested loops. The first loop is looping through the first dimension of the array which includes 3 levels. The second loop is looping through each of these arrays. So then we console log the array with two indices and we end up with the numbers in order 1, 2, 3, 4, 5 and 6. This has been a 90ish second JavaScript January."
+}

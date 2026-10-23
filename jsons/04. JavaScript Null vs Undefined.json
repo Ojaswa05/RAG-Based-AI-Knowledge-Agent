@@ -1,0 +1,144 @@
+{
+    "chunks": [
+        {
+            "number": "4",
+            "title": "JavaScript Null vs Undefined",
+            "start": 0.0,
+            "end": 10.56,
+            "text": " Null and Undefined are both data types in JavaScript."
+        },
+        {
+            "number": "4",
+            "title": "JavaScript Null vs Undefined",
+            "start": 10.56,
+            "end": 15.08,
+            "text": " Undefined is a variable that has been declared, but not assigned a value."
+        },
+        {
+            "number": "4",
+            "title": "JavaScript Null vs Undefined",
+            "start": 15.08,
+            "end": 20.52,
+            "text": " Null is an assignment value, so you can assign the value null to any variable, which basically"
+        },
+        {
+            "number": "4",
+            "title": "JavaScript Null vs Undefined",
+            "start": 20.52,
+            "end": 22.38,
+            "text": " means it's blank."
+        },
+        {
+            "number": "4",
+            "title": "JavaScript Null vs Undefined",
+            "start": 22.38,
+            "end": 27.36,
+            "text": " So by not declaring a value on a variable, JavaScript automatically assigns the value"
+        },
+        {
+            "number": "4",
+            "title": "JavaScript Null vs Undefined",
+            "start": 27.36,
+            "end": 29.2,
+            "text": " to Undefined."
+        },
+        {
+            "number": "4",
+            "title": "JavaScript Null vs Undefined",
+            "start": 29.2,
+            "end": 33.44,
+            "text": " But JavaScript will never automatically assign the value to null."
+        },
+        {
+            "number": "4",
+            "title": "JavaScript Null vs Undefined",
+            "start": 33.44,
+            "end": 36.64,
+            "text": " That must be done specifically by you in your code."
+        },
+        {
+            "number": "4",
+            "title": "JavaScript Null vs Undefined",
+            "start": 36.64,
+            "end": 38.48,
+            "text": " Let's get some more info on these."
+        },
+        {
+            "number": "4",
+            "title": "JavaScript Null vs Undefined",
+            "start": 38.48,
+            "end": 42.24,
+            "text": " We see here that the type of null is an object."
+        },
+        {
+            "number": "4",
+            "title": "JavaScript Null vs Undefined",
+            "start": 42.24,
+            "end": 45.72,
+            "text": " The type of Undefined is Undefined."
+        },
+        {
+            "number": "4",
+            "title": "JavaScript Null vs Undefined",
+            "start": 45.72,
+            "end": 51.04,
+            "text": " Since these are different data types, if we compare them with strict equality, triple"
+        },
+        {
+            "number": "4",
+            "title": "JavaScript Null vs Undefined",
+            "start": 51.04,
+            "end": 53.92,
+            "text": " equals, we get false."
+        },
+        {
+            "number": "4",
+            "title": "JavaScript Null vs Undefined",
+            "start": 53.92,
+            "end": 59.760000000000005,
+            "text": " But if we compare them with abstract equality, double equals, we get true."
+        },
+        {
+            "number": "4",
+            "title": "JavaScript Null vs Undefined",
+            "start": 59.760000000000005,
+            "end": 65.4,
+            "text": " So JavaScript does consider these to be relatively equal, since they are both basically blank."
+        },
+        {
+            "number": "4",
+            "title": "JavaScript Null vs Undefined",
+            "start": 65.4,
+            "end": 70.2,
+            "text": " So if you need to check to see if a value is either null or undefined, you can check"
+        },
+        {
+            "number": "4",
+            "title": "JavaScript Null vs Undefined",
+            "start": 70.2,
+            "end": 75.76,
+            "text": " for abstract equality by using the double equals sign and compare it to either null"
+        },
+        {
+            "number": "4",
+            "title": "JavaScript Null vs Undefined",
+            "start": 75.76,
+            "end": 77.44,
+            "text": " or undefined."
+        },
+        {
+            "number": "4",
+            "title": "JavaScript Null vs Undefined",
+            "start": 77.44,
+            "end": 79.74000000000001,
+            "text": " Both will return the same result."
+        },
+        {   "number": "4",
+            "title": "JavaScript Null vs Undefined",
+            "start": 79.74,
+            "end": 89.89999999999999,
+            "text": " This has been a 90-second JavaScript January."
+        }
+    ],
+    "text": " Null and Undefined are both data types in JavaScript. Undefined is a variable that has been declared, but not assigned a value. Null is an assignment value, so you can assign the value null to any variable, which basically means it's blank. So by not declaring a value on a variable, JavaScript automatically assigns the value to Undefined. But JavaScript will never automatically assign the value to null. That must be done specifically by you in your code. Let's get some more info on these. We see here that the type of null is an object. The type of Undefined is Undefined. Since these are different data types, if we compare them with strict equality, triple equals, we get false. But if we compare them with abstract equality, double equals, we get true. So JavaScript does consider these to be relatively equal, since they are both basically blank. So if you need to check to see if a value is either null or undefined, you can check for abstract equality by using the double equals sign and compare it to either null or undefined. Both will return the same result. This has been a 90-second JavaScript January."
+}

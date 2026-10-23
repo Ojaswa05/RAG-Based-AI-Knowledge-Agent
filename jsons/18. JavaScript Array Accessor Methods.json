@@ -1,0 +1,180 @@
+{
+  "chunks": [
+    {
+      "number": "18",
+      "title": "JavaScript Array Accessor Methods",
+      "start": 0.0,
+      "end": 11.24,
+      "text": " In JavaScript, accessor methods do not modify the array and return some representation of"
+    },
+    {
+      "number": "18",
+      "title": "JavaScript Array Accessor Methods",
+      "start": 11.24,
+      "end": 12.24,
+      "text": " the array."
+    },
+    {
+      "number": "18",
+      "title": "JavaScript Array Accessor Methods",
+      "start": 12.24,
+      "end": 16.28,
+      "text": " The concat method joins two or more arrays, returning a new array."
+    },
+    {
+      "number": "18",
+      "title": "JavaScript Array Accessor Methods",
+      "start": 16.28,
+      "end": 21.12,
+      "text": " The filter method creates an array filled with all array elements of another array that"
+    },
+    {
+      "number": "18",
+      "title": "JavaScript Array Accessor Methods",
+      "start": 21.12,
+      "end": 23.82,
+      "text": " pass a test, provided as a function."
+    },
+    {
+      "number": "18",
+      "title": "JavaScript Array Accessor Methods",
+      "start": 23.82,
+      "end": 27.62,
+      "text": " Filter does not execute the function for array elements without values."
+    },
+    {
+      "number": "18",
+      "title": "JavaScript Array Accessor Methods",
+      "start": 27.62,
+      "end": 32.34,
+      "text": " The includes method looks for a value in the array, then returns true or false."
+    },
+    {
+      "number": "18",
+      "title": "JavaScript Array Accessor Methods",
+      "start": 32.34,
+      "end": 36.72,
+      "text": " It accepts an optional start index, and the search value is case sensitive."
+    },
+    {
+      "number": "18",
+      "title": "JavaScript Array Accessor Methods",
+      "start": 36.72,
+      "end": 41.74,
+      "text": " The indexOf method returns the first found occurrence of the element being searched for,"
+    },
+    {
+      "number": "18",
+      "title": "JavaScript Array Accessor Methods",
+      "start": 41.74,
+      "end": 44.34,
+      "text": " and if it is not found, it returns negative one."
+    },
+    {
+      "number": "18",
+      "title": "JavaScript Array Accessor Methods",
+      "start": 44.34,
+      "end": 49.540000000000006,
+      "text": " The lastIndexOf method returns the last found occurrence of the element being searched for,"
+    },
+    {
+      "number": "18",
+      "title": "JavaScript Array Accessor Methods",
+      "start": 49.540000000000006,
+      "end": 52.040000000000006,
+      "text": " and if it is not found, it returns negative one."
+    },
+    {
+      "number": "18",
+      "title": "JavaScript Array Accessor Methods",
+      "start": 52.040000000000006,
+      "end": 56.5,
+      "text": " The slice method extracts a section of the array and returns a new array."
+    },
+    {
+      "number": "18",
+      "title": "JavaScript Array Accessor Methods",
+      "start": 56.5,
+      "end": 58.76,
+      "text": " It accepts two optional arguments."
+    },
+    {
+      "number": "18",
+      "title": "JavaScript Array Accessor Methods",
+      "start": 58.76,
+      "end": 62.58,
+      "text": " The first is the start index, and the second is the end index."
+    },
+    {
+      "number": "18",
+      "title": "JavaScript Array Accessor Methods",
+      "start": 62.58,
+      "end": 67.2,
+      "text": " If the start index is not provided, it will start at zero, and if the end index is not"
+    },
+    {
+      "number": "18",
+      "title": "JavaScript Array Accessor Methods",
+      "start": 67.2,
+      "end": 69.72,
+      "text": " provided, it will use the array length."
+    },
+    {
+      "number": "18",
+      "title": "JavaScript Array Accessor Methods",
+      "start": 69.72,
+      "end": 75.0,
+      "text": " The end index is non-inclusive, which means that the selection will stop one index before"
+    },
+    {
+      "number": "18",
+      "title": "JavaScript Array Accessor Methods",
+      "start": 75.0,
+      "end": 76.92,
+      "text": " the provided end index."
+    },
+    {
+      "number": "18",
+      "title": "JavaScript Array Accessor Methods",
+      "start": 76.92,
+      "end": 82.28,
+      "text": " The toString method returns a string representing the specified array and its elements."
+    },
+    {
+      "number": "18",
+      "title": "JavaScript Array Accessor Methods",
+      "start": 82.28,
+      "end": 84.48,
+      "text": " The elements will be separated by commas."
+    },
+    {
+      "number": "18",
+      "title": "JavaScript Array Accessor Methods",
+      "start": 84.48,
+      "end": 88.94,
+      "text": " The join method is similar to the toString method and joins all elements of an array"
+    },
+    {
+      "number": "18",
+      "title": "JavaScript Array Accessor Methods",
+      "start": 88.94,
+      "end": 90.10000000000001,
+      "text": " into a string."
+    },
+    {
+      "number": "18",
+      "title": "JavaScript Array Accessor Methods",
+      "start": 90.10000000000001,
+      "end": 95.62,
+      "text": " By default, the separator will also be a comma, but here a custom separator can be supplied."
+    },
+    {
+      "number": "18",
+      "title": "JavaScript Array Accessor Methods",
+      "start": 95.62,
+      "end": 98.34,
+      "text": " This has been a 90-second JavaScript January."
+    }
+  ],
+  "text": " In JavaScript, accessor methods do not modify the array and return some representation of the array. The concat method joins two or more arrays, returning a new array. The filter method creates an array filled with all array elements of another array that pass a test, provided as a function. Filter does not execute the function for array elements without values. The includes method looks for a value in the array, then returns true or false. It accepts an optional start index, and the search value is case sensitive. The indexOf method returns the first found occurrence of the element being searched for, and if it is not found, it returns negative one. The lastIndexOf method returns the last found occurrence of the element being searched for, and if it is not found, it returns negative one. The slice method extracts a section of the array and returns a new array. It accepts two optional arguments. The first is the start index, and the second is the end index. If the start index is not provided, it will start at zero, and if the end index is not provided, it will use the array length. The end index is non-inclusive, which means that the selection will stop one index before the provided end index. The toString method returns a string representing the specified array and its elements. The elements will be separated by commas. The join method is similar to the toString method and joins all elements of an array into a string. By default, the separator will also be a comma, but here a custom separator can be supplied. This has been a 90-second JavaScript January."
+}

@@ -1,0 +1,180 @@
+{
+  "chunks": [
+    {
+      "number": "9",
+      "title": "JavaScript Random Number Generator",
+      "start": 0.0,
+      "end": 11.040000000000001,
+      "text": " In JavaScript, we can use math.random() to generate a random decimal number between 0"
+    },
+    {
+      "number": "9",
+      "title": "JavaScript Random Number Generator",
+      "start": 11.040000000000001,
+      "end": 16.28,
+      "text": " and 1, non-inclusive of 1, which means the number could be 0, but will never be 1."
+    },
+    {
+      "number": "9",
+      "title": "JavaScript Random Number Generator",
+      "start": 16.28,
+      "end": 17.28,
+      "text": " Here is an example."
+    },
+    {
+      "number": "9",
+      "title": "JavaScript Random Number Generator",
+      "start": 17.28,
+      "end": 20.14,
+      "text": " Each time we refresh, we get a random decimal number."
+    },
+    {
+      "number": "9",
+      "title": "JavaScript Random Number Generator",
+      "start": 20.14,
+      "end": 23.16,
+      "text": " What if we wanted to get a random number between 1 and 10?"
+    },
+    {
+      "number": "9",
+      "title": "JavaScript Random Number Generator",
+      "start": 23.16,
+      "end": 27.6,
+      "text": " We can easily do this by multiplying the random number by the maximum range that we are looking"
+    },
+    {
+      "number": "9",
+      "title": "JavaScript Random Number Generator",
+      "start": 27.6,
+      "end": 29.44,
+      "text": " for, in this case, 10."
+    },
+    {
+      "number": "9",
+      "title": "JavaScript Random Number Generator",
+      "start": 29.44,
+      "end": 33.120000000000005,
+      "text": " But this is actually going to give us a random number between 0 and 9."
+    },
+    {
+      "number": "9",
+      "title": "JavaScript Random Number Generator",
+      "start": 33.120000000000005,
+      "end": 37.760000000000005,
+      "text": " So in order to get a number between 1 and 10, we will need to add 1 at the end."
+    },
+    {
+      "number": "9",
+      "title": "JavaScript Random Number Generator",
+      "start": 37.760000000000005,
+      "end": 42.08,
+      "text": " Now to get rid of the decimals, we can use another math function, math.floor."
+    },
+    {
+      "number": "9",
+      "title": "JavaScript Random Number Generator",
+      "start": 42.08,
+      "end": 44.400000000000006,
+      "text": " This will round down to the nearest whole number."
+    },
+    {
+      "number": "9",
+      "title": "JavaScript Random Number Generator",
+      "start": 44.400000000000006,
+      "end": 48.72,
+      "text": " Now every time we refresh, we get a random whole number between 1 and 10."
+    },
+    {
+      "number": "9",
+      "title": "JavaScript Random Number Generator",
+      "start": 48.72,
+      "end": 53.24,
+      "text": " Note that this solution will only work for ranges between 1 and whatever number you multiply"
+    },
+    {
+      "number": "9",
+      "title": "JavaScript Random Number Generator",
+      "start": 53.24,
+      "end": 54.24,
+      "text": " by."
+    },
+    {
+      "number": "9",
+      "title": "JavaScript Random Number Generator",
+      "start": 54.24,
+      "end": 58.36,
+      "text": " So how do we get a range of numbers between, let's say, 5 and 15?"
+    },
+    {
+      "number": "9",
+      "title": "JavaScript Random Number Generator",
+      "start": 58.36,
+      "end": 60.28,
+      "text": " This is going to require a bit more math."
+    },
+    {
+      "number": "9",
+      "title": "JavaScript Random Number Generator",
+      "start": 60.28,
+      "end": 64.5,
+      "text": " We'll create an arrow function which accepts two values, and we're basically going to do"
+    },
+    {
+      "number": "9",
+      "title": "JavaScript Random Number Generator",
+      "start": 64.5,
+      "end": 69.16,
+      "text": " the same thing, but instead of multiplying by an arbitrary number, we're going to subtract"
+    },
+    {
+      "number": "9",
+      "title": "JavaScript Random Number Generator",
+      "start": 69.16,
+      "end": 72.3,
+      "text": " the maximum and minimum values, and then add 1."
+    },
+    {
+      "number": "9",
+      "title": "JavaScript Random Number Generator",
+      "start": 72.3,
+      "end": 75.66,
+      "text": " And then at the very end, we're also going to add the minimum value."
+    },
+    {
+      "number": "9",
+      "title": "JavaScript Random Number Generator",
+      "start": 75.66,
+      "end": 77.94,
+      "text": " If you hate math, just don't think about it."
+    },
+    {
+      "number": "9",
+      "title": "JavaScript Random Number Generator",
+      "start": 77.94,
+      "end": 78.94,
+      "text": " It works."
+    },
+    {
+      "number": "9",
+      "title": "JavaScript Random Number Generator",
+      "start": 78.94,
+      "end": 82.6,
+      "text": " Next, we'll log the function and pass our minimum and maximum values."
+    },
+    {
+      "number": "9",
+      "title": "JavaScript Random Number Generator",
+      "start": 82.6,
+      "end": 87.0,
+      "text": " Now every time we refresh, we get a random number between the range we defined."
+    },
+    {
+      "number": "9",
+      "title": "JavaScript Random Number Generator",
+      "start": 87.0,
+      "end": 89.64,
+      "text": " This has been a 90-second JavaScript January."
+    }
+  ],
+  "text": " In JavaScript, we can use math.random() to generate a random decimal number between 0 and 1, non-inclusive of 1, which means the number could be 0, but will never be 1. Here is an example. Each time we refresh, we get a random decimal number. What if we wanted to get a random number between 1 and 10? We can easily do this by multiplying the random number by the maximum range that we are looking for, in this case, 10. But this is actually going to give us a random number between 0 and 9. So in order to get a number between 1 and 10, we will need to add 1 at the end. Now to get rid of the decimals, we can use another math function, math.floor. This will round down to the nearest whole number. Now every time we refresh, we get a random whole number between 1 and 10. Note that this solution will only work for ranges between 1 and whatever number you multiply by. So how do we get a range of numbers between, let's say, 5 and 15? This is going to require a bit more math. We'll create an arrow function which accepts two values, and we're basically going to do the same thing, but instead of multiplying by an arbitrary number, we're going to subtract the maximum and minimum values, and then add 1. And then at the very end, we're also going to add the minimum value. If you hate math, just don't think about it. It works. Next, we'll log the function and pass our minimum and maximum values. Now every time we refresh, we get a random number between the range we defined. This has been a 90-second JavaScript January."
+}

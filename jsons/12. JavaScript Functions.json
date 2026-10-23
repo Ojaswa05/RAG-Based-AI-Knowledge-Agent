@@ -1,0 +1,194 @@
+{
+  "chunks": [
+    {
+      "number": "12",
+      "title": "JavaScript Functions",
+      "start": 0.0,
+      "end": 12.46,
+      "text": " A JavaScript function is a block of code designed to perform a specific task and to be reusable."
+    },
+    {
+      "number": "12",
+      "title": "JavaScript Functions",
+      "start": 12.46,
+      "end": 19.18,
+      "text": " A standard named function is defined with the function keyword, then a name, then parentheses."
+    },
+    {
+      "number": "12",
+      "title": "JavaScript Functions",
+      "start": 19.18,
+      "end": 23.34,
+      "text": " The parentheses may include parameter names separated by commas."
+    },
+    {
+      "number": "12",
+      "title": "JavaScript Functions",
+      "start": 23.34,
+      "end": 27.02,
+      "text": " The code to be executed is placed inside curly braces."
+    },
+    {
+      "number": "12",
+      "title": "JavaScript Functions",
+      "start": 27.02,
+      "end": 31.56,
+      "text": " You may hear the terms parameters and arguments used somewhat interchangeably."
+    },
+    {
+      "number": "12",
+      "title": "JavaScript Functions",
+      "start": 31.56,
+      "end": 33.22,
+      "text": " These are parameters."
+    },
+    {
+      "number": "12",
+      "title": "JavaScript Functions",
+      "start": 33.22,
+      "end": 37.44,
+      "text": " Arguments are the values received by the function when it is invoked or called."
+    },
+    {
+      "number": "12",
+      "title": "JavaScript Functions",
+      "start": 37.44,
+      "end": 42.4,
+      "text": " The parameters or arguments are then used within the code block as variables."
+    },
+    {
+      "number": "12",
+      "title": "JavaScript Functions",
+      "start": 42.4,
+      "end": 44.96,
+      "text": " There are several ways to call a function."
+    },
+    {
+      "number": "12",
+      "title": "JavaScript Functions",
+      "start": 44.96,
+      "end": 48.620000000000005,
+      "text": " It can be called anywhere within the JavaScript code like this."
+    },
+    {
+      "number": "12",
+      "title": "JavaScript Functions",
+      "start": 48.620000000000005,
+      "end": 50.1,
+      "text": " Notice the parentheses."
+    },
+    {
+      "number": "12",
+      "title": "JavaScript Functions",
+      "start": 50.1,
+      "end": 53.22,
+      "text": " It can be called with a user interaction like this."
+    },
+    {
+      "number": "12",
+      "title": "JavaScript Functions",
+      "start": 53.22,
+      "end": 55.86,
+      "text": " Or it can be self-invoked like this."
+    },
+    {
+      "number": "12",
+      "title": "JavaScript Functions",
+      "start": 55.86,
+      "end": 60.04,
+      "text": " This is actually called an anonymous function since it does not have a name."
+    },
+    {
+      "number": "12",
+      "title": "JavaScript Functions",
+      "start": 60.04,
+      "end": 62.7,
+      "text": " This type of function can never be called again."
+    },
+    {
+      "number": "12",
+      "title": "JavaScript Functions",
+      "start": 62.7,
+      "end": 65.9,
+      "text": " But we can assign an anonymous function to a variable."
+    },
+    {
+      "number": "12",
+      "title": "JavaScript Functions",
+      "start": 65.9,
+      "end": 67.62,
+      "text": " Why would we want to do this?"
+    },
+    {
+      "number": "12",
+      "title": "JavaScript Functions",
+      "start": 67.62,
+      "end": 70.28,
+      "text": " Because we can return values from a function."
+    },
+    {
+      "number": "12",
+      "title": "JavaScript Functions",
+      "start": 70.28,
+      "end": 73.74,
+      "text": " A standard named function can return a value like this."
+    },
+    {
+      "number": "12",
+      "title": "JavaScript Functions",
+      "start": 73.74,
+      "end": 76.82,
+      "text": " We can even assign it to a variable like this."
+    },
+    {
+      "number": "12",
+      "title": "JavaScript Functions",
+      "start": 76.82,
+      "end": 81.9,
+      "text": " Another thing to consider when writing functions is that variables declared within a function"
+    },
+    {
+      "number": "12",
+      "title": "JavaScript Functions",
+      "start": 81.9,
+      "end": 86.74000000000001,
+      "text": " become local to the function and cannot be accessed outside of the function."
+    },
+    {
+      "number": "12",
+      "title": "JavaScript Functions",
+      "start": 86.74000000000001,
+      "end": 91.26,
+      "text": " But as we see here, the function does have access to variables on the outside."
+    },
+    {
+      "number": "12",
+      "title": "JavaScript Functions",
+      "start": 91.26,
+      "end": 92.98,
+      "text": " This is called scope."
+    },
+    {
+      "number": "12",
+      "title": "JavaScript Functions",
+      "start": 92.98,
+      "end": 97.98,
+      "text": " Outside of the function would be globally scoped and inside the function is locally"
+    },
+    {
+      "number": "12",
+      "title": "JavaScript Functions",
+      "start": 97.98,
+      "end": 98.98,
+      "text": " scoped."
+    },
+    {
+      "number": "12",
+      "title": "JavaScript Functions",
+      "start": 98.98,
+      "end": 101.62,
+      "text": " This has been a 90 second JavaScript January."
+    }
+  ],
+  "text": " A JavaScript function is a block of code designed to perform a specific task and to be reusable. A standard named function is defined with the function keyword, then a name, then parentheses. The parentheses may include parameter names separated by commas. The code to be executed is placed inside curly braces. You may hear the terms parameters and arguments used somewhat interchangeably. These are parameters. Arguments are the values received by the function when it is invoked or called. The parameters or arguments are then used within the code block as variables. There are several ways to call a function. It can be called anywhere within the JavaScript code like this. Notice the parentheses. It can be called with a user interaction like this. Or it can be self-invoked like this. This is actually called an anonymous function since it does not have a name. This type of function can never be called again. But we can assign an anonymous function to a variable. Why would we want to do this? Because we can return values from a function. A standard named function can return a value like this. We can even assign it to a variable like this. Another thing to consider when writing functions is that variables declared within a function become local to the function and cannot be accessed outside of the function. But as we see here, the function does have access to variables on the outside. This is called scope. Outside of the function would be globally scoped and inside the function is locally scoped. This has been a 90 second JavaScript January."
+}

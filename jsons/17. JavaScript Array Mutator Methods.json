@@ -1,0 +1,376 @@
+{
+  "chunks": [
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 0.0,
+      "end": 10.0,
+      "text": " In JavaScript, Array Mutator methods modify the original array."
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 10.0,
+      "end": 14.4,
+      "text": " The Push method adds one or more elements to the end of an array, then returns the new"
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 14.4,
+      "end": 15.76,
+      "text": " length of the array."
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 15.76,
+      "end": 19.96,
+      "text": " The Pop method removes the last element from an array and returns that element."
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 19.96,
+      "end": 24.34,
+      "text": " The Shift method removes the first element from an array and returns the element."
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 24.34,
+      "end": 28.560000000000002,
+      "text": " The Unshift method adds one or more elements to the beginning of an array, then returns"
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 28.66,
+      "end": 30.119999999999997,
+      "text": " the new length of the array."
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 30.119999999999997,
+      "end": 33.78,
+      "text": " The Splice method adds and or removes elements from an array."
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 33.78,
+      "end": 37.879999999999995,
+      "text": " The first parameter defines the position where the element should be added or removed."
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 37.879999999999995,
+      "end": 41.2,
+      "text": " The second parameter defines how many elements should be removed."
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 41.2,
+      "end": 43.92,
+      "text": " All other parameters are the new elements to be added."
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 43.92,
+      "end": 46.28,
+      "text": " It returns an array with the deleted items."
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 46.28,
+      "end": 51.56,
+      "text": " Here's an example where we are adding or essentially replacing two elements at the index of 1 and"
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 51.56,
+      "end": 53.0,
+      "text": " the item count of 2."
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 53.0,
+      "end": 57.22,
+      "text": " Here the Splice method returns a new array containing the deleted items and adds the"
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 57.22,
+      "end": 58.9,
+      "text": " new items in their place."
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 58.9,
+      "end": 63.019999999999996,
+      "text": " And here's an example where we are simply removing an element at the index of 3."
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 63.019999999999996,
+      "end": 67.34,
+      "text": " The Sort method sorts the elements of an array in place and returns the array."
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 67.34,
+      "end": 69.96,
+      "text": " Note that this method sorts by character order."
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 69.96,
+      "end": 75.78,
+      "text": " So it sorts words, but if we try to sort the numbers 20 and 100, it would put 100 before"
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 75.78,
+      "end": 77.98,
+      "text": " 20 since 1 is less than 2."
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 77.98,
+      "end": 81.98,
+      "text": " We could, however, use Sort with a compare function to get the desired result."
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 81.98,
+      "end": 86.34,
+      "text": " The Reverse method simply reverses the order of the elements in an array and returns the"
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 86.34,
+      "end": 87.34,
+      "text": " array."
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 87.34,
+      "end": 91.38000000000001,
+      "text": " Sort and Reverse can be combined to provide a descending sort of the array."
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 91.38000000000001,
+      "end": 96.22,
+      "text": " The CopyWithin method copies a sequence of array elements to another location in the"
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 96.22,
+      "end": 99.30000000000001,
+      "text": " same array and returns it without modifying its length."
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 99.30000000000001,
+      "end": 101.62,
+      "text": " The first parameter is the target index."
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 101.62,
+      "end": 105.9,
+      "text": " The second parameter, which is optional, is the index at which to start copying elements"
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 105.9,
+      "end": 106.9,
+      "text": " from."
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 106.9,
+      "end": 111.14,
+      "text": " And the third parameter, which is also optional, is the index at which to end copying elements"
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 111.14,
+      "end": 113.5,
+      "text": " from up to but not including."
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 113.5,
+      "end": 115.94,
+      "text": " Negative numbers start counting from the end of the array."
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 115.94,
+      "end": 120.94,
+      "text": " In this example, our target is index 1, and the start is implied to be 0, and the end"
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 120.94,
+      "end": 123.42,
+      "text": " is implied to be the entire length of the array."
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 123.42,
+      "end": 128.3,
+      "text": " So we are copying all of the items into the array starting at index 1 and replacing whatever"
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 128.3,
+      "end": 129.3,
+      "text": " was there."
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 129.3,
+      "end": 133.66,
+      "text": " Here we are still targeting index 1, but we have specified the start to be index 3, which"
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 133.66,
+      "end": 135.5,
+      "text": " happens to be the end of the array."
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 135.5,
+      "end": 139.58,
+      "text": " So here we will only copy index 3 into index 1, replacing it."
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 139.58,
+      "end": 144.06,
+      "text": " Now we are targeting index 0 and starting from index 1 to index 3."
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 144.06,
+      "end": 147.58,
+      "text": " Index 3 is the end of the array but will not be included in the copy."
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 147.58,
+      "end": 152.5,
+      "text": " The Fill method changes all elements in an array to a static value, from a start index"
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 152.5,
+      "end": 153.78,
+      "text": " to an end index."
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 153.78,
+      "end": 155.66000000000003,
+      "text": " Then it returns the modified array."
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 155.66000000000003,
+      "end": 158.26000000000002,
+      "text": " Negative numbers start counting from the end of the array."
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 158.26000000000002,
+      "end": 163.58,
+      "text": " So without including the start and end parameters, the entire array will be filled with the same"
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 163.58,
+      "end": 164.58,
+      "text": " value."
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 164.58,
+      "end": 168.14000000000001,
+      "text": " Including the start parameter will start filling from the start index throughout the rest of"
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 168.14000000000001,
+      "end": 169.14000000000001,
+      "text": " the array."
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 169.2,
+      "end": 173.77999999999997,
+      "text": " Including the end parameter will start filling from the start index and stop before the end"
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 173.77999999999997,
+      "end": 174.77999999999997,
+      "text": " index."
+    },
+    {
+      "number": "17",
+      "title": "JavaScript Array Mutator Methods",
+      "start": 174.77999999999997,
+      "end": 178.38,
+      "text": " This has been a 90-ish second JavaScript January."
+    }
+  ],
+  "text": " In JavaScript, Array Mutator methods modify the original array. The Push method adds one or more elements to the end of an array, then returns the new length of the array. The Pop method removes the last element from an array and returns that element. The Shift method removes the first element from an array and returns the element. The Unshift method adds one or more elements to the beginning of an array, then returns the new length of the array. The Splice method adds and or removes elements from an array. The first parameter defines the position where the element should be added or removed. The second parameter defines how many elements should be removed. All other parameters are the new elements to be added. It returns an array with the deleted items. Here's an example where we are adding or essentially replacing two elements at the index of 1 and the item count of 2. Here the Splice method returns a new array containing the deleted items and adds the new items in their place. And here's an example where we are simply removing an element at the index of 3. The Sort method sorts the elements of an array in place and returns the array. Note that this method sorts by character order. So it sorts words, but if we try to sort the numbers 20 and 100, it would put 100 before 20 since 1 is less than 2. We could, however, use Sort with a compare function to get the desired result. The Reverse method simply reverses the order of the elements in an array and returns the array. Sort and Reverse can be combined to provide a descending sort of the array. The CopyWithin method copies a sequence of array elements to another location in the same array and returns it without modifying its length. The first parameter is the target index. The second parameter, which is optional, is the index at which to start copying elements from. And the third parameter, which is also optional, is the index at which to end copying elements from up to but not including. Negative numbers start counting from the end of the array. In this example, our target is index 1, and the start is implied to be 0, and the end is implied to be the entire length of the array. So we are copying all of the items into the array starting at index 1 and replacing whatever was there. Here we are still targeting index 1, but we have specified the start to be index 3, which happens to be the end of the array. So here we will only copy index 3 into index 1, replacing it. Now we are targeting index 0 and starting from index 1 to index 3. Index 3 is the end of the array but will not be included in the copy. The Fill method changes all elements in an array to a static value, from a start index to an end index. Then it returns the modified array. Negative numbers start counting from the end of the array. So without including the start and end parameters, the entire array will be filled with the same value. Including the start parameter will start filling from the start index throughout the rest of the array. Including the end parameter will start filling from the start index and stop before the end index. This has been a 90-ish second JavaScript January."
+}

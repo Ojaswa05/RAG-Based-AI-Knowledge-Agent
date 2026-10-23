@@ -1,0 +1,201 @@
+{
+  "chunks": [
+    {
+      "number": "25",
+      "title": "JavaScript call() apply() bind() Methods",
+      "start": 0.0,
+      "end": 12.56,
+      "text": " In JavaScript, the call, apply, and bind methods can be used to assign an object to the this"
+    },
+    {
+      "number": "25",
+      "title": "JavaScript call() apply() bind() Methods",
+      "start": 12.56,
+      "end": 13.8,
+      "text": " keyword."
+    },
+    {
+      "number": "25",
+      "title": "JavaScript call() apply() bind() Methods",
+      "start": 13.8,
+      "end": 15.34,
+      "text": " Take a look at this object."
+    },
+    {
+      "number": "25",
+      "title": "JavaScript call() apply() bind() Methods",
+      "start": 15.34,
+      "end": 17.18,
+      "text": " We have three properties."
+    },
+    {
+      "number": "25",
+      "title": "JavaScript call() apply() bind() Methods",
+      "start": 17.18,
+      "end": 19.8,
+      "text": " First name, last name, and full name."
+    },
+    {
+      "number": "25",
+      "title": "JavaScript call() apply() bind() Methods",
+      "start": 19.8,
+      "end": 24.28,
+      "text": " Full name is a function that returns the concatenated first and last names."
+    },
+    {
+      "number": "25",
+      "title": "JavaScript call() apply() bind() Methods",
+      "start": 24.28,
+      "end": 28.3,
+      "text": " Here, the this keyword refers to the person object."
+    },
+    {
+      "number": "25",
+      "title": "JavaScript call() apply() bind() Methods",
+      "start": 28.3,
+      "end": 31.380000000000003,
+      "text": " In this example, we have multiple person objects."
+    },
+    {
+      "number": "25",
+      "title": "JavaScript call() apply() bind() Methods",
+      "start": 31.380000000000003,
+      "end": 34.74,
+      "text": " By using call, we can set the this value."
+    },
+    {
+      "number": "25",
+      "title": "JavaScript call() apply() bind() Methods",
+      "start": 34.74,
+      "end": 37.9,
+      "text": " The first argument is the object being assigned."
+    },
+    {
+      "number": "25",
+      "title": "JavaScript call() apply() bind() Methods",
+      "start": 37.9,
+      "end": 40.1,
+      "text": " Then we can pass in more arguments."
+    },
+    {
+      "number": "25",
+      "title": "JavaScript call() apply() bind() Methods",
+      "start": 40.1,
+      "end": 42.260000000000005,
+      "text": " These will then be used by the function."
+    },
+    {
+      "number": "25",
+      "title": "JavaScript call() apply() bind() Methods",
+      "start": 42.260000000000005,
+      "end": 44.58,
+      "text": " This time, our function has two parameters."
+    },
+    {
+      "number": "25",
+      "title": "JavaScript call() apply() bind() Methods",
+      "start": 44.58,
+      "end": 47.84,
+      "text": " We can assign our object, then provide our two arguments."
+    },
+    {
+      "number": "25",
+      "title": "JavaScript call() apply() bind() Methods",
+      "start": 47.84,
+      "end": 50.7,
+      "text": " The apply method is similar to the call method."
+    },
+    {
+      "number": "25",
+      "title": "JavaScript call() apply() bind() Methods",
+      "start": 50.7,
+      "end": 55.24,
+      "text": " The only difference is that the call method takes arguments separately, and the apply"
+    },
+    {
+      "number": "25",
+      "title": "JavaScript call() apply() bind() Methods",
+      "start": 55.24,
+      "end": 57.82,
+      "text": " method takes arguments as an array."
+    },
+    {
+      "number": "25",
+      "title": "JavaScript call() apply() bind() Methods",
+      "start": 57.82,
+      "end": 60.9,
+      "text": " So when working with arrays, you would want to use apply."
+    },
+    {
+      "number": "25",
+      "title": "JavaScript call() apply() bind() Methods",
+      "start": 60.9,
+      "end": 63.86,
+      "text": " There are other interesting things that you can do with apply."
+    },
+    {
+      "number": "25",
+      "title": "JavaScript call() apply() bind() Methods",
+      "start": 63.86,
+      "end": 67.8,
+      "text": " For instance, JavaScript arrays do not have a max method."
+    },
+    {
+      "number": "25",
+      "title": "JavaScript call() apply() bind() Methods",
+      "start": 67.8,
+      "end": 72.14,
+      "text": " So if we have an array of numbers, and we want to get the maximum value, we could use"
+    },
+    {
+      "number": "25",
+      "title": "JavaScript call() apply() bind() Methods",
+      "start": 72.14,
+      "end": 73.14,
+      "text": " apply."
+    },
+    {
+      "number": "25",
+      "title": "JavaScript call() apply() bind() Methods",
+      "start": 73.14,
+      "end": 76.38,
+      "text": " Here, we are not assigning anything to the this keyword."
+    },
+    {
+      "number": "25",
+      "title": "JavaScript call() apply() bind() Methods",
+      "start": 76.38,
+      "end": 79.72,
+      "text": " So we just set that to null, then pass in our array."
+    },
+    {
+      "number": "25",
+      "title": "JavaScript call() apply() bind() Methods",
+      "start": 79.72,
+      "end": 85.92,
+      "text": " The bind method creates a new bound function, which wraps the original function object."
+    },
+    {
+      "number": "25",
+      "title": "JavaScript call() apply() bind() Methods",
+      "start": 85.92,
+      "end": 90.36,
+      "text": " So here we are essentially creating a new function bound to the object."
+    },
+    {
+      "number": "25",
+      "title": "JavaScript call() apply() bind() Methods",
+      "start": 90.36,
+      "end": 93.14,
+      "text": " Then we call the function along with our arguments."
+    },
+    {
+      "number": "25",
+      "title": "JavaScript call() apply() bind() Methods",
+      "start": 93.14,
+      "end": 95.76,
+      "text": " This has been a 90-second JavaScript January."
+    }
+  ],
+  "text": " In JavaScript, the call, apply, and bind methods can be used to assign an object to the this keyword. Take a look at this object. We have three properties. First name, last name, and full name. Full name is a function that returns the concatenated first and last names. Here, the this keyword refers to the person object. In this example, we have multiple person objects. By using call, we can set the this value. The first argument is the object being assigned. Then we can pass in more arguments. These will then be used by the function. This time, our function has two parameters. We can assign our object, then provide our two arguments. The apply method is similar to the call method. The only difference is that the call method takes arguments separately, and the apply method takes arguments as an array. So when working with arrays, you would want to use apply. There are other interesting things that you can do with apply. For instance, JavaScript arrays do not have a max method. So if we have an array of numbers, and we want to get the maximum value, we could use apply. Here, we are not assigning anything to the this keyword. So we just set that to null, then pass in our array. The bind method creates a new bound function, which wraps the original function object. So here we are essentially creating a new function bound to the object. Then we call the function along with our arguments. This has been a 90-second JavaScript January."
+}

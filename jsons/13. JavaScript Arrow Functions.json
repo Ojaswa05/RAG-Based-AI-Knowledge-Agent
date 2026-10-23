@@ -1,0 +1,222 @@
+{
+  "chunks": [
+    {
+      "number": "13",
+      "title": "JavaScript Arrow Functions",
+      "start": 0.0,
+      "end": 8.4,
+      "text": " The arrow function was introduced in JavaScript ES6."
+    },
+    {
+      "number": "13",
+      "title": "JavaScript Arrow Functions",
+      "start": 8.4,
+      "end": 10.02,
+      "text": " Here is a normal function."
+    },
+    {
+      "number": "13",
+      "title": "JavaScript Arrow Functions",
+      "start": 10.02,
+      "end": 11.68,
+      "text": " And here is an arrow function."
+    },
+    {
+      "number": "13",
+      "title": "JavaScript Arrow Functions",
+      "start": 11.68,
+      "end": 14.08,
+      "text": " At first glance, they don't look that different."
+    },
+    {
+      "number": "13",
+      "title": "JavaScript Arrow Functions",
+      "start": 14.08,
+      "end": 15.56,
+      "text": " So let's look a little closer."
+    },
+    {
+      "number": "13",
+      "title": "JavaScript Arrow Functions",
+      "start": 15.56,
+      "end": 18.32,
+      "text": " Again, here is a normal named function."
+    },
+    {
+      "number": "13",
+      "title": "JavaScript Arrow Functions",
+      "start": 18.32,
+      "end": 20.44,
+      "text": " And here is the arrow function version."
+    },
+    {
+      "number": "13",
+      "title": "JavaScript Arrow Functions",
+      "start": 20.44,
+      "end": 24.98,
+      "text": " Since arrow functions are anonymous functions, we have to assign it to a variable."
+    },
+    {
+      "number": "13",
+      "title": "JavaScript Arrow Functions",
+      "start": 24.98,
+      "end": 29.16,
+      "text": " Because we are only returning one statement, we can actually get rid of the curly braces"
+    },
+    {
+      "number": "13",
+      "title": "JavaScript Arrow Functions",
+      "start": 30.16,
+      "end": 32.88,
+      "text": " In this way, we are implicitly returning the value."
+    },
+    {
+      "number": "13",
+      "title": "JavaScript Arrow Functions",
+      "start": 32.88,
+      "end": 37.4,
+      "text": " So you can see how arrow functions can make your code shorter, more concise, and easier"
+    },
+    {
+      "number": "13",
+      "title": "JavaScript Arrow Functions",
+      "start": 37.4,
+      "end": 38.4,
+      "text": " to read."
+    },
+    {
+      "number": "13",
+      "title": "JavaScript Arrow Functions",
+      "start": 38.4,
+      "end": 41.1,
+      "text": " But what if we want to pass a parameter to the function?"
+    },
+    {
+      "number": "13",
+      "title": "JavaScript Arrow Functions",
+      "start": 41.1,
+      "end": 44.480000000000004,
+      "text": " In the parentheses before the arrow, we can add our parameters."
+    },
+    {
+      "number": "13",
+      "title": "JavaScript Arrow Functions",
+      "start": 44.480000000000004,
+      "end": 48.980000000000004,
+      "text": " Since we only have one parameter here, we can actually get rid of the parentheses surrounding"
+    },
+    {
+      "number": "13",
+      "title": "JavaScript Arrow Functions",
+      "start": 48.980000000000004,
+      "end": 49.980000000000004,
+      "text": " it."
+    },
+    {
+      "number": "13",
+      "title": "JavaScript Arrow Functions",
+      "start": 49.980000000000004,
+      "end": 53.5,
+      "text": " If we have multiple parameters though, we will need to surround them with parentheses."
+    },
+    {
+      "number": "13",
+      "title": "JavaScript Arrow Functions",
+      "start": 53.5,
+      "end": 56.92,
+      "text": " So there we were converting a named function to an arrow function."
+    },
+    {
+      "number": "13",
+      "title": "JavaScript Arrow Functions",
+      "start": 56.92,
+      "end": 59.54,
+      "text": " Now let's look at converting an anonymous function."
+    },
+    {
+      "number": "13",
+      "title": "JavaScript Arrow Functions",
+      "start": 59.54,
+      "end": 61.300000000000004,
+      "text": " Here we have an array of people."
+    },
+    {
+      "number": "13",
+      "title": "JavaScript Arrow Functions",
+      "start": 61.300000000000004,
+      "end": 65.68,
+      "text": " So we'll use the map method to get the first names with a standard function."
+    },
+    {
+      "number": "13",
+      "title": "JavaScript Arrow Functions",
+      "start": 65.68,
+      "end": 68.24000000000001,
+      "text": " And here is the same thing as an arrow function."
+    },
+    {
+      "number": "13",
+      "title": "JavaScript Arrow Functions",
+      "start": 68.24000000000001,
+      "end": 72.88,
+      "text": " It's very important to understand that we do have to be careful when we use arrow functions."
+    },
+    {
+      "number": "13",
+      "title": "JavaScript Arrow Functions",
+      "start": 72.88,
+      "end": 76.66,
+      "text": " Regular functions rebind this to the object that called it."
+    },
+    {
+      "number": "13",
+      "title": "JavaScript Arrow Functions",
+      "start": 76.66,
+      "end": 80.24000000000001,
+      "text": " It could be the window, document, a button, or something else."
+    },
+    {
+      "number": "13",
+      "title": "JavaScript Arrow Functions",
+      "start": 80.24000000000001,
+      "end": 84.8,
+      "text": " In this example, when the window loads, this is bound to the window object."
+    },
+    {
+      "number": "13",
+      "title": "JavaScript Arrow Functions",
+      "start": 84.8,
+      "end": 88.39999999999999,
+      "text": " But when the button is clicked, this is bound to the button."
+    },
+    {
+      "number": "13",
+      "title": "JavaScript Arrow Functions",
+      "start": 88.39999999999999,
+      "end": 91.32,
+      "text": " Arrow functions do not rebind this."
+    },
+    {
+      "number": "13",
+      "title": "JavaScript Arrow Functions",
+      "start": 91.32,
+      "end": 94.6,
+      "text": " This remains bound to the context from which it was called."
+    },
+    {
+      "number": "13",
+      "title": "JavaScript Arrow Functions",
+      "start": 94.6,
+      "end": 98.12,
+      "text": " In this example, the context remains in the window object."
+    },
+    {
+      "number": "13",
+      "title": "JavaScript Arrow Functions",
+      "start": 98.12,
+      "end": 100.8,
+      "text": " This has been a 90-second JavaScript January."
+    }
+  ],
+  "text": " The arrow function was introduced in JavaScript ES6. Here is a normal function. And here is an arrow function. At first glance, they don't look that different. So let's look a little closer. Again, here is a normal named function. And here is the arrow function version. Since arrow functions are anonymous functions, we have to assign it to a variable. Because we are only returning one statement, we can actually get rid of the curly braces In this way, we are implicitly returning the value. So you can see how arrow functions can make your code shorter, more concise, and easier to read. But what if we want to pass a parameter to the function? In the parentheses before the arrow, we can add our parameters. Since we only have one parameter here, we can actually get rid of the parentheses surrounding it. If we have multiple parameters though, we will need to surround them with parentheses. So there we were converting a named function to an arrow function. Now let's look at converting an anonymous function. Here we have an array of people. So we'll use the map method to get the first names with a standard function. And here is the same thing as an arrow function. It's very important to understand that we do have to be careful when we use arrow functions. Regular functions rebind this to the object that called it. It could be the window, document, a button, or something else. In this example, when the window loads, this is bound to the window object. But when the button is clicked, this is bound to the button. Arrow functions do not rebind this. This remains bound to the context from which it was called. In this example, the context remains in the window object. This has been a 90-second JavaScript January."
+}

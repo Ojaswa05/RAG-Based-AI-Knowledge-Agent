@@ -1,0 +1,159 @@
+{
+  "chunks": [
+    {
+      "number": "10",
+      "title": "JavaScript Ternary Operator",
+      "start": 0.0,
+      "end": 9.200000000000001,
+      "text": " The ternary operator is a conditional operator."
+    },
+    {
+      "number": "10",
+      "title": "JavaScript Ternary Operator",
+      "start": 9.200000000000001,
+      "end": 11.92,
+      "text": " It's basically a shorthand if statement."
+    },
+    {
+      "number": "10",
+      "title": "JavaScript Ternary Operator",
+      "start": 11.92,
+      "end": 17.44,
+      "text": " It tests a condition, then returns a value if true, or another value if false."
+    },
+    {
+      "number": "10",
+      "title": "JavaScript Ternary Operator",
+      "start": 17.44,
+      "end": 19.8,
+      "text": " Here's an example of an if statement."
+    },
+    {
+      "number": "10",
+      "title": "JavaScript Ternary Operator",
+      "start": 19.8,
+      "end": 23.0,
+      "text": " We are generating a random number between 1 and 10."
+    },
+    {
+      "number": "10",
+      "title": "JavaScript Ternary Operator",
+      "start": 23.0,
+      "end": 27.2,
+      "text": " Then we are checking to see if the number is divisible by 2, and if the remainder is"
+    },
+    {
+      "number": "10",
+      "title": "JavaScript Ternary Operator",
+      "start": 27.2,
+      "end": 28.2,
+      "text": " 0."
+    },
+    {
+      "number": "10",
+      "title": "JavaScript Ternary Operator",
+      "start": 28.2,
+      "end": 32.4,
+      "text": " If it is, then the number would be even, if not, it's odd."
+    },
+    {
+      "number": "10",
+      "title": "JavaScript Ternary Operator",
+      "start": 32.4,
+      "end": 36.96,
+      "text": " We can turn this into a ternary operator by removing the if-else statement."
+    },
+    {
+      "number": "10",
+      "title": "JavaScript Ternary Operator",
+      "start": 36.96,
+      "end": 40.62,
+      "text": " We start with the condition, then we have a question mark."
+    },
+    {
+      "number": "10",
+      "title": "JavaScript Ternary Operator",
+      "start": 40.62,
+      "end": 45.239999999999995,
+      "text": " The statement after the question mark is what will happen if the condition is true."
+    },
+    {
+      "number": "10",
+      "title": "JavaScript Ternary Operator",
+      "start": 45.239999999999995,
+      "end": 49.2,
+      "text": " After that we have a colon, and the statement after the colon is what will happen if the"
+    },
+    {
+      "number": "10",
+      "title": "JavaScript Ternary Operator",
+      "start": 49.2,
+      "end": 50.739999999999995,
+      "text": " condition is false."
+    },
+    {
+      "number": "10",
+      "title": "JavaScript Ternary Operator",
+      "start": 50.739999999999995,
+      "end": 56.08,
+      "text": " We can also rewrite this by moving the redundant message equals to the beginning."
+    },
+    {
+      "number": "10",
+      "title": "JavaScript Ternary Operator",
+      "start": 56.08,
+      "end": 61.12,
+      "text": " But what if we want to perform multiple operations if the condition is true or false?"
+    },
+    {
+      "number": "10",
+      "title": "JavaScript Ternary Operator",
+      "start": 61.12,
+      "end": 63.8,
+      "text": " It's pretty straightforward in the if statement."
+    },
+    {
+      "number": "10",
+      "title": "JavaScript Ternary Operator",
+      "start": 63.8,
+      "end": 68.44,
+      "text": " In the ternary operator, we can do the same thing by wrapping each set of operations in"
+    },
+    {
+      "number": "10",
+      "title": "JavaScript Ternary Operator",
+      "start": 68.44,
+      "end": 72.32,
+      "text": " parentheses and separating each operation with a comma."
+    },
+    {
+      "number": "10",
+      "title": "JavaScript Ternary Operator",
+      "start": 72.32,
+      "end": 75.24,
+      "text": " Here's one last example that's a bit more real world."
+    },
+    {
+      "number": "10",
+      "title": "JavaScript Ternary Operator",
+      "start": 75.24,
+      "end": 79.8,
+      "text": " Here we have a subscribe checkbox, and we're listening for the change event."
+    },
+    {
+      "number": "10",
+      "title": "JavaScript Ternary Operator",
+      "start": 79.8,
+      "end": 84.96,
+      "text": " On the change, we will set the message dependent on whether the checkbox is checked or not."
+    },
+    {
+      "number": "10",
+      "title": "JavaScript Ternary Operator",
+      "start": 84.96,
+      "end": 87.6,
+      "text": " This has been a 90-second JavaScript January."
+    }
+  ],
+  "text": " The ternary operator is a conditional operator. It's basically a shorthand if statement. It tests a condition, then returns a value if true, or another value if false. Here's an example of an if statement. We are generating a random number between 1 and 10. Then we are checking to see if the number is divisible by 2, and if the remainder is 0. If it is, then the number would be even, if not, it's odd. We can turn this into a ternary operator by removing the if-else statement. We start with the condition, then we have a question mark. The statement after the question mark is what will happen if the condition is true. After that we have a colon, and the statement after the colon is what will happen if the condition is false. We can also rewrite this by moving the redundant message equals to the beginning. But what if we want to perform multiple operations if the condition is true or false? It's pretty straightforward in the if statement. In the ternary operator, we can do the same thing by wrapping each set of operations in parentheses and separating each operation with a comma. Here's one last example that's a bit more real world. Here we have a subscribe checkbox, and we're listening for the change event. On the change, we will set the message dependent on whether the checkbox is checked or not. This has been a 90-second JavaScript January."
+}
