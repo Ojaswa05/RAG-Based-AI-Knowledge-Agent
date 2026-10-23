@@ -1,0 +1,9 @@
+So, you're curious about loops in JavaScript? That's a great topic!
+
+In video 5, at around 0-8 seconds, we discussed the different types of loops in JavaScript. You can check it out.
+
+In video 6, from approximately 53-55 seconds, we talked about using loops to loop through arrays and get values from them. We also showed an example of how to use a loop counter. You can find that section in video 6.
+
+If you want to learn more about for-in loops, which iterate through items in a collection like an array, check out video 6 as well. It starts at around 90-94 seconds.
+
+If you have any more questions about loops or want to dive deeper into any of these topics, feel free to ask!
