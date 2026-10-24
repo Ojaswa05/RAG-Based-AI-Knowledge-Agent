@@ -1,4 +1,8 @@
+<div align="center">
+
 # CourseLens
+
+</div>
 
 ### Ask questions about a course. Get answers grounded in its videos.
 
